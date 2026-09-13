@@ -1,0 +1,16 @@
+{
+  "name": "nfl-bet-tracking",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "NFL bet tracker, market-implied value board, and DraftKings lineup recommendations",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "board": "node scripts/build-board.js",
+    "board:demo": "node scripts/build-board.js --demo",
+    "lineups": "node scripts/build-lineups.js",
+    "lineups:demo": "node scripts/build-lineups.js --demo",
+    "probe": "node scripts/probe-nfl.js",
+    "serve": "python3 -m http.server 8080"
+  }
+}

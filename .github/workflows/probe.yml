@@ -1,0 +1,21 @@
+name: Probe data provider
+
+# Manual only. Reports which NFL markets the key actually unlocks, so adapters
+# can be written against real response shapes instead of assumed ones — and so
+# the prop market list in update.js can be trimmed to what is really available
+# before it spends credits discovering otherwise.
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Probe The Odds API
+        run: node scripts/probe-nfl.js
+        env:
+          ODDS_API_KEY: ${{ secrets.TheOdds_API_Key }}

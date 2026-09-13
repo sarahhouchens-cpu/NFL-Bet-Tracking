@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NFL Bet Tracker</title>
+<meta name="description" content="Track NFL bets, find $5 tickets that pay $100, and build DraftKings lineups for every slate.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1>NFL Bets</h1>
+    <div class="record" id="bankroll-strip">Loading…</div>
+  </div>
+  <nav class="tabs" role="tablist" aria-label="Views">
+    <button class="tab is-active" role="tab" id="tab-tracker" aria-controls="panel-tracker" aria-selected="true">Tracker</button>
+    <button class="tab" role="tab" id="tab-board" aria-controls="panel-board" aria-selected="false" tabindex="-1">$5 &rarr; $100</button>
+    <button class="tab" role="tab" id="tab-dfs" aria-controls="panel-dfs" aria-selected="false" tabindex="-1">DraftKings</button>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <!-- ------------------------------------------------------------ TRACKER -->
+  <section id="panel-tracker" role="tabpanel" aria-labelledby="tab-tracker">
+
+    <div class="stat-row" id="stat-row"></div>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">Your book</div>
+        <h2>Log a bet</h2>
+        <p>Everything you enter stays in this browser. Nothing is uploaded and there is no account.</p>
+      </div>
+
+      <form class="bet-form" id="bet-form" autocomplete="off">
+        <div class="field field-wide">
+          <label for="bet-description">What's the bet</label>
+          <input id="bet-description" name="description" required placeholder="Chase over 72.5 receiving yards">
+        </div>
+        <div class="field">
+          <label for="bet-date">Date</label>
+          <input id="bet-date" name="date" type="date" required>
+        </div>
+        <div class="field">
+          <label for="bet-type">Type</label>
+          <select id="bet-type" name="type">
+            <option value="prop">Player prop</option>
+            <option value="parlay">Parlay</option>
+            <option value="spread">Spread</option>
+            <option value="total">Total</option>
+            <option value="moneyline">Moneyline</option>
+            <option value="dfs">DraftKings entry</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="bet-odds">Odds <span class="hint">American</span></label>
+          <input id="bet-odds" name="odds" inputmode="numeric" required placeholder="-110">
+        </div>
+        <div class="field">
+          <label for="bet-stake">Stake</label>
+          <input id="bet-stake" name="stake" inputmode="decimal" required placeholder="5.00">
+        </div>
+        <div class="field">
+          <label for="bet-book">Book</label>
+          <input id="bet-book" name="book" placeholder="DraftKings">
+        </div>
+        <div class="field field-actions">
+          <button type="submit" class="primary">Add bet</button>
+        </div>
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+      </form>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">History</div>
+        <h2>Every bet you've logged</h2>
+        <p id="grade-hint">Open bets can be graded with the Won, Lost and Push buttons. Grading is what makes the numbers above mean anything.</p>
+      </div>
+
+      <div class="filters" id="filters" role="group" aria-label="Filter bets">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="open">Open</button>
+        <button class="chip" data-filter="won">Won</button>
+        <button class="chip" data-filter="lost">Lost</button>
+        <button class="chip" data-filter="parlay">Parlays</button>
+        <button class="chip" data-filter="dfs">DraftKings</button>
+      </div>
+
+      <div id="bet-list" class="bet-list"></div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">Housekeeping</div>
+        <h2>Your data</h2>
+      </div>
+      <div class="explain">
+        <p>Bets live in this browser's local storage, which means they survive a refresh but not a new device or a cleared cache. Export if you care about them.</p>
+        <div class="row-actions">
+          <button class="ghost" id="export-json">Export JSON</button>
+          <button class="ghost" id="import-json">Import JSON</button>
+          <button class="ghost danger" id="clear-all">Delete everything</button>
+          <input type="file" id="import-file" accept="application/json" hidden>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- -------------------------------------------------------------- BOARD -->
+  <section id="panel-board" role="tabpanel" aria-labelledby="tab-board" hidden>
+    <main class="hero">
+      <div class="hero-bar">
+        <span id="board-slate">Value board</span>
+        <span class="live"><span class="dot"></span> <span id="board-updated">Loading</span></span>
+      </div>
+      <div class="hero-body">
+        <div class="hero-num">
+          <div class="numeral">$100</div>
+          <div class="hero-side">
+            <div class="lbl">On a $5 stake</div>
+            <h2 id="board-headline">Building the board…</h2>
+            <p id="board-explainer"></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="board-notice"></div>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">Cross-game tickets</div>
+        <h2>Every leg in a different game</h2>
+        <p>These prices are real: independent legs multiply out to exactly what a book will quote you. Ranked by expected value against the market's own devigged opinion.</p>
+      </div>
+      <div id="tickets" class="tickets"></div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">Same-game stacks</div>
+        <h2>Legs that hit together</h2>
+        <p><strong>The payouts below are estimates.</strong> Every book prices a same-game parlay with its own correlation model, so your slip will differ — usually shorter than the multiplication suggests. Shown because the legs genuinely move together, which the cross-game tickets deliberately avoid.</p>
+      </div>
+      <div id="stacks" class="tickets"></div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">How it works</div>
+        <h2>Where the number comes from</h2>
+      </div>
+      <div class="explain">
+        <div class="eq">$5 &nbsp;&times;&nbsp; 20.0 decimal &nbsp;=&nbsp; $100 &nbsp;&nbsp;(about +1900)</div>
+        <ul>
+          <li>No single NFL prop pays 20-to-1 without being a bet you shouldn't want, so the board builds <strong>parlays</strong> — three to six legs.</li>
+          <li>The model doesn't guess at players. It <strong>reads the book's own lines</strong>, strips the margin out, and inverts them into projections. A line already knows about the injury report and the weather.</li>
+          <li>The edge comes from lines <strong>disagreeing with each other</strong>: a receiver's catch line and his yardage line imply different volume, and one of them is wrong. That disagreement is bounded — the model may move a projection 15% off its posted line, no further.</li>
+          <li>Probabilities are shaded down for <strong>leg count</strong> while the model is unproven, because errors compound: a model 10% optimistic per leg is 60% optimistic on a five-leg ticket.</li>
+          <li>A <strong>negative expected value is reported, not hidden.</strong> Most parlays are bad bets and the honest board says so; these are the least bad ones that clear $100.</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+  <!-- ---------------------------------------------------------------- DFS -->
+  <section id="panel-dfs" role="tabpanel" aria-labelledby="tab-dfs" hidden>
+    <div id="dfs-notice"></div>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">DraftKings</div>
+        <h2>Lineups by slate</h2>
+        <p>Two builds for every slate, because a tournament and a double-up are different problems. Pick a slate to see both.</p>
+      </div>
+      <div class="filters" id="slate-picker" role="group" aria-label="Choose a slate"></div>
+      <div id="slate-body"></div>
+    </section>
+
+    <section>
+      <div class="sec-head">
+        <div class="eyebrow">Why two lineups</div>
+        <h2>Floor versus ceiling</h2>
+      </div>
+      <div class="explain">
+        <ul>
+          <li><strong>Double-up.</strong> Roughly the top half doubles up, and everyone above the cut wins the same. Upside past the cut pays nothing, so the build maximises the <em>floor</em>: no quarterback stack, at most two players per team, nothing that ties the whole lineup to one game going well.</li>
+          <li><strong>Tournament.</strong> The prizes sit at the very top, so a good score is worthless and only a winning one counts. The build maximises the <em>ceiling</em> through correlation — a quarterback with his own receivers, plus an opponent to bring the game back — and pays a premium for low-owned players, because a lineup the field also built splits its prize with the field.</li>
+          <li>A lineup's floor and ceiling are the spread of the <strong>lineup's total</strong>, not the sum of nine players' individual bests. Uncorrelated players cancel each other out toward the average; stacked players don't, which is the arithmetic reason stacking wins tournaments.</li>
+          <li>Ownership is <strong>modelled, not scraped</strong> — the field chases points per dollar, so projected value predicts it well enough to tell chalk from leverage.</li>
+        </ul>
+      </div>
+    </section>
+  </section>
+
+</div>
+
+<footer class="foot">
+  <p>Built from public betting markets. Nothing here is advice, every number is an estimate, and the house edge is real — bet what you can afford to lose.</p>
+  <p id="foot-meta"></p>
+</footer>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
