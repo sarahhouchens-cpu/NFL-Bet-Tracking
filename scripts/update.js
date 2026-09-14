@@ -64,6 +64,22 @@ const CREDIT_RESERVE = 40;
 /** Only price games that have not kicked off and are close enough to matter. */
 const LOOKAHEAD_DAYS = 8;
 
+/**
+ * How close to kick-off a game must be before its props are worth buying.
+ *
+ * This is the single biggest saving available. Game lines are posted a week
+ * out, but player props are not — a book has nothing up for next Sunday's games
+ * on a Monday afternoon. The old code priced every game inside the lookahead
+ * window regardless, so a Monday run that needed one game's props paid for
+ * sixteen and got fifteen empty responses back. At five markets a game that is
+ * 75 wasted credits on a single run.
+ *
+ * Thirty hours covers a run the afternoon before a night game and a Sunday
+ * morning run that reaches the late-afternoon slate, while excluding every game
+ * that has not been priced yet.
+ */
+const PROP_WINDOW_HOURS = 30;
+
 async function getJSON(url) {
   const res = await fetch(url, { headers: { Accept: 'application/json' } });
   if (!res.ok) {
@@ -167,16 +183,29 @@ async function main() {
     remaining = fetched.remaining;
     console.log(`Fetched ${events.length} upcoming games. Credits remaining: ${remaining}.`);
 
-    const affordable = Number.isFinite(remaining)
-      ? Math.max(0, Math.floor((remaining - CREDIT_RESERVE) / PROP_MARKETS.length))
-      : events.length;
-
-    if (affordable < events.length) {
-      console.warn(`Only ${affordable} of ${events.length} games can be priced within the credit reserve.`);
+    // Props are only bought for games close enough that a book has posted them.
+    const windowEnd = Date.now() + PROP_WINDOW_HOURS * 60 * 60 * 1000;
+    const worthPricing = events.filter((event) => new Date(event.commence_time).getTime() < windowEnd);
+    const tooFarOut = events.length - worthPricing.length;
+    if (tooFarOut) {
+      console.log(
+        `${tooFarOut} game(s) kick off more than ${PROP_WINDOW_HOURS}h out — their props are not posted yet, ` +
+          `so they are skipped (saving ~${tooFarOut * PROP_MARKETS.length} credits).`
+      );
     }
 
+    const affordable = Number.isFinite(remaining)
+      ? Math.max(0, Math.floor((remaining - CREDIT_RESERVE) / PROP_MARKETS.length))
+      : worthPricing.length;
+
+    if (affordable < worthPricing.length) {
+      console.warn(`Only ${affordable} of ${worthPricing.length} games can be priced within the credit reserve.`);
+    }
+
+    const willPrice = worthPricing.slice(0, affordable);
+    const pricedIds = new Set(willPrice.map((e) => e.id));
     const priced = [];
-    for (const event of events.slice(0, affordable)) {
+    for (const event of willPrice) {
       try {
         const result = await fetchProps(event);
         priced.push(result.event);
@@ -187,8 +216,10 @@ async function main() {
         priced.push(event);
       }
     }
-    events = [...priced, ...events.slice(affordable)];
-    console.log(`Priced ${priced.length} games. Credits remaining: ${remaining}.`);
+    // Games that were not priced keep their game lines, which still drive the
+    // implied team totals the defence projections are built from.
+    events = [...priced, ...events.filter((e) => !pricedIds.has(e.id))];
+    console.log(`Priced ${priced.length} game(s) for props. Credits remaining: ${remaining}.`);
   }
 
   const salaryRows = DEMO

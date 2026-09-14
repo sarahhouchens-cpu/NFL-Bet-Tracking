@@ -295,3 +295,41 @@ test('diversity selection respects exposure caps', () => {
   assert.equal(chosen.length, 2);
   assert.ok(chosen[1].players.some((p) => p.playerId === 'k'));
 });
+
+test('two defences from the same game are never rostered together', () => {
+  // They cancel by construction — every point one allows is a point the
+  // other's offence scored — and because the variance model reports them as
+  // strongly negatively correlated, a floor-maximising build will hunt for the
+  // pair and drive the lineup's spread to nearly zero.
+  const pool = makePool().filter((p) => p.gameId === 'g1');
+  const rec = recommendForSlate(pool, { id: 'sd', name: 'Showdown', format: 'showdown', startsAt: 'x' }, { count: 3 });
+
+  for (const lineup of [...rec.tournament, ...rec.doubleUp]) {
+    const defences = lineup.players.filter((p) => p.position === 'DST');
+    const games = new Set(defences.map((p) => p.gameId));
+    assert.equal(defences.length, games.size, 'rostered both sides of one game at defence');
+  }
+});
+
+test('a cash lineup keeps a believable spread rather than collapsing it', () => {
+  // A lineup with almost no variance has a wonderful-looking floor and cannot
+  // reach any cut. If this trips, the fit bonus is buying correlation instead
+  // of points again.
+  const pool = makePool().filter((p) => p.gameId === 'g1');
+  const rec = recommendForSlate(pool, { id: 'sd', name: 'Showdown', format: 'showdown', startsAt: 'x' }, { count: 2 });
+  for (const lineup of rec.doubleUp) {
+    assert.ok(lineup.sd > 8, `spread collapsed to ${lineup.sd}`);
+  }
+});
+
+test('a running back is identified from his rushing line', async () => {
+  // Books post rushing yards for backs. The market that carried `carries` is
+  // outside the credit budget, so keying off it labelled every skill player WR.
+  const { inferPosition } = await import('../lib/projections.js');
+  assert.equal(inferPosition(new Map([['rushYards', 68], ['recYards', 18]])), 'RB');
+  assert.equal(inferPosition(new Map([['rushYards', 42], ['recYards', 30]])), 'RB');
+  assert.equal(inferPosition(new Map([['recYards', 64], ['receptions', 5]])), 'WR');
+  // A receiver with a jet-sweep rushing line is still a receiver.
+  assert.equal(inferPosition(new Map([['rushYards', 6], ['recYards', 72]])), 'WR');
+  assert.equal(inferPosition(new Map([['passYards', 240]])), 'QB');
+});

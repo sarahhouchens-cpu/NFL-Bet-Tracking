@@ -1,22 +1,32 @@
 name: Update boards
 
-# Twice a week, not hourly.
+# Game days only, and only when the props are worth buying.
 #
 # The Odds API charges one credit per market per region for every event it
-# prices. Five prop markets across sixteen games is eighty credits a run, so on
-# the free tier's 500 a month this schedule costs about 640 — comfortably inside
-# a paid tier and deliberately sized so it cannot silently drain a free one.
-# update.js also keeps a credit reserve and stops pricing games rather than
-# running the quota to zero mid-week.
+# prices, so the cost of a run is (games priced x 5 markets). Two things keep
+# that down:
 #
-# Times are chosen for when the props are worth having: Thursday morning once
-# the week's lines are posted, and Sunday morning once the inactives are known
-# and the lines have firmed up.
+#   1. These four slots. Tuesday, Wednesday, Friday and Saturday have no NFL
+#      games in a normal week, so a run then would spend credits refreshing
+#      lines nobody is betting into.
+#   2. update.js only buys props for games kicking off within 30 hours. Books
+#      do not post player props a week out, so pricing next Sunday's games on a
+#      Monday bought sixteen empty responses. With the window, the Thursday and
+#      Monday runs cost about five credits each instead of eighty.
+#
+# That puts a normal week near 90 credits — Thursday and Monday at ~5 each for
+# the single night game, Sunday morning at ~65 for the main slate, and Sunday
+# evening at ~5 for the night game. Roughly 380 a month, inside the free tier's
+# 500 with headroom for a manual run.
+#
+# Each slot is placed about two hours before its kick-off, which is after
+# inactives are announced (90 minutes out) and after the lines have firmed up.
 on:
   schedule:
-    - cron: '0 15 * * 4'   # Thursday, 10:00 AM CT
-    - cron: '0 14 * * 0'   # Sunday,   9:00 AM CT
-    - cron: '0 16 * * 0'   # Sunday,  11:00 AM CT
+    - cron: '0 22 * * 4'   # Thursday  5:00 PM CT - before Thursday Night Football
+    - cron: '0 15 * * 0'   # Sunday   10:00 AM CT - before the early slate
+    - cron: '0 23 * * 0'   # Sunday    6:00 PM CT - before Sunday Night Football
+    - cron: '0 22 * * 1'   # Monday    5:00 PM CT - before Monday Night Football
   workflow_dispatch:
 
 permissions:
