@@ -333,3 +333,18 @@ test('a running back is identified from his rushing line', async () => {
   assert.equal(inferPosition(new Map([['rushYards', 6], ['recYards', 72]])), 'WR');
   assert.equal(inferPosition(new Map([['passYards', 240]])), 'QB');
 });
+
+test('a showdown captain costs 1.5x as well as scoring 1.5x', () => {
+  // Charging the flex price while paying captain points builds lineups that
+  // look affordable here and get rejected at the DraftKings cap.
+  const pool = makePool().filter((p) => p.gameId === 'g1');
+  const rec = recommendForSlate(pool, { id: 'sd', name: 'Showdown', format: 'showdown', startsAt: 'x' }, { count: 2 });
+
+  for (const lineup of [...rec.tournament, ...rec.doubleUp]) {
+    const captain = lineup.players.find((p) => p.multiplier === 1.5);
+    const expected = lineup.players.reduce((sum, p) => sum + p.salary * (p.multiplier ?? 1), 0);
+    assert.equal(lineup.salary, expected, 'reported salary ignores the captain multiplier');
+    assert.ok(lineup.salary >= captain.salary * 1.5, 'captain charged at flex price');
+    assert.ok(lineup.salary <= SALARY_CAP);
+  }
+});
