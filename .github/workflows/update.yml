@@ -1,31 +1,39 @@
 name: Update boards
 
-# Game days only, and only when the props are worth buying.
+# Game days only, and only for games whose props are actually posted.
 #
-# The Odds API charges one credit per market per region for every event it
-# prices, so the cost of a run is (games priced x 5 markets). Two things keep
+# This key is shared with the Brewers tracker, and both draw on one 500-credit
+# monthly allowance. NFL is by far the greedier of the two: a Sunday morning run
+# prices a dozen games at five markets each, where the baseball job spends three
+# credits on a single game. So the budget here is set deliberately, not
+# generously.
+#
+# What a run actually costs is (games priced x 5 markets). Three things hold
 # that down:
 #
-#   1. These four slots. Tuesday, Wednesday, Friday and Saturday have no NFL
-#      games in a normal week, so a run then would spend credits refreshing
-#      lines nobody is betting into.
-#   2. update.js only buys props for games kicking off within 30 hours. Books
-#      do not post player props a week out, so pricing next Sunday's games on a
-#      Monday bought sixteen empty responses. With the window, the Thursday and
-#      Monday runs cost about five credits each instead of eighty.
+#   1. These slots. Tuesday, Wednesday, Friday and Saturday have no NFL games in
+#      a normal week, so a run then refreshes lines nobody is betting into.
+#   2. update.js only buys props for games kicking off within 30 hours. Books do
+#      not post player props a week out, so pricing next Sunday's games on a
+#      Monday bought sixteen empty responses for eighty credits.
+#   3. A credit reserve (ODDS_CREDIT_RESERVE, default 150) that this job will
+#      not spend below, so a heavy NFL Sunday cannot eat the baseball board's
+#      month.
 #
-# That puts a normal week near 90 credits — Thursday and Monday at ~5 each for
-# the single night game, Sunday morning at ~65 for the main slate, and Sunday
-# evening at ~5 for the night game. Roughly 380 a month, inside the free tier's
-# 500 with headroom for a manual run.
+# The result is roughly 80 credits a week: Thursday and Monday at ~7 each for
+# one night game, and Sunday morning at ~67 for the main slate. Call it 350 a
+# month, which leaves ~150 for the Brewers job inside the free 500.
 #
-# Each slot is placed about two hours before its kick-off, which is after
-# inactives are announced (90 minutes out) and after the lines have firmed up.
+# The Sunday evening slot was removed deliberately. It cost ~12 credits to
+# reprice the Sunday night game a few hours closer and the Monday night game a
+# day early — and Monday's own run covers the latter properly.
+#
+# Each slot sits about two hours before its kick-off, which is after inactives
+# are announced (90 minutes out) and after the lines have firmed up.
 on:
   schedule:
     - cron: '0 22 * * 4'   # Thursday  5:00 PM CT - before Thursday Night Football
     - cron: '0 15 * * 0'   # Sunday   10:00 AM CT - before the early slate
-    - cron: '0 23 * * 0'   # Sunday    6:00 PM CT - before Sunday Night Football
     - cron: '0 22 * * 1'   # Monday    5:00 PM CT - before Monday Night Football
   workflow_dispatch:
 
@@ -52,6 +60,12 @@ jobs:
         run: node scripts/update.js
         env:
           ODDS_API_KEY: ${{ secrets.TheOdds_API_Key }}
+          # Credits this job will not spend below, leaving room for the Brewers
+          # tracker on the same key. Set a repository variable to change it
+          # without touching this file.
+          ODDS_CREDIT_RESERVE: ${{ vars.ODDS_CREDIT_RESERVE || '150' }}
+          ODDS_MAX_GAMES: ${{ vars.ODDS_MAX_GAMES || '14' }}
+          ODDS_MARKETS: ${{ vars.ODDS_MARKETS }}
 
       - name: Commit if anything changed
         run: |

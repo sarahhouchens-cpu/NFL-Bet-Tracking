@@ -42,24 +42,42 @@ const SPORT = 'americanfootball_nfl';
  * month can afford, so the list is deliberately short and covers the props that
  * carry the most volume.
  */
-const PROP_MARKETS = [
+const PROP_MARKETS = (process.env.ODDS_MARKETS ?? [
   'player_pass_yds',
   'player_rush_yds',
   'player_reception_yds',
   'player_receptions',
   'player_anytime_td',
-];
+].join(',')).split(',').map((m) => m.trim()).filter(Boolean);
 
 /** Game lines, fetched in bulk for every game at once for three credits total. */
 const GAME_MARKETS = ['spreads', 'totals'];
 
 /**
- * Stop fetching props if the key has less than this left.
+ * Credits this job will not touch.
  *
- * Running the quota to zero mid-week means no board at all on Sunday, which is
- * worse than a board built from game lines alone.
+ * This is not really about this repo. The same Odds API key also runs the
+ * Brewers tracker, and both draw on one 500-credit monthly allowance. NFL is
+ * the greedier of the two by a wide margin — a Sunday morning run prices a
+ * dozen games at five markets each, where the Brewers job spends three credits
+ * on one game — so without a floor this job would quietly eat the baseball
+ * board's month.
+ *
+ * The reserve is that floor. When the remaining balance drops to it, this job
+ * prices fewer games rather than more, and stops buying props entirely before
+ * it would cross it. Raise it to protect the other project harder; lower it if
+ * NFL is the only thing you care about that month.
  */
-const CREDIT_RESERVE = 40;
+const CREDIT_RESERVE = Number(process.env.ODDS_CREDIT_RESERVE ?? 150);
+
+/**
+ * Most games any single run may buy props for.
+ *
+ * A backstop against a surprise — a rescheduled week, a doubleheader Saturday,
+ * an API that starts returning more events than expected. Without it one bad
+ * run can spend a third of the month.
+ */
+const MAX_GAMES_PER_RUN = Number(process.env.ODDS_MAX_GAMES ?? 14);
 
 /** Only price games that have not kicked off and are close enough to matter. */
 const LOOKAHEAD_DAYS = 8;
@@ -202,15 +220,28 @@ async function main() {
       );
     }
 
-    const affordable = Number.isFinite(remaining)
+    const budget = Number.isFinite(remaining)
       ? Math.max(0, Math.floor((remaining - CREDIT_RESERVE) / PROP_MARKETS.length))
       : worthPricing.length;
+    const affordable = Math.min(budget, MAX_GAMES_PER_RUN);
 
     if (affordable < worthPricing.length) {
-      console.warn(`Only ${affordable} of ${worthPricing.length} games can be priced within the credit reserve.`);
+      const why = budget < MAX_GAMES_PER_RUN
+        ? `credit reserve of ${CREDIT_RESERVE} (${remaining} left)`
+        : `the ${MAX_GAMES_PER_RUN}-game cap`;
+      console.warn(`Only ${affordable} of ${worthPricing.length} games can be priced — limited by ${why}.`);
     }
 
-    const willPrice = worthPricing.slice(0, affordable);
+    // Closest to kick-off first, so a truncated run buys the games whose props
+    // are firmest and whose slates start soonest rather than an arbitrary slice.
+    const willPrice = [...worthPricing]
+      .sort((a, b) => new Date(a.commence_time) - new Date(b.commence_time))
+      .slice(0, affordable);
+
+    console.log(
+      `Budget: ${PROP_MARKETS.length} markets x ${willPrice.length} game(s) = ` +
+        `${PROP_MARKETS.length * willPrice.length} credits, reserving ${CREDIT_RESERVE}.`
+    );
     const pricedIds = new Set(willPrice.map((e) => e.id));
     const priced = [];
     for (const event of willPrice) {
