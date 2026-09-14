@@ -448,7 +448,10 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .roster tr:first-child td { border-top: 0; }
 .roster .slot {
   color: var(--dim); font-size: 10.5px; font-weight: 700;
-  letter-spacing: .05em; width: 44px; white-space: nowrap;
+  /* Wide enough for the longest label a site uses (FLEX5) without the fixed
+     layout shearing it into the name beside it. */
+  letter-spacing: .03em; width: 52px; white-space: nowrap;
+  padding-right: 6px;
 }
 .roster .who { font-weight: 500; overflow-wrap: anywhere; }
 .roster .who .team { color: var(--dim); font-size: 11.5px; margin-left: 5px; }
@@ -532,4 +535,13 @@ button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   .bet { grid-template-columns: 4px 1fr; }
   .bet-right { grid-column: 2; padding: 0 13px 11px 0; justify-content: flex-start; }
   .bet-pl { min-width: 0; text-align: left; }
+}
+
+/* The site switch sits above the slate list and reads as a different level of
+   choice, so it is boxed rather than pill-shaped like the slate chips. */
+.site-picker { margin-bottom: 10px; }
+.site-picker .chip { border-radius: var(--radius-sm); font-weight: 600; padding: 7px 16px; }
+.site-picker .chip .cap {
+  font-weight: 400; font-size: 11.5px; opacity: .75; margin-left: 7px;
+  font-variant-numeric: tabular-nums;
 }

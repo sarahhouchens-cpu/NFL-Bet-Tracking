@@ -20,7 +20,7 @@
   <nav class="tabs" role="tablist" aria-label="Views">
     <button class="tab is-active" role="tab" id="tab-tracker" aria-controls="panel-tracker" aria-selected="true">Tracker</button>
     <button class="tab" role="tab" id="tab-board" aria-controls="panel-board" aria-selected="false" tabindex="-1">$5 &rarr; $100</button>
-    <button class="tab" role="tab" id="tab-dfs" aria-controls="panel-dfs" aria-selected="false" tabindex="-1">DraftKings</button>
+    <button class="tab" role="tab" id="tab-dfs" aria-controls="panel-dfs" aria-selected="false" tabindex="-1">Lineups</button>
   </nav>
 </header>
 
@@ -177,10 +177,11 @@
 
     <section>
       <div class="sec-head">
-        <div class="eyebrow">DraftKings</div>
+        <div class="eyebrow">Daily fantasy</div>
         <h2>Lineups by slate</h2>
-        <p>Two builds for every slate, because a tournament and a double-up are different problems. Pick a slate to see both.</p>
+        <p>Two builds for every slate, because a tournament and a double-up are different problems. DraftKings and FanDuel are scored and built separately &mdash; they are not the same contest.</p>
       </div>
+      <div class="filters site-picker" id="site-picker" role="group" aria-label="Choose a site"></div>
       <div class="filters" id="slate-picker" role="group" aria-label="Choose a slate"></div>
       <div id="slate-body"></div>
     </section>
@@ -192,6 +193,8 @@
       </div>
       <div class="explain">
         <ul>
+          <li><strong>The two sites are different games.</strong> DraftKings pays a full point per reception and three-point bonuses at 100 rushing, 100 receiving and 300 passing yards. FanDuel pays half a point per catch and no bonuses at all, off a $60,000 cap instead of $50,000. A ten-catch receiver is worth eight more points on DraftKings, which reorders the pool rather than just shifting it &mdash; so each site is projected, priced and optimised on its own.</li>
+          <li><strong>Single-game rules differ too.</strong> A DraftKings captain scores 1.5&times; and <em>costs</em> 1.5&times;, from a six-man roster. A FanDuel MVP scores 1.5&times; at the ordinary price, from five. So the captain decision is a cap trade on one site and almost free on the other.</li>
           <li><strong>Double-up.</strong> Roughly the top half doubles up, and everyone above the cut wins the same. Upside past the cut pays nothing, so the build maximises the <em>floor</em>: no quarterback stack, at most two players per team, nothing that ties the whole lineup to one game going well.</li>
           <li><strong>Tournament.</strong> The prizes sit at the very top, so a good score is worthless and only a winning one counts. The build maximises the <em>ceiling</em> through correlation — a quarterback with his own receivers, plus an opponent to bring the game back — and pays a premium for low-owned players, because a lineup the field also built splits its prize with the field.</li>
           <li>A lineup's floor and ceiling are the spread of the <strong>lineup's total</strong>, not the sum of nine players' individual bests. Uncorrelated players cancel each other out toward the average; stacked players don't, which is the arithmetic reason stacking wins tournaments.</li>

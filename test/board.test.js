@@ -151,32 +151,106 @@ test('same-game stacks really are same-game', async () => {
   }
 });
 
-test('the fixture builds DraftKings lineups for every slate', async () => {
+test('the fixture builds lineups for both sites', async () => {
   const { events, salaries } = await load();
   const board = buildBoard(events, { teamByPlayer: teamMap(salaries) });
-  const dfs = buildDfs(board, salaries, { count: 3 });
+  const dfs = buildDfs(board, { draftkings: salaries }, { count: 3 });
 
-  assert.equal(dfs.salarySource, 'draftkings');
-  assert.ok(dfs.slates.length >= 3, 'the fixture week should make several slates');
+  assert.ok(dfs.sites.draftkings, 'no DraftKings build');
+  assert.ok(dfs.sites.fanduel, 'no FanDuel build');
 
-  for (const slate of dfs.slates) {
-    assert.ok(slate.tournament.length > 0, `${slate.slate.name} has no tournament lineup`);
-    assert.ok(slate.doubleUp.length > 0, `${slate.slate.name} has no double-up lineup`);
-    for (const lineup of [...slate.tournament, ...slate.doubleUp]) {
-      assert.ok(lineup.salary <= 50000);
-      assert.ok(lineup.players.every((p) => p.gameId && p.salary > 0));
+  const dk = dfs.sites.draftkings;
+  assert.equal(dk.salarySource, 'draftkings');
+  assert.equal(dk.salaryCap, 50000);
+  assert.ok(dk.slates.length >= 3, 'the fixture week should make several slates');
+
+  // No FanDuel export is in the fixture, so it falls back to estimates against
+  // its own larger cap rather than borrowing DraftKings prices.
+  const fd = dfs.sites.fanduel;
+  assert.equal(fd.salarySource, 'estimated');
+  assert.equal(fd.salaryCap, 60000);
+
+  for (const site of Object.values(dfs.sites)) {
+    for (const slate of site.slates) {
+      assert.ok(slate.tournament.length > 0, `${site.siteName} ${slate.slate.name}: no tournament lineup`);
+      assert.ok(slate.doubleUp.length > 0, `${site.siteName} ${slate.slate.name}: no double-up lineup`);
+      for (const lineup of [...slate.tournament, ...slate.doubleUp]) {
+        assert.ok(lineup.salary <= site.salaryCap, `${site.siteName} lineup over its cap`);
+        assert.ok(lineup.players.every((p) => p.gameId && p.salary > 0));
+      }
     }
   }
 });
 
-test('a kicker never takes a roster spot it cannot fill', async () => {
+test('each site rosters its own single-game shape', async () => {
   const { events, salaries } = await load();
   const board = buildBoard(events, { teamByPlayer: teamMap(salaries) });
-  const dfs = buildDfs(board, salaries, { count: 2 });
-  for (const slate of dfs.slates) {
-    for (const lineup of [...slate.tournament, ...slate.doubleUp]) {
-      assert.ok(lineup.players.every((p) => p.position !== 'K'));
-    }
+  const dfs = buildDfs(board, { draftkings: salaries }, { count: 2 });
+
+  const showdownOf = (siteId) =>
+    dfs.sites[siteId].slates.find((s) => s.slate.format === 'showdown');
+
+  const dk = showdownOf('draftkings');
+  const fd = showdownOf('fanduel');
+  assert.ok(dk && fd, 'both sites should build the night game');
+
+  assert.equal(dk.captainLabel, 'CPT');
+  assert.equal(fd.captainLabel, 'MVP');
+  assert.equal(dk.tournament[0].players.length, 6, 'DraftKings showdown is six');
+  assert.equal(fd.tournament[0].players.length, 5, 'FanDuel single game is five');
+});
+
+test('a DraftKings captain is charged a premium and a FanDuel MVP is not', async () => {
+  const { events, salaries } = await load();
+  const board = buildBoard(events, { teamByPlayer: teamMap(salaries) });
+  const dfs = buildDfs(board, { draftkings: salaries }, { count: 1 });
+
+  for (const [siteId, premium] of [['draftkings', true], ['fanduel', false]]) {
+    const slate = dfs.sites[siteId].slates.find((s) => s.slate.format === 'showdown');
+    const lineup = slate.tournament[0];
+    const captain = lineup.players.find((p) => p.multiplier === 1.5);
+    const expected = lineup.players.reduce(
+      (sum, p) => sum + p.salary * (premium && p.multiplier === 1.5 ? 1.5 : 1),
+      0
+    );
+    assert.equal(lineup.chargesCaptainPremium, premium);
+    assert.equal(lineup.salary, expected, `${siteId} captain cost is wrong`);
+    assert.ok(captain, 'no captain in the lineup');
+  }
+});
+
+test('FanDuel scores the same projection lower than DraftKings', async () => {
+  // Half a point per reception and no yardage bonuses. If this ever stops
+  // holding, the two sites have been collapsed into one table somewhere.
+  const { events, salaries } = await load();
+  const board = buildBoard(events, { teamByPlayer: teamMap(salaries) });
+  const dfs = buildDfs(board, { draftkings: salaries }, { count: 1 });
+
+  const dkSlate = dfs.sites.draftkings.slates.find((s) => s.slate.format === 'showdown');
+  const fdSlate = dfs.sites.fanduel.slates.find((s) => s.slate.format === 'showdown');
+
+  const dkPlayers = new Map(dkSlate.tournament[0].players.map((p) => [p.playerId, p]));
+  const shared = fdSlate.tournament[0].players.filter((p) => dkPlayers.has(p.playerId) && p.position !== 'DST');
+  assert.ok(shared.length, 'the two builds share no players to compare');
+
+  // Never higher: FanDuel pays less for the same line, never more.
+  for (const player of shared) {
+    assert.ok(
+      player.points <= dkPlayers.get(player.playerId).points + 1e-9,
+      `${player.playerName} scores higher on FanDuel`
+    );
+  }
+
+  // And strictly lower wherever the difference can actually bite. A quarterback
+  // with no catches and under 300 passing yards scores the same on both sites,
+  // which is correct — the tables only diverge on receptions and bonuses.
+  const catchers = shared.filter((p) => (p.projection?.receptions ?? 0) > 0);
+  assert.ok(catchers.length, 'no pass catchers shared between the builds');
+  for (const player of catchers) {
+    assert.ok(
+      player.points < dkPlayers.get(player.playerId).points,
+      `${player.playerName} catches passes but scores the same on both sites`
+    );
   }
 });
 

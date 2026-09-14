@@ -439,9 +439,10 @@ function renderBoard(board) {
 /* ------------------------------------------------------------ draftkings */
 
 let dfsData = null;
+let activeSite = null;
 let activeSlate = null;
 
-function lineupNode(lineup, title, blurb) {
+function lineupNode(lineup, title, blurb, cap = null) {
   const node = el('div', 'lineup');
 
   const head = el('div', 'lineup-head');
@@ -450,7 +451,9 @@ function lineupNode(lineup, title, blurb) {
   stats.append(labelled('Proj', lineup.points.toFixed(1)));
   stats.append(labelled('Floor', lineup.floor.toFixed(1)));
   stats.append(labelled('Ceiling', lineup.ceiling.toFixed(1)));
-  stats.append(labelled('Salary', `$${lineup.salary.toLocaleString('en-US')}`));
+  stats.append(
+    labelled('Salary', `$${lineup.salary.toLocaleString('en-US')}${cap ? ` / ${(cap / 1000).toFixed(0)}k` : ''}`)
+  );
   head.append(stats);
   node.append(head);
 
@@ -478,7 +481,11 @@ function lineupNode(lineup, title, blurb) {
     const repeats = player.team && player.playerName.toLowerCase().includes(String(player.team).toLowerCase());
     if (player.team && !repeats) who.append(el('span', 'team', player.team));
     row.append(who);
-    row.append(el('td', 'num', `$${player.salary.toLocaleString('en-US')}`));
+    // A DraftKings captain is charged 1.5x; a FanDuel MVP is not. The lineup's
+    // own total already reflects the site's rule, so the row shows the same
+    // figure rather than the list price, which would not add up on screen.
+    const charged = Math.round(player.salary * (lineup.chargesCaptainPremium ? player.multiplier ?? 1 : 1));
+    row.append(el('td', 'num', `$${charged.toLocaleString('en-US')}`));
     row.append(el('td', 'num pts', (player.points ?? 0).toFixed(1)));
     row.append(el('td', 'own', `${(player.ownership ?? 0).toFixed(0)}%`));
     body.append(row);
@@ -502,8 +509,17 @@ function renderSlate(recommendation) {
   const body = $('slate-body');
   body.replaceChildren();
 
+  const roster = recommendation.tournament[0]?.players.length ?? recommendation.doubleUp[0]?.players.length ?? 0;
   const heading = el('div', 'sec-head');
-  heading.append(el('div', 'eyebrow', recommendation.slate.format === 'showdown' ? 'Showdown · captain at 1.5×' : 'Classic · 9 roster spots'));
+  heading.append(
+    el(
+      'div',
+      'eyebrow',
+      recommendation.slate.format === 'showdown'
+        ? `${recommendation.captainLabel ?? 'Captain'} at 1.5× · ${roster} roster spots`
+        : `Classic · ${roster} roster spots`
+    )
+  );
   heading.append(el('h2', '', recommendation.slate.name));
   heading.append(
     el(
@@ -532,51 +548,139 @@ function renderSlate(recommendation) {
     if (!lineups.length) {
       grid.append(el('div', 'empty', 'No lineup could be built for this slate.'));
     } else {
-      lineups.forEach((lineup, i) => grid.append(lineupNode(lineup, `${title} #${i + 1}`, blurb)));
+      lineups.forEach((lineup, i) =>
+        grid.append(lineupNode(lineup, `${title} #${i + 1}`, blurb, recommendation.salaryCap))
+      );
     }
     section.append(grid);
     body.append(section);
   }
 }
 
+/**
+ * Render the site switch, then hand off to the slate list for whichever site is
+ * selected.
+ *
+ * The two sites are kept entirely separate rather than merged into one list.
+ * They price, score and roster differently, so a slate that exists on both is
+ * still two different problems, and showing one set of lineups under a single
+ * heading would invite entering a DraftKings build on FanDuel.
+ */
 function renderDfs(data) {
   dfsData = data;
-  const picker = $('slate-picker');
-  picker.replaceChildren();
 
-  if (!data.slates?.length) {
-    $('slate-body').replaceChildren(
-      el('div', 'empty', 'No slates available. Slates appear once the week\'s games are within range and props are posted.')
-    );
+  const sitePicker = $('site-picker');
+  const slatePicker = $('slate-picker');
+  sitePicker.replaceChildren();
+  slatePicker.replaceChildren();
+
+  const sites = Object.values(data.sites ?? {});
+  if (!sites.length) {
+    $('slate-body').replaceChildren(el('div', 'empty', 'No lineup data in this build.'));
     return;
   }
 
-  data.slates.forEach((recommendation, index) => {
+  // Prefer a site that actually produced something, so the tab does not open on
+  // an empty one when only the other has slates.
+  const preferred = sites.find((s) => s.slates.length) ?? sites[0];
+
+  for (const site of sites) {
+    const chip = el('button', 'chip', site.siteName);
+    chip.type = 'button';
+    chip.append(el('span', 'cap', `$${(site.salaryCap / 1000).toFixed(0)}k cap`));
+    chip.addEventListener('click', () => {
+      for (const other of sitePicker.querySelectorAll('.chip')) other.classList.toggle('is-active', other === chip);
+      selectSite(site);
+    });
+    if (site === preferred) chip.classList.add('is-active');
+    sitePicker.append(chip);
+  }
+
+  selectSite(preferred);
+}
+
+function selectSite(site) {
+  activeSite = site;
+  const picker = $('slate-picker');
+  picker.replaceChildren();
+  $('dfs-notice').replaceChildren();
+
+  const notices = [];
+  if (dfsData?.demo) {
+    notices.push([
+      'Sample data. ',
+      'These lineups were built from the offline fixture — the players are invented and the prices are not real. Run the "Update boards" workflow with an Odds API key to replace them.',
+    ]);
+  }
+  if (site.salarySource !== site.site) {
+    notices.push([
+      `${site.siteName} salaries are estimated. `,
+      `No ${site.siteName} export was found, so salaries are modelled against the $${site.salaryCap.toLocaleString('en-US')} cap and player teams are unknown — which weakens the stacking the tournament lineups depend on. Drop that site's player-list CSV into data/salaries/ to make these exact.`,
+    ]);
+  }
+  if (notices.length) {
+    $('dfs-notice').replaceChildren(
+      ...notices.map(([bold, rest]) => {
+        const notice = el('div', 'notice warn');
+        notice.append(el('b', '', bold));
+        notice.append(document.createTextNode(rest));
+        return notice;
+      })
+    );
+  }
+
+  if (!site.slates.length) {
+    const body = $('slate-body');
+    body.replaceChildren(
+      el('div', 'empty', `No ${site.siteName} slates could be built yet.`)
+    );
+    appendSkipped(body, site);
+    return;
+  }
+
+  site.slates.forEach((recommendation, index) => {
     const chip = el('button', `chip${index === 0 ? ' is-active' : ''}`, recommendation.slate.name);
     chip.type = 'button';
     chip.addEventListener('click', () => {
       activeSlate = recommendation.slate.id;
       for (const other of picker.querySelectorAll('.chip')) other.classList.toggle('is-active', other === chip);
       renderSlate(recommendation);
+      appendSkipped($('slate-body'), site);
     });
     picker.append(chip);
   });
 
-  activeSlate = data.slates[0].slate.id;
-  renderSlate(data.slates[0]);
+  activeSlate = site.slates[0].slate.id;
+  renderSlate(site.slates[0]);
+  appendSkipped($('slate-body'), site);
+}
 
-  if (data.salarySource !== 'draftkings') {
-    const notice = el('div', 'notice warn');
-    notice.append(
-      el('b', '', 'Salaries are estimated. ')
-    );
-    notice.append(
-      document.createTextNode(
-        'No DraftKings export was found, so salaries are modelled from the projections and player teams are unknown — which weakens the stacking these tournament lineups depend on. Export DKSalaries.csv from any contest lobby into data/salaries/ to make these exact.'
-      )
-    );
-    $('dfs-notice').replaceChildren(notice);
+/**
+ * List the slates that were deliberately not built, with the reason.
+ *
+ * A slate silently missing looks like a bug. A slate that says why it is
+ * missing — props not posted yet, or no real positions to fill a tight end slot
+ * with — tells you whether to wait or to go and export a file.
+ */
+function appendSkipped(body, site) {
+  if (!site.skipped?.length) return;
+  const section = el('section');
+  const head = el('div', 'sec-head');
+  head.append(el('div', 'eyebrow', 'Not built'));
+  head.append(el('h2', '', `Other ${site.siteName} slates`));
+  section.append(head);
+
+  const list = el('div', 'explain');
+  const ul = el('ul');
+  for (const skip of site.skipped) {
+    const li = el('li');
+    li.append(el('strong', '', skip.name));
+    li.append(document.createTextNode(` — ${skip.reason}`));
+    ul.append(li);
   }
+  list.append(ul);
+  section.append(list);
+  body.append(section);
 }
 
 /* ------------------------------------------------------------------ boot */

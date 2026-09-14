@@ -1,8 +1,11 @@
 # DraftKings salary exports
 
-Drop `DKSalaries.csv` here to make the lineup tab exact.
+Drop a player-list CSV here to make the lineup tab exact. Both sites are read:
+DraftKings exports `DKSalaries.csv`, FanDuel exports `FanDuel-NFL-....csv`, and
+the site is detected from the file header rather than its name — so you can keep
+both in here at once and rename them however you like.
 
-Every DraftKings contest lobby has an **Export to CSV** link next to the player
+Every contest lobby has an **Export to CSV** link next to the player
 list. The file it gives you is the one this folder wants — filename does not
 matter, any `.csv` in here is read and merged.
 

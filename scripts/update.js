@@ -17,7 +17,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { buildBoard, buildDfs } from '../lib/board.js';
-import { parseDkSalaries } from '../lib/salaries.js';
+import { parseSalaries, parseDkSalaries } from '../lib/salaries.js';
 import { normalizeName } from '../lib/markets.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -138,18 +138,26 @@ async function fetchProps(event) {
   return { event: { ...event, bookmakers: [...byKey.values()] }, remaining };
 }
 
-/** Load every DraftKings salary export checked into data/salaries. */
+/**
+ * Load every salary export checked into data/salaries, grouped by site.
+ *
+ * The site is detected from each file's own header rather than its name, so it
+ * does not matter what the download was called or which order the files are in.
+ */
 async function loadSalaries() {
+  const bySite = {};
   try {
     const files = (await readdir(SALARY_DIR)).filter((f) => f.toLowerCase().endsWith('.csv'));
-    const rows = [];
     for (const file of files) {
-      rows.push(...parseDkSalaries(await readFile(join(SALARY_DIR, file), 'utf8')));
+      const rows = parseSalaries(await readFile(join(SALARY_DIR, file), 'utf8'));
+      for (const row of rows) {
+        (bySite[row.source] ??= []).push(row);
+      }
     }
-    return rows;
   } catch {
-    return [];
+    // No salaries directory is a normal state, not an error.
   }
+  return bySite;
 }
 
 /**
@@ -222,23 +230,33 @@ async function main() {
     console.log(`Priced ${priced.length} game(s) for props. Credits remaining: ${remaining}.`);
   }
 
-  const salaryRows = DEMO
-    ? parseDkSalaries(await readFile(join(DATA, 'demo-salaries.csv'), 'utf8'))
+  const salariesBySite = DEMO
+    ? { draftkings: parseDkSalaries(await readFile(join(DATA, 'demo-salaries.csv'), 'utf8')) }
     : await loadSalaries();
 
-  if (salaryRows.length) console.log(`Loaded ${salaryRows.length} DraftKings salary rows.`);
-  else console.log('No DraftKings salary export found — salaries will be estimated.');
+  const loaded = Object.entries(salariesBySite);
+  if (loaded.length) {
+    for (const [site, rows] of loaded) console.log(`Loaded ${rows.length} ${site} salary rows.`);
+  } else {
+    console.log('No salary export found — salaries will be estimated for both sites.');
+  }
 
-  const board = buildBoard(events, { teamByPlayer: teamMapFrom(salaryRows), demo: DEMO });
+  // Teams come from whichever export exists; the prop feed does not carry them.
+  const allSalaryRows = loaded.flatMap(([, rows]) => rows);
+
+  const board = buildBoard(events, { teamByPlayer: teamMapFrom(allSalaryRows), demo: DEMO });
   console.log(
     `Board: ${board.games.length} games, ${board.players.length} players, ` +
       `${board.legCount} candidate legs, ${board.tickets.length} tickets, ${board.stacks.length} stacks.`
   );
 
-  const dfs = buildDfs(board, salaryRows, { demo: DEMO });
-  console.log(`DraftKings: ${dfs.slates.length} slates (${dfs.salarySource} salaries).`);
-  for (const slate of dfs.slates) {
-    console.log(`  ${slate.slate.name}: ${slate.tournament.length} tournament, ${slate.doubleUp.length} double-up`);
+  const dfs = buildDfs(board, salariesBySite, { demo: DEMO });
+  for (const site of Object.values(dfs.sites)) {
+    console.log(`${site.siteName}: ${site.slates.length} slate(s), ${site.salarySource} salaries.`);
+    for (const slate of site.slates) {
+      console.log(`  ${slate.slate.name}: ${slate.tournament.length} tournament, ${slate.doubleUp.length} double-up`);
+    }
+    for (const skip of site.skipped) console.log(`  (skipped) ${skip.name}: ${skip.reason}`);
   }
 
   if (DRY_RUN) {

@@ -1,7 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { parseCsv, parseDkSalaries, estimateSalary, attachSalaries, normalizePosition } from '../lib/salaries.js';
+import {
+  parseCsv, parseDkSalaries, parseFanDuelSalaries, parseSalaries, siteOfSalaries,
+  estimateSalary, attachSalaries, normalizePosition,
+} from '../lib/salaries.js';
 
 test('quoted fields containing commas do not shear the row', () => {
   // The DraftKings export quotes Game Info, which contains commas. Splitting on
@@ -98,4 +101,55 @@ test("the export's team abbreviation wins over the odds feed's full name", () =>
     parseDkSalaries(csv)
   );
   assert.equal(attached[0].team, 'KC');
+});
+
+const FD_CSV = [
+  'Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,Roster Position',
+  '1-101,QB,Patrick,Patrick Mahomes,Mahomes,21.4,2,8600,DEN@KC,KC,DEN,,,,QB',
+  '1-102,WR,Rashee,Rashee Rice,Rice,14.2,2,7200,DEN@KC,KC,DEN,Q,Ankle,,WR',
+  '1-103,RB,Kenneth,Kenneth Walker III,Walker III,15.0,2,7800,DEN@KC,KC,DEN,O,Knee,,RB',
+  '1-104,D,Kansas City,Kansas City Chiefs,Chiefs,8.1,2,4200,DEN@KC,KC,DEN,,,,D',
+].join('\n');
+
+test('a FanDuel export parses its split name columns', () => {
+  // FanDuel splits the name across First/Last with the usable form in Nickname.
+  // Reading Last Name alone would match half the league to the wrong person.
+  const rows = parseFanDuelSalaries(FD_CSV);
+  const mahomes = rows.find((r) => r.playerName === 'Patrick Mahomes');
+  assert.ok(mahomes, 'name was not reassembled');
+  assert.equal(mahomes.playerId, 'patrick mahomes');
+  assert.equal(mahomes.salary, 8600);
+  assert.equal(mahomes.team, 'KC');
+  assert.equal(mahomes.opponent, 'DEN');
+  assert.equal(mahomes.source, 'fanduel');
+});
+
+test("FanDuel's D position normalizes to DST", () => {
+  const rows = parseFanDuelSalaries(FD_CSV);
+  assert.equal(rows.find((r) => r.playerName.includes('Chiefs')).position, 'DST');
+});
+
+test('a player ruled out is dropped, a questionable one is kept', () => {
+  const rows = parseFanDuelSalaries(FD_CSV);
+  assert.ok(!rows.some((r) => r.playerName.includes('Walker')), 'an out player was rostered');
+  assert.ok(rows.some((r) => r.playerName === 'Rashee Rice'), 'a questionable player was dropped');
+});
+
+test('the site is detected from the header, not the filename', () => {
+  // Either file can be renamed; the header cannot.
+  assert.equal(siteOfSalaries(parseSalaries(FD_CSV)), 'fanduel');
+
+  const dk = [
+    'Position,Name + ID,Name,ID,Roster Position,Salary,Game Info,TeamAbbrev,AvgPointsPerGame',
+    'QB,"Patrick Mahomes (1)",Patrick Mahomes,1,QB,7800,"DEN@KC",KC,21.4',
+  ].join('\n');
+  assert.equal(siteOfSalaries(parseSalaries(dk)), 'draftkings');
+});
+
+test('estimated salaries respect each site’s own scale', () => {
+  // Borrowing DraftKings' curve would leave every FanDuel lineup thousands
+  // under its larger cap.
+  assert.ok(estimateSalary('RB', 14, 'fanduel') > estimateSalary('RB', 14, 'draftkings'));
+  assert.ok(estimateSalary('QB', 0, 'fanduel') >= 5000, 'FanDuel has a higher floor');
+  assert.equal(estimateSalary('WR', 12, 'fanduel') % 100, 0);
 });

@@ -4,7 +4,7 @@ Three things, on one page:
 
 1. **Tracker** — log every bet, grade it, and see whether you are actually beating the prices you took.
 2. **$5 → $100** — parlays built from live NFL prop markets that return at least $100 on a $5 stake.
-3. **DraftKings** — lineup recommendations for every slate, built separately for tournaments and double-ups.
+3. **Lineups** — DraftKings *and* FanDuel recommendations for every slate, built separately for tournaments and double-ups.
 
 The site is static. A GitHub Action fetches odds a few times a week, rebuilds
 both boards, and commits the JSON; the page just renders it. No API key ever
@@ -81,14 +81,40 @@ model error compounds: a model 10% optimistic per leg is 60% optimistic on a
 five-leg ticket. And **negative expected value is reported, not hidden.** Most
 parlays are bad bets; the board shows the least bad ones that clear $100.
 
-## DraftKings
+## Lineups
 
 A lineup only means something inside a slate, so the week's games are sorted
-into the slates DraftKings actually posts — Sunday Main, Sunday Early, and a
-separate showdown for each night game — and each gets its own recommendations.
+into the slates each site actually posts — Sunday Main, Sunday Early, and a
+separate single-game slate for each night game — and each gets its own
+recommendations.
 
-Every slate gets two builds, because a tournament and a double-up are different
-problems:
+### The two sites are not the same game
+
+DraftKings and FanDuel look alike and optimise differently. The differences are
+small to read and large to build against:
+
+| | DraftKings | FanDuel |
+|---|---|---|
+| Per reception | 1.0 | **0.5** |
+| Yardage bonuses | +3 at 100 rush / 100 rec / 300 pass | **none** |
+| Fumble lost | −1 | **−2** |
+| Salary cap | $50,000 | **$60,000** |
+| Single game | 6 players, captain 1.5× points **and 1.5× salary** | 5 players, MVP 1.5× points at **ordinary salary** |
+
+Half-PPR plus no bonuses *reorders* the pool rather than shifting it. A receiver
+who catches ten passes for 100 yards and a score is worth 29 points on
+DraftKings and 21 on FanDuel; one who catches three for the same yards and score
+loses only 4.5. So each site gets its own projection pass, its own salary scale
+and its own optimisation — the same forecast of the football game, priced twice.
+
+The single-game rule matters just as much. A DraftKings captain costs 1.5×, so
+captaining the best player is a real trade against the cap. A FanDuel MVP costs
+nothing extra, so it is very nearly a free 50% bonus and the decision is purely
+about who scores most.
+
+### Tournaments versus double-ups
+
+Every slate gets two builds on each site:
 
 |  | Double Up | Tournament |
 |---|---|---|
@@ -100,8 +126,8 @@ problems:
 
 In a double-up roughly the top half doubles their money and everyone above the
 line wins the same, so upside past the cut is worthless and a stack is a single
-point of failure. In a tournament the prizes sit at the very top, so a good score
-is worthless and only a winning one counts — which needs correlation for a
+point of failure. In a tournament the prizes sit at the very top, so a good
+score is worthless and only a winning one counts — which needs correlation for a
 ceiling and needs to be different, because a lineup the field also built splits
 its prize with the field.
 
@@ -123,8 +149,10 @@ projected value predicts it well enough to separate chalk from leverage.
 
 ### Making the lineups exact
 
-Drop a `DKSalaries.csv` into `data/salaries/`. Every DraftKings contest lobby
-has an *Export to CSV* link, and two things come out of that file:
+Drop either site's player-list CSV into `data/salaries/` — DraftKings calls it
+`DKSalaries.csv`, FanDuel gives you `FanDuel-NFL-....csv`. Both are read, the
+site is detected from the file's own header rather than its name, and you can
+keep both there at once. Two things come out of that file:
 
 - **Salaries.** Without it they are estimated from the projections, so lineups
   will not sum to exactly $50,000 in DraftKings' own numbers. Treat them as a
@@ -180,7 +208,7 @@ lib/                  all pure, all tested, no fetching and no DOM
   ownership.js        projected ownership and leverage
   lineups.js          the optimiser
   slates.js           sorting a week into DraftKings slates
-  salaries.js         the DKSalaries.csv reader, and the fallback
+  salaries.js         both sites' CSV readers, format detection, fallbacks
   board.js            assembles a snapshot into both boards
 scripts/
   update.js           fetch, rebuild, write            (npm run board)
