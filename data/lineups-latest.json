@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-14T22:10:50.358Z",
+ "generatedAt": "2026-09-17T22:06:24.483Z",
  "demo": false,
  "sites": {
   "draftkings": {
@@ -9,10 +9,6 @@
    "salarySource": "estimated",
    "slates": [],
    "skipped": [
-    {
-     "name": "Monday Night: Broncos at Chiefs",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
     {
      "name": "Thursday Night: Lions at Bills",
      "reason": "too few players priced — props are not posted for these games yet"
@@ -35,6 +31,10 @@
     },
     {
      "name": "Monday Night: Giants at Rams",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Falcons at Packers",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
@@ -47,10 +47,6 @@
    "slates": [],
    "skipped": [
     {
-     "name": "Monday Night: Broncos at Chiefs",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
      "name": "Thursday Night: Lions at Bills",
      "reason": "too few players priced — props are not posted for these games yet"
     },
@@ -72,6 +68,10 @@
     },
     {
      "name": "Monday Night: Giants at Rams",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Falcons at Packers",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
