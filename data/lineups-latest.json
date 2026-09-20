@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-20T15:01:02.102Z",
+ "generatedAt": "2026-09-20T15:14:10.205Z",
  "demo": false,
  "sites": {
   "draftkings": {
@@ -39,16 +39,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 19.66,
+         "anytimeTd": 0.6132366977689121,
+         "points": 19.67,
          "floor": 7.62,
          "ceiling": 39.6,
          "lines": [
@@ -56,7 +56,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -186,15 +186,15 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
+         "anytimeTd": 0.5431525037381794,
          "points": 18.29,
          "floor": 7.41,
          "ceiling": 26.96,
@@ -203,7 +203,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -306,15 +306,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 13.03,
          "floor": 5.77,
          "ceiling": 22.64,
@@ -323,9 +323,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -412,126 +412,6 @@
          "multiplier": 1
         },
         {
-         "playerName": "Tyler Warren",
-         "playerId": "tyler warren",
-         "position": "WR",
-         "projection": {
-          "passYards": 0,
-          "passTds": 0,
-          "interceptions": 0,
-          "passAttempts": 0,
-          "completions": 0,
-          "rushYards": 0,
-          "carries": 0,
-          "receptions": 4.624125517511833,
-          "recYards": 47.09047069066937,
-          "kickingPoints": 0,
-          "rushTds": 0.014236442495626693,
-          "recTds": 0.2704924074169071
-         },
-         "bonuses": {
-          "pass300": 0,
-          "rush100": 0,
-          "rec100": 0.03631985639255264
-         },
-         "anytimeTd": 0.2477818093023489,
-         "points": 11.15,
-         "floor": 5.4,
-         "ceiling": 21.15,
-         "lines": [
-          {
-           "market": "player_anytime_td",
-           "label": "to score a TD",
-           "line": null,
-           "probability": 0.2477818093023489,
-           "devigged": false,
-           "book": "BetRivers",
-           "americanOdds": 265
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 43.5,
-           "probability": 0.4936802190857383,
-           "devigged": true,
-           "book": "DraftKings",
-           "americanOdds": -109
-          },
-          {
-           "market": "player_receptions",
-           "label": "receptions",
-           "line": 4.5,
-           "probability": 0.5281576830249397,
-           "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -130
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 42.5,
-           "probability": 0.5,
-           "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -113
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 44.5,
-           "probability": 0.5,
-           "devigged": true,
-           "book": "BetMGM",
-           "americanOdds": -115
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 33.5,
-           "probability": 0.625,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": -200
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 38.5,
-           "probability": 0.554140127388535,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": -145
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 48.5,
-           "probability": 0.43668122270742354,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": 115
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 53.5,
-           "probability": 0.375,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": 150
-          }
-         ],
-         "gameId": "50bc247030707d823b9c3581d7eb5760",
-         "team": null,
-         "opponent": null,
-         "salary": 5800,
-         "salarySource": "estimated",
-         "value": 1.92,
-         "ownership": 37.1,
-         "slot": "FLEX3",
-         "multiplier": 1
-        },
-        {
          "playerName": "Patrick Mahomes",
          "playerId": "patrick mahomes",
          "position": "QB",
@@ -546,7 +426,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -554,7 +434,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 12.14,
          "floor": 7.74,
          "ceiling": 21.24,
@@ -563,7 +443,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -702,6 +582,126 @@
          "salarySource": "estimated",
          "value": 2.13,
          "ownership": 65,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Tyler Warren",
+         "playerId": "tyler warren",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.580780595928852,
+          "recYards": 46.92792723473319,
+          "kickingPoints": 0,
+          "rushTds": 0.01425193458911788,
+          "recTds": 0.2707867571932397
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.03538955725343773
+         },
+         "anytimeTd": 0.2480148418895796,
+         "points": 11.09,
+         "floor": 5.36,
+         "ceiling": 21.05,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2480148418895796,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": 265
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 43.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.5185070943861814,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -123
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 42.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 44.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 33.5,
+           "probability": 0.625,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": -200
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 38.5,
+           "probability": 0.554140127388535,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": -145
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 48.5,
+           "probability": 0.43668122270742354,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": 115
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 53.5,
+           "probability": 0.375,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": 150
+          }
+         ],
+         "gameId": "50bc247030707d823b9c3581d7eb5760",
+         "team": null,
+         "opponent": null,
+         "salary": 5800,
+         "salarySource": "estimated",
+         "value": 1.91,
+         "ownership": 35.8,
          "slot": "FLEX4",
          "multiplier": 1
         },
@@ -720,7 +720,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.13834354086044776,
+          "rushTds": 0.13848308886151336,
           "recTds": 0
          },
          "bonuses": {
@@ -728,7 +728,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.12920051485051048,
+         "anytimeTd": 0.1293220246995665,
          "points": 10.6,
          "floor": 7.12,
          "ceiling": 13.66,
@@ -737,7 +737,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.12920051485051048,
+           "probability": 0.1293220246995665,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 600
@@ -866,12 +866,12 @@
        "chargesCaptainPremium": true,
        "salary": 42750,
        "salaryRemaining": 7250,
-       "points": 94.7,
-       "floor": 67.28,
-       "ceiling": 128.44,
-       "sd": 32.56,
-       "ownership": 313.2,
-       "value": 2.22,
+       "points": 94.66,
+       "floor": 67.25,
+       "ceiling": 128.38,
+       "sd": 32.55,
+       "ownership": 311.9,
+       "value": 2.21,
        "stack": {
         "label": "Patrick Mahomes + Rashee Rice + Tyler Warren",
         "size": 3,
@@ -897,16 +897,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 19.66,
+         "anytimeTd": 0.6132366977689121,
+         "points": 19.67,
          "floor": 7.62,
          "ceiling": 39.6,
          "lines": [
@@ -914,7 +914,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -1044,15 +1044,15 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
+         "anytimeTd": 0.5431525037381794,
          "points": 18.29,
          "floor": 7.41,
          "ceiling": 26.96,
@@ -1061,7 +1061,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -1164,15 +1164,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 13.03,
          "floor": 5.77,
          "ceiling": 22.64,
@@ -1181,9 +1181,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -1284,7 +1284,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -1292,7 +1292,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 12.14,
          "floor": 7.74,
          "ceiling": 21.24,
@@ -1301,7 +1301,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -1458,15 +1458,15 @@
           "receptions": 4.235692360402649,
           "recYards": 43.533846351509936,
           "kickingPoints": 0,
-          "rushTds": 0.011806780408913697,
-          "recTds": 0.22432882776936022
+          "rushTds": 0.011819306566210174,
+          "recTds": 0.22456682475799328
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.019062223242998777
          },
-         "anytimeTd": 0.21032641952408684,
+         "anytimeTd": 0.21052422625510825,
          "points": 10.06,
          "floor": 4.96,
          "ceiling": 19.85,
@@ -1475,7 +1475,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.21032641952408684,
+           "probability": 0.21052422625510825,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": 330
@@ -1568,7 +1568,7 @@
          "salary": 5500,
          "salarySource": "estimated",
          "value": 1.83,
-         "ownership": 26.2,
+         "ownership": 26.3,
          "slot": "FLEX4",
          "multiplier": 1
         },
@@ -1585,26 +1585,26 @@
           "rushYards": 0,
           "carries": 0,
           "receptions": 3.6704760957482776,
-          "recYards": 43.00571428468634,
+          "recYards": 43.51428535905604,
           "kickingPoints": 0,
-          "rushTds": 0.019087521692678498,
-          "recTds": 0.3626629121608914
+          "rushTds": 0.019109385295111303,
+          "recTds": 0.36307832060711476
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.017054306091729088
+          "rec100": 0.018985325855724322
          },
-         "anytimeTd": 0.3173345978784468,
-         "points": 10.31,
-         "floor": 4.55,
-         "ceiling": 18.95,
+         "anytimeTd": 0.3176330431217423,
+         "points": 10.37,
+         "floor": 4.58,
+         "ceiling": 19.05,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3173345978784468,
+           "probability": 0.3176330431217423,
            "devigged": false,
            "book": "BetMGM",
            "americanOdds": 185
@@ -1631,10 +1631,10 @@
            "market": "player_reception_yds",
            "label": "receiving yards",
            "line": 42.5,
-           "probability": 0.4948402542722694,
+           "probability": 0.5,
            "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": -111
+           "book": "FanDuel",
+           "americanOdds": -113
           },
           {
            "market": "player_reception_yds",
@@ -1678,8 +1678,8 @@
          "opponent": null,
          "salary": 5600,
          "salarySource": "estimated",
-         "value": 1.84,
-         "ownership": 27.3,
+         "value": 1.85,
+         "ownership": 28.4,
          "slot": "FLEX5",
          "multiplier": 1
         }
@@ -1688,12 +1688,12 @@
        "chargesCaptainPremium": true,
        "salary": 42550,
        "salaryRemaining": 7450,
-       "points": 93.32,
-       "floor": 66.03,
-       "ceiling": 126.9,
-       "sd": 32.42,
-       "ownership": 311.4,
-       "value": 2.19,
+       "points": 93.4,
+       "floor": 66.09,
+       "ceiling": 126.99,
+       "sd": 32.43,
+       "ownership": 312.6,
+       "value": 2.2,
        "stack": {
         "label": "Patrick Mahomes + Rashee Rice + Josh Downs + Travis Kelce",
         "size": 4,
@@ -1719,16 +1719,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 19.66,
+         "anytimeTd": 0.6132366977689121,
+         "points": 19.67,
          "floor": 7.62,
          "ceiling": 39.6,
          "lines": [
@@ -1736,7 +1736,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -1866,15 +1866,15 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
+         "anytimeTd": 0.5431525037381794,
          "points": 18.29,
          "floor": 7.41,
          "ceiling": 26.96,
@@ -1883,7 +1883,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -1972,126 +1972,6 @@
          "multiplier": 1
         },
         {
-         "playerName": "Tyler Warren",
-         "playerId": "tyler warren",
-         "position": "WR",
-         "projection": {
-          "passYards": 0,
-          "passTds": 0,
-          "interceptions": 0,
-          "passAttempts": 0,
-          "completions": 0,
-          "rushYards": 0,
-          "carries": 0,
-          "receptions": 4.624125517511833,
-          "recYards": 47.09047069066937,
-          "kickingPoints": 0,
-          "rushTds": 0.014236442495626693,
-          "recTds": 0.2704924074169071
-         },
-         "bonuses": {
-          "pass300": 0,
-          "rush100": 0,
-          "rec100": 0.03631985639255264
-         },
-         "anytimeTd": 0.2477818093023489,
-         "points": 11.15,
-         "floor": 5.4,
-         "ceiling": 21.15,
-         "lines": [
-          {
-           "market": "player_anytime_td",
-           "label": "to score a TD",
-           "line": null,
-           "probability": 0.2477818093023489,
-           "devigged": false,
-           "book": "BetRivers",
-           "americanOdds": 265
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 43.5,
-           "probability": 0.4936802190857383,
-           "devigged": true,
-           "book": "DraftKings",
-           "americanOdds": -109
-          },
-          {
-           "market": "player_receptions",
-           "label": "receptions",
-           "line": 4.5,
-           "probability": 0.5281576830249397,
-           "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -130
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 42.5,
-           "probability": 0.5,
-           "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -113
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 44.5,
-           "probability": 0.5,
-           "devigged": true,
-           "book": "BetMGM",
-           "americanOdds": -115
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 33.5,
-           "probability": 0.625,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": -200
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 38.5,
-           "probability": 0.554140127388535,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": -145
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 48.5,
-           "probability": 0.43668122270742354,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": 115
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 53.5,
-           "probability": 0.375,
-           "devigged": true,
-           "book": "Bovada",
-           "americanOdds": 150
-          }
-         ],
-         "gameId": "50bc247030707d823b9c3581d7eb5760",
-         "team": null,
-         "opponent": null,
-         "salary": 5800,
-         "salarySource": "estimated",
-         "value": 1.92,
-         "ownership": 37.1,
-         "slot": "FLEX2",
-         "multiplier": 1
-        },
-        {
          "playerName": "Patrick Mahomes",
          "playerId": "patrick mahomes",
          "position": "QB",
@@ -2106,7 +1986,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -2114,7 +1994,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 12.14,
          "floor": 7.74,
          "ceiling": 21.24,
@@ -2123,7 +2003,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -2262,6 +2142,126 @@
          "salarySource": "estimated",
          "value": 2.13,
          "ownership": 65,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Tyler Warren",
+         "playerId": "tyler warren",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.580780595928852,
+          "recYards": 46.92792723473319,
+          "kickingPoints": 0,
+          "rushTds": 0.01425193458911788,
+          "recTds": 0.2707867571932397
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.03538955725343773
+         },
+         "anytimeTd": 0.2480148418895796,
+         "points": 11.09,
+         "floor": 5.36,
+         "ceiling": 21.05,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2480148418895796,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": 265
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 43.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.5185070943861814,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -123
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 42.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 44.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 33.5,
+           "probability": 0.625,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": -200
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 38.5,
+           "probability": 0.554140127388535,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": -145
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 48.5,
+           "probability": 0.43668122270742354,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": 115
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 53.5,
+           "probability": 0.375,
+           "devigged": true,
+           "book": "Bovada",
+           "americanOdds": 150
+          }
+         ],
+         "gameId": "50bc247030707d823b9c3581d7eb5760",
+         "team": null,
+         "opponent": null,
+         "salary": 5800,
+         "salarySource": "estimated",
+         "value": 1.91,
+         "ownership": 35.8,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -2278,26 +2278,26 @@
           "rushYards": 0,
           "carries": 0,
           "receptions": 3.6704760957482776,
-          "recYards": 43.00571428468634,
+          "recYards": 43.51428535905604,
           "kickingPoints": 0,
-          "rushTds": 0.019087521692678498,
-          "recTds": 0.3626629121608914
+          "rushTds": 0.019109385295111303,
+          "recTds": 0.36307832060711476
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.017054306091729088
+          "rec100": 0.018985325855724322
          },
-         "anytimeTd": 0.3173345978784468,
-         "points": 10.31,
-         "floor": 4.55,
-         "ceiling": 18.95,
+         "anytimeTd": 0.3176330431217423,
+         "points": 10.37,
+         "floor": 4.58,
+         "ceiling": 19.05,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3173345978784468,
+           "probability": 0.3176330431217423,
            "devigged": false,
            "book": "BetMGM",
            "americanOdds": 185
@@ -2324,10 +2324,10 @@
            "market": "player_reception_yds",
            "label": "receiving yards",
            "line": 42.5,
-           "probability": 0.4948402542722694,
+           "probability": 0.5,
            "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": -111
+           "book": "FanDuel",
+           "americanOdds": -113
           },
           {
            "market": "player_reception_yds",
@@ -2371,8 +2371,8 @@
          "opponent": null,
          "salary": 5600,
          "salarySource": "estimated",
-         "value": 1.84,
-         "ownership": 27.3,
+         "value": 1.85,
+         "ownership": 28.4,
          "slot": "FLEX4",
          "multiplier": 1
         },
@@ -2391,16 +2391,16 @@
           "receptions": 3.4370174388158725,
           "recYards": 39.13881539555952,
           "kickingPoints": 0,
-          "rushTds": 0.014947332660859522,
-          "recTds": 0.2839993205563309
+          "rushTds": 0.014963720192055685,
+          "recTds": 0.284310683649058
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.006432721827729582
          },
-         "anytimeTd": 0.25840102970102097,
-         "points": 9.16,
+         "anytimeTd": 0.258644049399133,
+         "points": 9.17,
          "floor": 4.21,
          "ceiling": 17.79,
          "lines": [
@@ -2408,7 +2408,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.25840102970102097,
+           "probability": 0.258644049399133,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 250
@@ -2430,15 +2430,6 @@
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 108
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 39.5,
-           "probability": 0.46322988528598974,
-           "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": 103
           },
           {
            "market": "player_reception_yds",
@@ -2492,7 +2483,7 @@
          "salary": 5300,
          "salarySource": "estimated",
          "value": 1.73,
-         "ownership": 17.8,
+         "ownership": 17.9,
          "slot": "FLEX5",
          "multiplier": 1
         }
@@ -2501,11 +2492,11 @@
        "chargesCaptainPremium": true,
        "salary": 41850,
        "salaryRemaining": 8150,
-       "points": 90.54,
-       "floor": 63.63,
-       "ceiling": 123.65,
+       "points": 90.57,
+       "floor": 63.66,
+       "ceiling": 123.67,
        "sd": 31.96,
-       "ownership": 275.1,
+       "ownership": 275,
        "value": 2.16,
        "stack": {
         "label": "Patrick Mahomes + Tyler Warren + Travis Kelce + Xavier Worthy",
@@ -2534,16 +2525,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 19.66,
+         "anytimeTd": 0.6132366977689121,
+         "points": 19.67,
          "floor": 7.62,
          "ceiling": 39.6,
          "lines": [
@@ -2551,7 +2542,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -2681,15 +2672,15 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
+         "anytimeTd": 0.5431525037381794,
          "points": 18.29,
          "floor": 7.41,
          "ceiling": 26.96,
@@ -2698,7 +2689,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -2801,15 +2792,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 13.03,
          "floor": 5.77,
          "ceiling": 22.64,
@@ -2818,9 +2809,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -2918,27 +2909,27 @@
           "completions": 0,
           "rushYards": 0,
           "carries": 0,
-          "receptions": 4.624125517511833,
-          "recYards": 47.09047069066937,
+          "receptions": 4.580780595928852,
+          "recYards": 46.92792723473319,
           "kickingPoints": 0,
-          "rushTds": 0.014236442495626693,
-          "recTds": 0.2704924074169071
+          "rushTds": 0.01425193458911788,
+          "recTds": 0.2707867571932397
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.03631985639255264
+          "rec100": 0.03538955725343773
          },
-         "anytimeTd": 0.2477818093023489,
-         "points": 11.15,
-         "floor": 5.4,
-         "ceiling": 21.15,
+         "anytimeTd": 0.2480148418895796,
+         "points": 11.09,
+         "floor": 5.36,
+         "ceiling": 21.05,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.2477818093023489,
+           "probability": 0.2480148418895796,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 265
@@ -2956,10 +2947,10 @@
            "market": "player_receptions",
            "label": "receptions",
            "line": 4.5,
-           "probability": 0.5281576830249397,
+           "probability": 0.5185070943861814,
            "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -130
+           "book": "BetOnline.ag",
+           "americanOdds": -123
           },
           {
            "market": "player_reception_yds",
@@ -3021,8 +3012,8 @@
          "opponent": null,
          "salary": 5800,
          "salarySource": "estimated",
-         "value": 1.92,
-         "ownership": 37.1,
+         "value": 1.91,
+         "ownership": 35.8,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -3039,26 +3030,26 @@
           "rushYards": 0,
           "carries": 0,
           "receptions": 3.6704760957482776,
-          "recYards": 43.00571428468634,
+          "recYards": 43.51428535905604,
           "kickingPoints": 0,
-          "rushTds": 0.019087521692678498,
-          "recTds": 0.3626629121608914
+          "rushTds": 0.019109385295111303,
+          "recTds": 0.36307832060711476
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.017054306091729088
+          "rec100": 0.018985325855724322
          },
-         "anytimeTd": 0.3173345978784468,
-         "points": 10.31,
-         "floor": 4.55,
-         "ceiling": 18.95,
+         "anytimeTd": 0.3176330431217423,
+         "points": 10.37,
+         "floor": 4.58,
+         "ceiling": 19.05,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3173345978784468,
+           "probability": 0.3176330431217423,
            "devigged": false,
            "book": "BetMGM",
            "americanOdds": 185
@@ -3085,10 +3076,10 @@
            "market": "player_reception_yds",
            "label": "receiving yards",
            "line": 42.5,
-           "probability": 0.4948402542722694,
+           "probability": 0.5,
            "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": -111
+           "book": "FanDuel",
+           "americanOdds": -113
           },
           {
            "market": "player_reception_yds",
@@ -3132,8 +3123,8 @@
          "opponent": null,
          "salary": 5600,
          "salarySource": "estimated",
-         "value": 1.84,
-         "ownership": 27.3,
+         "value": 1.85,
+         "ownership": 28.4,
          "slot": "FLEX4",
          "multiplier": 1
         },
@@ -3166,11 +3157,11 @@
        "chargesCaptainPremium": true,
        "salary": 40450,
        "salaryRemaining": 9550,
-       "points": 90.89,
-       "floor": 74.07,
-       "ceiling": 111.58,
+       "points": 90.91,
+       "floor": 74.09,
+       "ceiling": 111.6,
        "sd": 19.98,
-       "ownership": 295.4,
+       "ownership": 295.2,
        "value": 2.25,
        "stack": null
       },
@@ -3192,16 +3183,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 19.66,
+         "anytimeTd": 0.6132366977689121,
+         "points": 19.67,
          "floor": 7.62,
          "ceiling": 39.6,
          "lines": [
@@ -3209,7 +3200,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -3339,15 +3330,15 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
+         "anytimeTd": 0.5431525037381794,
          "points": 18.29,
          "floor": 7.41,
          "ceiling": 26.96,
@@ -3356,7 +3347,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -3459,15 +3450,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 13.03,
          "floor": 5.77,
          "ceiling": 22.64,
@@ -3476,9 +3467,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -3579,15 +3570,15 @@
           "receptions": 4.235692360402649,
           "recYards": 43.533846351509936,
           "kickingPoints": 0,
-          "rushTds": 0.011806780408913697,
-          "recTds": 0.22432882776936022
+          "rushTds": 0.011819306566210174,
+          "recTds": 0.22456682475799328
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.019062223242998777
          },
-         "anytimeTd": 0.21032641952408684,
+         "anytimeTd": 0.21052422625510825,
          "points": 10.06,
          "floor": 4.96,
          "ceiling": 19.85,
@@ -3596,7 +3587,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.21032641952408684,
+           "probability": 0.21052422625510825,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": 330
@@ -3689,7 +3680,7 @@
          "salary": 5500,
          "salarySource": "estimated",
          "value": 1.83,
-         "ownership": 26.2,
+         "ownership": 26.3,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -3708,16 +3699,16 @@
           "receptions": 3.4370174388158725,
           "recYards": 39.13881539555952,
           "kickingPoints": 0,
-          "rushTds": 0.014947332660859522,
-          "recTds": 0.2839993205563309
+          "rushTds": 0.014963720192055685,
+          "recTds": 0.284310683649058
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.006432721827729582
          },
-         "anytimeTd": 0.25840102970102097,
-         "points": 9.16,
+         "anytimeTd": 0.258644049399133,
+         "points": 9.17,
          "floor": 4.21,
          "ceiling": 17.79,
          "lines": [
@@ -3725,7 +3716,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.25840102970102097,
+           "probability": 0.258644049399133,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 250
@@ -3747,15 +3738,6 @@
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 108
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 39.5,
-           "probability": 0.46322988528598974,
-           "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": 103
           },
           {
            "market": "player_reception_yds",
@@ -3809,7 +3791,7 @@
          "salary": 5300,
          "salarySource": "estimated",
          "value": 1.73,
-         "ownership": 17.8,
+         "ownership": 17.9,
          "slot": "FLEX4",
          "multiplier": 1
         },
@@ -3842,12 +3824,12 @@
        "chargesCaptainPremium": true,
        "salary": 39850,
        "salaryRemaining": 10150,
-       "points": 88.65,
-       "floor": 71.97,
-       "ceiling": 109.18,
+       "points": 88.68,
+       "floor": 71.99,
+       "ceiling": 109.2,
        "sd": 19.81,
-       "ownership": 275,
-       "value": 2.22,
+       "ownership": 275.2,
+       "value": 2.23,
        "stack": null
       },
       {
@@ -3868,16 +3850,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 19.66,
+         "anytimeTd": 0.6132366977689121,
+         "points": 19.67,
          "floor": 7.62,
          "ceiling": 39.6,
          "lines": [
@@ -3885,7 +3867,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -4015,15 +3997,15 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
+         "anytimeTd": 0.5431525037381794,
          "points": 18.29,
          "floor": 7.41,
          "ceiling": 26.96,
@@ -4032,7 +4014,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -4135,7 +4117,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -4143,7 +4125,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 12.14,
          "floor": 7.74,
          "ceiling": 21.24,
@@ -4152,7 +4134,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -4309,15 +4291,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 13.03,
          "floor": 5.77,
          "ceiling": 22.64,
@@ -4326,9 +4308,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -4429,7 +4411,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.13834354086044776,
+          "rushTds": 0.13848308886151336,
           "recTds": 0
          },
          "bonuses": {
@@ -4437,7 +4419,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.12920051485051048,
+         "anytimeTd": 0.1293220246995665,
          "points": 10.6,
          "floor": 7.12,
          "ceiling": 13.66,
@@ -4446,7 +4428,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.12920051485051048,
+           "probability": 0.1293220246995665,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 600
@@ -4599,9 +4581,9 @@
        "chargesCaptainPremium": true,
        "salary": 40250,
        "salaryRemaining": 9750,
-       "points": 92.17,
-       "floor": 71.59,
-       "ceiling": 117.49,
+       "points": 92.19,
+       "floor": 71.61,
+       "ceiling": 117.5,
        "sd": 24.44,
        "ownership": 314.2,
        "value": 2.29,
@@ -4679,16 +4661,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 17.32,
+         "anytimeTd": 0.6132366977689121,
+         "points": 17.33,
          "floor": 6.66,
          "ceiling": 35.74,
          "lines": [
@@ -4696,7 +4678,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -4826,16 +4808,16 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
-         "points": 15.97,
+         "anytimeTd": 0.5431525037381794,
+         "points": 15.98,
          "floor": 6.49,
          "ceiling": 23.18,
          "lines": [
@@ -4843,7 +4825,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -4946,7 +4928,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -4954,7 +4936,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 11.83,
          "floor": 7.73,
          "ceiling": 19.95,
@@ -4963,7 +4945,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -5120,15 +5102,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 10.42,
          "floor": 4.17,
          "ceiling": 18.11,
@@ -5137,9 +5119,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -5221,7 +5203,7 @@
          "salary": 6400,
          "salarySource": "estimated",
          "value": 1.63,
-         "ownership": 63.1,
+         "ownership": 64.8,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -5240,7 +5222,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.13834354086044776,
+          "rushTds": 0.13848308886151336,
           "recTds": 0
          },
          "bonuses": {
@@ -5248,7 +5230,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.12920051485051048,
+         "anytimeTd": 0.1293220246995665,
          "points": 10.34,
          "floor": 7.11,
          "ceiling": 12.47,
@@ -5257,7 +5239,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.12920051485051048,
+           "probability": 0.1293220246995665,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 600
@@ -5386,11 +5368,11 @@
        "chargesCaptainPremium": false,
        "salary": 36000,
        "salaryRemaining": 24000,
-       "points": 74.54,
-       "floor": 51.95,
-       "ceiling": 102.34,
+       "points": 74.57,
+       "floor": 51.97,
+       "ceiling": 102.36,
        "sd": 26.83,
-       "ownership": 267.6,
+       "ownership": 269.3,
        "value": 2.07,
        "stack": {
         "label": "Patrick Mahomes + Rashee Rice",
@@ -5417,16 +5399,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 17.32,
+         "anytimeTd": 0.6132366977689121,
+         "points": 17.33,
          "floor": 6.66,
          "ceiling": 35.74,
          "lines": [
@@ -5434,7 +5416,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -5564,16 +5546,16 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
-         "points": 15.97,
+         "anytimeTd": 0.5431525037381794,
+         "points": 15.98,
          "floor": 6.49,
          "ceiling": 23.18,
          "lines": [
@@ -5581,7 +5563,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -5684,7 +5666,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -5692,7 +5674,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 11.83,
          "floor": 7.73,
          "ceiling": 19.95,
@@ -5701,7 +5683,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -5855,27 +5837,27 @@
           "completions": 0,
           "rushYards": 0,
           "carries": 0,
-          "receptions": 4.624125517511833,
-          "recYards": 47.09047069066937,
+          "receptions": 4.580780595928852,
+          "recYards": 46.92792723473319,
           "kickingPoints": 0,
-          "rushTds": 0.014236442495626693,
-          "recTds": 0.2704924074169071
+          "rushTds": 0.01425193458911788,
+          "recTds": 0.2707867571932397
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.03631985639255264
+          "rec100": 0.03538955725343773
          },
-         "anytimeTd": 0.2477818093023489,
-         "points": 8.73,
-         "floor": 3.82,
-         "ceiling": 16.96,
+         "anytimeTd": 0.2480148418895796,
+         "points": 8.69,
+         "floor": 3.8,
+         "ceiling": 16.9,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.2477818093023489,
+           "probability": 0.2480148418895796,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 265
@@ -5893,10 +5875,10 @@
            "market": "player_receptions",
            "label": "receptions",
            "line": 4.5,
-           "probability": 0.5281576830249397,
+           "probability": 0.5185070943861814,
            "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -130
+           "book": "BetOnline.ag",
+           "americanOdds": -123
           },
           {
            "market": "player_reception_yds",
@@ -5958,8 +5940,8 @@
          "opponent": null,
          "salary": 6000,
          "salarySource": "estimated",
-         "value": 1.46,
-         "ownership": 29.4,
+         "value": 1.45,
+         "ownership": 28.7,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -5976,26 +5958,26 @@
           "rushYards": 0,
           "carries": 0,
           "receptions": 3.6704760957482776,
-          "recYards": 43.00571428468634,
+          "recYards": 43.51428535905604,
           "kickingPoints": 0,
-          "rushTds": 0.019087521692678498,
-          "recTds": 0.3626629121608914
+          "rushTds": 0.019109385295111303,
+          "recTds": 0.36307832060711476
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.017054306091729088
+          "rec100": 0.018985325855724322
          },
-         "anytimeTd": 0.3173345978784468,
-         "points": 8.43,
-         "floor": 3.3,
-         "ceiling": 15.62,
+         "anytimeTd": 0.3176330431217423,
+         "points": 8.48,
+         "floor": 3.33,
+         "ceiling": 15.71,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3173345978784468,
+           "probability": 0.3176330431217423,
            "devigged": false,
            "book": "BetMGM",
            "americanOdds": 185
@@ -6022,10 +6004,10 @@
            "market": "player_reception_yds",
            "label": "receiving yards",
            "line": 42.5,
-           "probability": 0.4948402542722694,
+           "probability": 0.5,
            "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": -111
+           "book": "FanDuel",
+           "americanOdds": -113
           },
           {
            "market": "player_reception_yds",
@@ -6067,24 +6049,24 @@
          "gameId": "50bc247030707d823b9c3581d7eb5760",
          "team": null,
          "opponent": null,
-         "salary": 5900,
+         "salary": 6000,
          "salarySource": "estimated",
-         "value": 1.43,
-         "ownership": 25.7,
+         "value": 1.41,
+         "ownership": 24,
          "slot": "FLEX4",
          "multiplier": 1
         }
        ],
        "site": "fanduel",
        "chargesCaptainPremium": false,
-       "salary": 35000,
-       "salaryRemaining": 25000,
-       "points": 70.94,
-       "floor": 48.07,
-       "ceiling": 99.08,
+       "salary": 35100,
+       "salaryRemaining": 24900,
+       "points": 70.97,
+       "floor": 48.1,
+       "ceiling": 99.12,
        "sd": 27.16,
-       "ownership": 237.5,
-       "value": 2.03,
+       "ownership": 235.1,
+       "value": 2.02,
        "stack": {
         "label": "Patrick Mahomes + Tyler Warren + Travis Kelce",
         "size": 3,
@@ -6110,16 +6092,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 17.32,
+         "anytimeTd": 0.6132366977689121,
+         "points": 17.33,
          "floor": 6.66,
          "ceiling": 35.74,
          "lines": [
@@ -6127,7 +6109,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -6257,16 +6239,16 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
-         "points": 15.97,
+         "anytimeTd": 0.5431525037381794,
+         "points": 15.98,
          "floor": 6.49,
          "ceiling": 23.18,
          "lines": [
@@ -6274,7 +6256,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -6377,7 +6359,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -6385,7 +6367,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 11.83,
          "floor": 7.73,
          "ceiling": 19.95,
@@ -6394,7 +6376,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -6551,15 +6533,15 @@
           "receptions": 4.235692360402649,
           "recYards": 43.533846351509936,
           "kickingPoints": 0,
-          "rushTds": 0.011806780408913697,
-          "recTds": 0.22432882776936022
+          "rushTds": 0.011819306566210174,
+          "recTds": 0.22456682475799328
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.019062223242998777
          },
-         "anytimeTd": 0.21032641952408684,
+         "anytimeTd": 0.21052422625510825,
          "points": 7.89,
          "floor": 3.52,
          "ceiling": 16.1,
@@ -6568,7 +6550,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.21032641952408684,
+           "probability": 0.21052422625510825,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": 330
@@ -6661,7 +6643,7 @@
          "salary": 5800,
          "salarySource": "estimated",
          "value": 1.36,
-         "ownership": 18.8,
+         "ownership": 19.1,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -6680,15 +6662,15 @@
           "receptions": 3.4370174388158725,
           "recYards": 39.13881539555952,
           "kickingPoints": 0,
-          "rushTds": 0.014947332660859522,
-          "recTds": 0.2839993205563309
+          "rushTds": 0.014963720192055685,
+          "recTds": 0.284310683649058
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.006432721827729582
          },
-         "anytimeTd": 0.25840102970102097,
+         "anytimeTd": 0.258644049399133,
          "points": 7.43,
          "floor": 3.04,
          "ceiling": 14.82,
@@ -6697,7 +6679,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.25840102970102097,
+           "probability": 0.258644049399133,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 250
@@ -6719,15 +6701,6 @@
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 108
-          },
-          {
-           "market": "player_reception_yds",
-           "label": "receiving yards",
-           "line": 39.5,
-           "probability": 0.46322988528598974,
-           "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": 103
           },
           {
            "market": "player_reception_yds",
@@ -6781,7 +6754,7 @@
          "salary": 5700,
          "salarySource": "estimated",
          "value": 1.3,
-         "ownership": 14.4,
+         "ownership": 14.6,
          "slot": "FLEX4",
          "multiplier": 1
         }
@@ -6790,11 +6763,11 @@
        "chargesCaptainPremium": false,
        "salary": 34600,
        "salaryRemaining": 25400,
-       "points": 69.1,
-       "floor": 46.4,
-       "ceiling": 97.03,
+       "points": 69.13,
+       "floor": 46.43,
+       "ceiling": 97.05,
        "sd": 26.96,
-       "ownership": 215.6,
+       "ownership": 216.1,
        "value": 2,
        "stack": {
         "label": "Patrick Mahomes + Josh Downs + Xavier Worthy",
@@ -6823,16 +6796,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 17.32,
+         "anytimeTd": 0.6132366977689121,
+         "points": 17.33,
          "floor": 6.66,
          "ceiling": 35.74,
          "lines": [
@@ -6840,7 +6813,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -6970,16 +6943,16 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
-         "points": 15.97,
+         "anytimeTd": 0.5431525037381794,
+         "points": 15.98,
          "floor": 6.49,
          "ceiling": 23.18,
          "lines": [
@@ -6987,7 +6960,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -7090,7 +7063,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.21891435588227692,
+          "rushTds": 0.2191445397956776,
           "recTds": 0
          },
          "bonuses": {
@@ -7098,7 +7071,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.19660947912034207,
+         "anytimeTd": 0.19679438541238384,
          "points": 11.83,
          "floor": 7.73,
          "ceiling": 19.95,
@@ -7107,7 +7080,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.19660947912034207,
+           "probability": 0.19679438541238384,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 360
@@ -7264,7 +7237,7 @@
           "receptions": 0,
           "recYards": 0,
           "kickingPoints": 0,
-          "rushTds": 0.13834354086044776,
+          "rushTds": 0.13848308886151336,
           "recTds": 0
          },
          "bonuses": {
@@ -7272,7 +7245,7 @@
           "rush100": 0,
           "rec100": 0
          },
-         "anytimeTd": 0.12920051485051048,
+         "anytimeTd": 0.1293220246995665,
          "points": 10.34,
          "floor": 7.11,
          "ceiling": 12.47,
@@ -7281,7 +7254,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.12920051485051048,
+           "probability": 0.1293220246995665,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 600
@@ -7434,9 +7407,9 @@
        "chargesCaptainPremium": false,
        "salary": 33800,
        "salaryRemaining": 26200,
-       "points": 72.74,
-       "floor": 56.14,
-       "ceiling": 93.16,
+       "points": 72.77,
+       "floor": 56.17,
+       "ceiling": 93.19,
        "sd": 19.71,
        "ownership": 233.1,
        "value": 2.15,
@@ -7460,16 +7433,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 17.32,
+         "anytimeTd": 0.6132366977689121,
+         "points": 17.33,
          "floor": 6.66,
          "ceiling": 35.74,
          "lines": [
@@ -7477,7 +7450,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -7607,16 +7580,16 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
-         "points": 15.97,
+         "anytimeTd": 0.5431525037381794,
+         "points": 15.98,
          "floor": 6.49,
          "ceiling": 23.18,
          "lines": [
@@ -7624,7 +7597,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -7727,15 +7700,15 @@
           "receptions": 4.70999934814188,
           "recYards": 53.712497555532046,
           "kickingPoints": 0,
-          "rushTds": 0.02245215747549757,
-          "recTds": 0.4265909920344537
+          "rushTds": 0.022478818219206276,
+          "recTds": 0.42709754616491924
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.0845769615955354
          },
-         "anytimeTd": 0.3617614415814294,
+         "anytimeTd": 0.3621016691587862,
          "points": 10.42,
          "floor": 4.17,
          "ceiling": 18.11,
@@ -7744,9 +7717,9 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3617614415814294,
+           "probability": 0.3621016691587862,
            "devigged": false,
-           "book": "BetMGM",
+           "book": "DraftKings",
            "americanOdds": 150
           },
           {
@@ -7828,7 +7801,7 @@
          "salary": 6400,
          "salarySource": "estimated",
          "value": 1.63,
-         "ownership": 63.1,
+         "ownership": 64.8,
          "slot": "FLEX2",
          "multiplier": 1
         },
@@ -7868,27 +7841,27 @@
           "completions": 0,
           "rushYards": 0,
           "carries": 0,
-          "receptions": 4.624125517511833,
-          "recYards": 47.09047069066937,
+          "receptions": 4.580780595928852,
+          "recYards": 46.92792723473319,
           "kickingPoints": 0,
-          "rushTds": 0.014236442495626693,
-          "recTds": 0.2704924074169071
+          "rushTds": 0.01425193458911788,
+          "recTds": 0.2707867571932397
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.03631985639255264
+          "rec100": 0.03538955725343773
          },
-         "anytimeTd": 0.2477818093023489,
-         "points": 8.73,
-         "floor": 3.82,
-         "ceiling": 16.96,
+         "anytimeTd": 0.2480148418895796,
+         "points": 8.69,
+         "floor": 3.8,
+         "ceiling": 16.9,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.2477818093023489,
+           "probability": 0.2480148418895796,
            "devigged": false,
            "book": "BetRivers",
            "americanOdds": 265
@@ -7906,10 +7879,10 @@
            "market": "player_receptions",
            "label": "receptions",
            "line": 4.5,
-           "probability": 0.5281576830249397,
+           "probability": 0.5185070943861814,
            "devigged": true,
-           "book": "FanDuel",
-           "americanOdds": -130
+           "book": "BetOnline.ag",
+           "americanOdds": -123
           },
           {
            "market": "player_reception_yds",
@@ -7971,8 +7944,8 @@
          "opponent": null,
          "salary": 6000,
          "salarySource": "estimated",
-         "value": 1.46,
-         "ownership": 29.4,
+         "value": 1.45,
+         "ownership": 28.7,
          "slot": "FLEX4",
          "multiplier": 1
         }
@@ -7981,11 +7954,11 @@
        "chargesCaptainPremium": false,
        "salary": 32900,
        "salaryRemaining": 27100,
-       "points": 69.72,
-       "floor": 54.94,
-       "ceiling": 87.91,
+       "points": 69.71,
+       "floor": 54.93,
+       "ceiling": 87.89,
        "sd": 17.55,
-       "ownership": 238.5,
+       "ownership": 239.5,
        "value": 2.12,
        "stack": null
       },
@@ -8007,16 +7980,16 @@
           "receptions": 2.7177523472793848,
           "recYards": 21.164942781378617,
           "kickingPoints": 0,
-          "rushTds": 0.758762979825194,
-          "recTds": 0.1896907449562985
+          "rushTds": 0.7599539161690958,
+          "recTds": 0.18998847904227395
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3293467465014337,
           "rec100": 1.1931357013494903e-9
          },
-         "anytimeTd": 0.6126605059040335,
-         "points": 17.32,
+         "anytimeTd": 0.6132366977689121,
+         "points": 17.33,
          "floor": 6.66,
          "ceiling": 35.74,
          "lines": [
@@ -8024,7 +7997,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.6126605059040335,
+           "probability": 0.6132366977689121,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": -210
@@ -8154,16 +8127,16 @@
           "receptions": 2.5860370599197897,
           "recYards": 17.368583384819527,
           "kickingPoints": 0,
-          "rushTds": 0.6258313439847122,
-          "recTds": 0.15645783599617805
+          "rushTds": 0.6267245199925586,
+          "recTds": 0.15668112999813966
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0.3401253348866715,
           "rec100": 1.2101430968414206e-14
          },
-         "anytimeTd": 0.5426421623721441,
-         "points": 15.97,
+         "anytimeTd": 0.5431525037381794,
+         "points": 15.98,
          "floor": 6.49,
          "ceiling": 23.18,
          "lines": [
@@ -8171,7 +8144,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.5426421623721441,
+           "probability": 0.5431525037381794,
            "devigged": false,
            "book": "DraftKings",
            "americanOdds": -150
@@ -8296,26 +8269,26 @@
           "rushYards": 0,
           "carries": 0,
           "receptions": 3.6704760957482776,
-          "recYards": 43.00571428468634,
+          "recYards": 43.51428535905604,
           "kickingPoints": 0,
-          "rushTds": 0.019087521692678498,
-          "recTds": 0.3626629121608914
+          "rushTds": 0.019109385295111303,
+          "recTds": 0.36307832060711476
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
-          "rec100": 0.017054306091729088
+          "rec100": 0.018985325855724322
          },
-         "anytimeTd": 0.3173345978784468,
-         "points": 8.43,
-         "floor": 3.3,
-         "ceiling": 15.62,
+         "anytimeTd": 0.3176330431217423,
+         "points": 8.48,
+         "floor": 3.33,
+         "ceiling": 15.71,
          "lines": [
           {
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.3173345978784468,
+           "probability": 0.3176330431217423,
            "devigged": false,
            "book": "BetMGM",
            "americanOdds": 185
@@ -8342,10 +8315,10 @@
            "market": "player_reception_yds",
            "label": "receiving yards",
            "line": 42.5,
-           "probability": 0.4948402542722694,
+           "probability": 0.5,
            "devigged": true,
-           "book": "BetOnline.ag",
-           "americanOdds": -111
+           "book": "FanDuel",
+           "americanOdds": -113
           },
           {
            "market": "player_reception_yds",
@@ -8387,10 +8360,10 @@
          "gameId": "50bc247030707d823b9c3581d7eb5760",
          "team": null,
          "opponent": null,
-         "salary": 5900,
+         "salary": 6000,
          "salarySource": "estimated",
-         "value": 1.43,
-         "ownership": 25.7,
+         "value": 1.41,
+         "ownership": 24,
          "slot": "FLEX3",
          "multiplier": 1
         },
@@ -8409,15 +8382,15 @@
           "receptions": 4.235692360402649,
           "recYards": 43.533846351509936,
           "kickingPoints": 0,
-          "rushTds": 0.011806780408913697,
-          "recTds": 0.22432882776936022
+          "rushTds": 0.011819306566210174,
+          "recTds": 0.22456682475799328
          },
          "bonuses": {
           "pass300": 0,
           "rush100": 0,
           "rec100": 0.019062223242998777
          },
-         "anytimeTd": 0.21032641952408684,
+         "anytimeTd": 0.21052422625510825,
          "points": 7.89,
          "floor": 3.52,
          "ceiling": 16.1,
@@ -8426,7 +8399,7 @@
            "market": "player_anytime_td",
            "label": "to score a TD",
            "line": null,
-           "probability": 0.21032641952408684,
+           "probability": 0.21052422625510825,
            "devigged": false,
            "book": "FanDuel",
            "americanOdds": 330
@@ -8519,21 +8492,21 @@
          "salary": 5800,
          "salarySource": "estimated",
          "value": 1.36,
-         "ownership": 18.8,
+         "ownership": 19.1,
          "slot": "FLEX4",
          "multiplier": 1
         }
        ],
        "site": "fanduel",
        "chargesCaptainPremium": false,
-       "salary": 32200,
-       "salaryRemaining": 27800,
-       "points": 66.89,
-       "floor": 52.25,
-       "ceiling": 84.91,
-       "sd": 17.39,
-       "ownership": 190.5,
-       "value": 2.08,
+       "salary": 32300,
+       "salaryRemaining": 27700,
+       "points": 66.96,
+       "floor": 52.32,
+       "ceiling": 84.99,
+       "sd": 17.4,
+       "ownership": 189.1,
+       "value": 2.07,
        "stack": null
       }
      ]
