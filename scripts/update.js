@@ -13,7 +13,7 @@
  */
 
 import { writeFile, mkdir, readFile, readdir } from 'node:fs/promises';
-import { join, dirname } from 'node:path';
+import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { buildBoard, buildDfs } from '../lib/board.js';
@@ -42,13 +42,36 @@ const SPORT = 'americanfootball_nfl';
  * month can afford, so the list is deliberately short and covers the props that
  * carry the most volume.
  */
-const PROP_MARKETS = (process.env.ODDS_MARKETS ?? [
+const DEFAULT_PROP_MARKETS = [
   'player_pass_yds',
   'player_rush_yds',
   'player_reception_yds',
   'player_receptions',
   'player_anytime_td',
-].join(',')).split(',').map((m) => m.trim()).filter(Boolean);
+];
+
+/**
+ * Read an override that may arrive empty rather than absent.
+ *
+ * A GitHub Actions `env:` entry fed from an unset repository variable is an
+ * empty string, not undefined — so `??` never fires and the override wins with
+ * nothing in it. That is how the market list silently became empty, the run
+ * fetched `markets=`, and two weeks of boards came back with no props on them
+ * while the job reported success.
+ */
+function envList(name, fallback) {
+  const raw = String(process.env[name] ?? '').trim();
+  const parsed = raw ? raw.split(',').map((v) => v.trim()).filter(Boolean) : [];
+  return parsed.length ? parsed : fallback;
+}
+
+function envNumber(name, fallback) {
+  const raw = String(process.env[name] ?? '').trim();
+  const parsed = Number(raw);
+  return raw && Number.isFinite(parsed) ? parsed : fallback;
+}
+
+export const PROP_MARKETS = envList('ODDS_MARKETS', DEFAULT_PROP_MARKETS);
 
 /** Game lines, fetched in bulk for every game at once for three credits total. */
 const GAME_MARKETS = ['spreads', 'totals'];
@@ -68,7 +91,7 @@ const GAME_MARKETS = ['spreads', 'totals'];
  * it would cross it. Raise it to protect the other project harder; lower it if
  * NFL is the only thing you care about that month.
  */
-const CREDIT_RESERVE = Number(process.env.ODDS_CREDIT_RESERVE ?? 150);
+const CREDIT_RESERVE = envNumber('ODDS_CREDIT_RESERVE', 150);
 
 /**
  * Most games any single run may buy props for.
@@ -77,7 +100,7 @@ const CREDIT_RESERVE = Number(process.env.ODDS_CREDIT_RESERVE ?? 150);
  * an API that starts returning more events than expected. Without it one bad
  * run can spend a third of the month.
  */
-const MAX_GAMES_PER_RUN = Number(process.env.ODDS_MAX_GAMES ?? 14);
+const MAX_GAMES_PER_RUN = envNumber('ODDS_MAX_GAMES', 14);
 
 /** Only price games that have not kicked off and are close enough to matter. */
 const LOOKAHEAD_DAYS = 8;
@@ -204,6 +227,10 @@ async function main() {
   } else {
     if (!ODDS_KEY) throw new Error('ODDS_API_KEY is not set. Run with --demo to build from the fixture.');
 
+    // A run with no markets buys nothing and reports success, which is the
+    // failure mode that hid an empty board for two weeks. Fail loudly instead.
+    if (!PROP_MARKETS.length) throw new Error('No prop markets configured — check ODDS_MARKETS.');
+
     const fetched = await fetchEvents();
     events = fetched.events;
     remaining = fetched.remaining;
@@ -308,7 +335,18 @@ async function main() {
   console.log('Wrote data/board-latest.json, data/lineups-latest.json, data/pool-latest.json.');
 }
 
-main().catch((error) => {
-  console.error(error.message);
-  process.exitCode = 1;
-});
+/**
+ * Only run when executed directly, not when imported.
+ *
+ * Without this, importing the module to check a constant kicks off a live fetch
+ * — which in a test means a network call that cannot succeed and an exit code
+ * that fails the suite for no real reason.
+ */
+const isEntryPoint = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+
+if (isEntryPoint) {
+  main().catch((error) => {
+    console.error(error.message);
+    process.exitCode = 1;
+  });
+}
