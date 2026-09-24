@@ -1,31 +1,19 @@
 {
- "generatedAt": "2026-09-21T22:10:22.529Z",
+ "generatedAt": "2026-09-24T22:06:30.482Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "32367f882fac1a0c20a6335619922025",
-   "home": "Los Angeles Rams",
-   "away": "New York Giants",
-   "commenceTime": "2026-09-22T00:15:00Z",
-   "total": 47.5,
-   "homeSpread": -7,
-   "teamTotals": {
-    "Los Angeles Rams": 27.25,
-    "New York Giants": 20.25
-   }
-  },
-  {
    "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
    "home": "Green Bay Packers",
    "away": "Atlanta Falcons",
    "commenceTime": "2026-09-25T00:15:00Z",
-   "total": 44,
-   "homeSpread": -6.5,
+   "total": 43,
+   "homeSpread": -4.5,
    "teamTotals": {
-    "Green Bay Packers": 25.25,
-    "Atlanta Falcons": 18.75
+    "Green Bay Packers": 23.75,
+    "Atlanta Falcons": 19.25
    }
   },
   {
@@ -33,11 +21,11 @@
    "home": "Buffalo Bills",
    "away": "Los Angeles Chargers",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 50.5,
-   "homeSpread": -7,
+   "total": 50,
+   "homeSpread": -7.5,
    "teamTotals": {
     "Buffalo Bills": 28.75,
-    "Los Angeles Chargers": 21.75
+    "Los Angeles Chargers": 21.25
    }
   },
   {
@@ -46,10 +34,10 @@
    "away": "Carolina Panthers",
    "commenceTime": "2026-09-27T17:00:00Z",
    "total": 42,
-   "homeSpread": 3,
+   "homeSpread": 2.5,
    "teamTotals": {
-    "Cleveland Browns": 19.5,
-    "Carolina Panthers": 22.5
+    "Cleveland Browns": 19.75,
+    "Carolina Panthers": 22.25
    }
   },
   {
@@ -69,11 +57,11 @@
    "home": "Detroit Lions",
    "away": "New York Jets",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 48,
+   "total": 47.5,
    "homeSpread": -6.5,
    "teamTotals": {
-    "Detroit Lions": 27.25,
-    "New York Jets": 20.75
+    "Detroit Lions": 27,
+    "New York Jets": 20.5
    }
   },
   {
@@ -81,11 +69,11 @@
    "home": "Indianapolis Colts",
    "away": "Houston Texans",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 43.5,
-   "homeSpread": 3,
+   "total": 42.5,
+   "homeSpread": 1.5,
    "teamTotals": {
-    "Indianapolis Colts": 20.25,
-    "Houston Texans": 23.25
+    "Indianapolis Colts": 20.5,
+    "Houston Texans": 22
    }
   },
   {
@@ -93,11 +81,11 @@
    "home": "Jacksonville Jaguars",
    "away": "New England Patriots",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 45.5,
+   "total": 46,
    "homeSpread": -3,
    "teamTotals": {
-    "Jacksonville Jaguars": 24.25,
-    "New England Patriots": 21.25
+    "Jacksonville Jaguars": 24.5,
+    "New England Patriots": 21.5
    }
   },
   {
@@ -106,10 +94,10 @@
    "away": "Kansas City Chiefs",
    "commenceTime": "2026-09-27T17:00:00Z",
    "total": 46,
-   "homeSpread": 11.5,
+   "homeSpread": 11,
    "teamTotals": {
-    "Miami Dolphins": 17.25,
-    "Kansas City Chiefs": 28.75
+    "Miami Dolphins": 17.5,
+    "Kansas City Chiefs": 28.5
    }
   },
   {
@@ -117,11 +105,11 @@
    "home": "New York Giants",
    "away": "Tennessee Titans",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 43,
-   "homeSpread": -6,
+   "total": 38.5,
+   "homeSpread": -2.5,
    "teamTotals": {
-    "New York Giants": 24.5,
-    "Tennessee Titans": 18.5
+    "New York Giants": 20.5,
+    "Tennessee Titans": 18
    }
   },
   {
@@ -130,10 +118,10 @@
    "away": "Seattle Seahawks",
    "commenceTime": "2026-09-27T17:00:00Z",
    "total": 40,
-   "homeSpread": 6.5,
+   "homeSpread": 7.5,
    "teamTotals": {
-    "Washington Commanders": 16.75,
-    "Seattle Seahawks": 23.25
+    "Washington Commanders": 16.25,
+    "Seattle Seahawks": 23.75
    }
   },
   {
@@ -153,11 +141,11 @@
    "home": "Tampa Bay Buccaneers",
    "away": "Minnesota Vikings",
    "commenceTime": "2026-09-27T20:05:00Z",
-   "total": 43,
-   "homeSpread": 1.25,
+   "total": 42.5,
+   "homeSpread": 1.5,
    "teamTotals": {
-    "Tampa Bay Buccaneers": 20.875,
-    "Minnesota Vikings": 22.125
+    "Tampa Bay Buccaneers": 20.5,
+    "Minnesota Vikings": 22
    }
   },
   {
@@ -166,10 +154,10 @@
    "away": "Baltimore Ravens",
    "commenceTime": "2026-09-27T20:25:00Z",
    "total": 52.5,
-   "homeSpread": 3,
+   "homeSpread": 3.5,
    "teamTotals": {
-    "Dallas Cowboys": 24.75,
-    "Baltimore Ravens": 27.75
+    "Dallas Cowboys": 24.5,
+    "Baltimore Ravens": 28
    }
   },
   {
@@ -189,11 +177,11 @@
    "home": "Denver Broncos",
    "away": "Los Angeles Rams",
    "commenceTime": "2026-09-28T00:20:00Z",
-   "total": 45.5,
+   "total": 44.5,
    "homeSpread": 2.5,
    "teamTotals": {
-    "Denver Broncos": 21.5,
-    "Los Angeles Rams": 24
+    "Denver Broncos": 21,
+    "Los Angeles Rams": 23.5
    }
   },
   {
@@ -201,121 +189,151 @@
    "home": "Chicago Bears",
    "away": "Philadelphia Eagles",
    "commenceTime": "2026-09-29T00:15:00Z",
-   "total": 44,
-   "homeSpread": 3.5,
+   "total": 41,
+   "homeSpread": 4.5,
    "teamTotals": {
-    "Chicago Bears": 20.25,
-    "Philadelphia Eagles": 23.75
+    "Chicago Bears": 18.25,
+    "Philadelphia Eagles": 22.75
+   }
+  },
+  {
+   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "home": "Cleveland Browns",
+   "away": "Pittsburgh Steelers",
+   "commenceTime": "2026-10-02T00:15:00Z",
+   "total": 37.5,
+   "homeSpread": 2.5,
+   "teamTotals": {
+    "Cleveland Browns": 17.5,
+    "Pittsburgh Steelers": 20
    }
   }
  ],
- "legCount": 167,
+ "legCount": 144,
  "tickets": [],
  "stacks": [
   {
    "legs": [
     {
-     "playerId": "theo johnson",
-     "playerName": "Theo Johnson",
-     "position": "WR",
-     "team": null,
-     "gameId": "32367f882fac1a0c20a6335619922025",
-     "marketKey": "player_reception_yds",
-     "stat": "recYards",
-     "label": "receiving yards",
-     "line": 8.5,
-     "americanOdds": -110,
-     "oppositeAmericanOdds": -114,
-     "book": "DraftKings",
-     "modelProbability": 0.5797277283225395,
-     "fairProbability": 0.495787700084246,
-     "edge": 8.39400282382935,
-     "description": "Theo Johnson over 8.5 receiving yards"
-    },
-    {
-     "playerId": "blake corum",
-     "playerName": "Blake Corum",
+     "playerId": "marshawn lloyd",
+     "playerName": "MarShawn Lloyd",
      "position": "RB",
      "team": null,
-     "gameId": "32367f882fac1a0c20a6335619922025",
+     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
      "marketKey": "player_reception_yds",
      "stat": "recYards",
      "label": "receiving yards",
-     "line": 2.5,
-     "americanOdds": -112,
-     "oppositeAmericanOdds": -112,
-     "book": "DraftKings",
-     "modelProbability": 0.5833139027012069,
-     "fairProbability": 0.5,
-     "edge": 8.331390270120686,
-     "description": "Blake Corum over 2.5 receiving yards"
-    },
-    {
-     "playerId": "odell beckham",
-     "playerName": "Odell Beckham Jr.",
-     "position": "WR",
-     "team": null,
-     "gameId": "32367f882fac1a0c20a6335619922025",
-     "marketKey": "player_reception_yds",
-     "stat": "recYards",
-     "label": "receiving yards",
-     "line": 4.5,
+     "line": 5.5,
      "americanOdds": -109,
      "oppositeAmericanOdds": -115,
      "book": "DraftKings",
-     "modelProbability": 0.5753477320358387,
+     "modelProbability": 0.5779308757382327,
      "fairProbability": 0.4936802190857383,
-     "edge": 8.16675129501004,
-     "description": "Odell Beckham Jr. over 4.5 receiving yards"
+     "edge": 8.425065665249438,
+     "description": "MarShawn Lloyd over 5.5 receiving yards"
     },
     {
-     "playerId": "braxton berrios",
-     "playerName": "Braxton Berrios",
+     "playerId": "olamide zaccheaus",
+     "playerName": "Olamide Zaccheaus",
+     "position": "WR",
+     "team": null,
+     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 10.5,
+     "americanOdds": -113,
+     "oppositeAmericanOdds": -113,
+     "book": "FanDuel",
+     "modelProbability": 0.5833139027012069,
+     "fairProbability": 0.5,
+     "edge": 8.331390270120686,
+     "description": "Olamide Zaccheaus over 10.5 receiving yards"
+    },
+    {
+     "playerId": "jonnu smith",
+     "playerName": "Jonnu Smith",
+     "position": "WR",
+     "team": null,
+     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 9.5,
+     "americanOdds": -115,
+     "oppositeAmericanOdds": -109,
+     "book": "DraftKings",
+     "modelProbability": 0.5886813517940481,
+     "fairProbability": 0.5063197809142617,
+     "edge": 8.236157087978647,
+     "description": "Jonnu Smith over 9.5 receiving yards"
+    },
+    {
+     "playerId": "jordan love",
+     "playerName": "Jordan Love",
+     "position": "QB",
+     "team": null,
+     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
+     "marketKey": "player_pass_yds",
+     "stat": "passYards",
+     "label": "passing yards",
+     "line": 226.5,
+     "americanOdds": -117,
+     "oppositeAmericanOdds": -114,
+     "book": "BetRivers",
+     "modelProbability": 0.530742663464209,
+     "fairProbability": 0.5030135004821601,
+     "edge": 2.772916298204886,
+     "description": "Jordan Love over 226.5 passing yards"
+    },
+    {
+     "playerId": "charlie woerner",
+     "playerName": "Charlie Woerner",
      "position": "FLEX",
      "team": null,
-     "gameId": "32367f882fac1a0c20a6335619922025",
+     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
      "marketKey": "player_anytime_td",
      "stat": "anytimeTd",
      "label": "to score a TD",
      "line": null,
-     "americanOdds": 3300,
+     "americanOdds": 3000,
      "oppositeAmericanOdds": null,
-     "book": "BetMGM",
-     "modelProbability": 0.025320978605257997,
+     "book": "DraftKings",
+     "modelProbability": 0.029637734540037784,
      "fairProbability": null,
      "edge": null,
-     "description": "Braxton Berrios to score a TD"
+     "description": "Charlie Woerner to score a TD"
     },
     {
-     "playerId": "patrick ricard",
-     "playerName": "Patrick Ricard",
+     "playerId": "chris blair",
+     "playerName": "Chris Blair",
      "position": "FLEX",
      "team": null,
-     "gameId": "32367f882fac1a0c20a6335619922025",
+     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
      "marketKey": "player_anytime_td",
      "stat": "anytimeTd",
      "label": "to score a TD",
      "line": null,
-     "americanOdds": 3300,
+     "americanOdds": 3000,
      "oppositeAmericanOdds": null,
-     "book": "BetMGM",
-     "modelProbability": 0.025320978605257997,
+     "book": "DraftKings",
+     "modelProbability": 0.029637734540037784,
      "fairProbability": null,
      "edge": null,
-     "description": "Patrick Ricard to score a TD"
+     "description": "Chris Blair to score a TD"
     }
    ],
-   "decimal": 8009.807339449542,
-   "americanOdds": 800881,
+   "decimal": 12043.669452241236,
+   "americanOdds": 1204267,
    "stake": 5,
-   "payout": 40049.03669724771,
-   "profit": 40044.03669724771,
-   "independentProbability": 0.0001247434579427351,
-   "correlationAdjustment": 2.8597938956293985,
-   "probability": 0.00035674057954433643,
-   "adjustedProbability": 0.0002481802720463363,
-   "expectedValue": 4.939380822716643,
-   "rawExpectedValue": -0.00414467510982508,
+   "payout": 60218.34726120618,
+   "profit": 60213.34726120618,
+   "independentProbability": 0.00009251933665473522,
+   "correlationAdjustment": 3.0402509351240803,
+   "probability": 0.00028128199978161837,
+   "adjustedProbability": 0.00018198669263961076,
+   "expectedValue": 5.958937854290475,
+   "rawExpectedValue": 0.5713615430512871,
    "band": "long",
    "style": "stack",
    "gameCount": 1,
