@@ -1,31 +1,19 @@
 {
- "generatedAt": "2026-09-24T22:06:30.482Z",
+ "generatedAt": "2026-09-27T15:14:30.107Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
-  {
-   "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-   "home": "Green Bay Packers",
-   "away": "Atlanta Falcons",
-   "commenceTime": "2026-09-25T00:15:00Z",
-   "total": 43,
-   "homeSpread": -4.5,
-   "teamTotals": {
-    "Green Bay Packers": 23.75,
-    "Atlanta Falcons": 19.25
-   }
-  },
   {
    "gameId": "b225458a282e140c44c45651255f2f6c",
    "home": "Buffalo Bills",
    "away": "Los Angeles Chargers",
    "commenceTime": "2026-09-27T17:00:00Z",
    "total": 50,
-   "homeSpread": -7.5,
+   "homeSpread": -7,
    "teamTotals": {
-    "Buffalo Bills": 28.75,
-    "Los Angeles Chargers": 21.25
+    "Buffalo Bills": 28.5,
+    "Los Angeles Chargers": 21.5
    }
   },
   {
@@ -34,10 +22,10 @@
    "away": "Carolina Panthers",
    "commenceTime": "2026-09-27T17:00:00Z",
    "total": 42,
-   "homeSpread": 2.5,
+   "homeSpread": 2,
    "teamTotals": {
-    "Cleveland Browns": 19.75,
-    "Carolina Panthers": 22.25
+    "Cleveland Browns": 20,
+    "Carolina Panthers": 22
    }
   },
   {
@@ -46,10 +34,10 @@
    "away": "Cincinnati Bengals",
    "commenceTime": "2026-09-27T17:00:00Z",
    "total": 42.5,
-   "homeSpread": 3.5,
+   "homeSpread": 3,
    "teamTotals": {
-    "Pittsburgh Steelers": 19.5,
-    "Cincinnati Bengals": 23
+    "Pittsburgh Steelers": 19.75,
+    "Cincinnati Bengals": 22.75
    }
   },
   {
@@ -57,11 +45,11 @@
    "home": "Detroit Lions",
    "away": "New York Jets",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 47.5,
+   "total": 48.5,
    "homeSpread": -6.5,
    "teamTotals": {
-    "Detroit Lions": 27,
-    "New York Jets": 20.5
+    "Detroit Lions": 27.5,
+    "New York Jets": 21
    }
   },
   {
@@ -93,11 +81,11 @@
    "home": "Miami Dolphins",
    "away": "Kansas City Chiefs",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 46,
-   "homeSpread": 11,
+   "total": 45,
+   "homeSpread": 9.5,
    "teamTotals": {
-    "Miami Dolphins": 17.5,
-    "Kansas City Chiefs": 28.5
+    "Miami Dolphins": 17.75,
+    "Kansas City Chiefs": 27.25
    }
   },
   {
@@ -105,11 +93,11 @@
    "home": "New York Giants",
    "away": "Tennessee Titans",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 38.5,
+   "total": 37.5,
    "homeSpread": -2.5,
    "teamTotals": {
-    "New York Giants": 20.5,
-    "Tennessee Titans": 18
+    "New York Giants": 20,
+    "Tennessee Titans": 17.5
    }
   },
   {
@@ -117,11 +105,11 @@
    "home": "Washington Commanders",
    "away": "Seattle Seahawks",
    "commenceTime": "2026-09-27T17:00:00Z",
-   "total": 40,
-   "homeSpread": 7.5,
+   "total": 40.5,
+   "homeSpread": 8.5,
    "teamTotals": {
-    "Washington Commanders": 16.25,
-    "Seattle Seahawks": 23.75
+    "Washington Commanders": 16,
+    "Seattle Seahawks": 24.5
    }
   },
   {
@@ -130,10 +118,10 @@
    "away": "Arizona Cardinals",
    "commenceTime": "2026-09-27T20:05:00Z",
    "total": 48,
-   "homeSpread": -8.5,
+   "homeSpread": -7.5,
    "teamTotals": {
-    "San Francisco 49ers": 28.25,
-    "Arizona Cardinals": 19.75
+    "San Francisco 49ers": 27.75,
+    "Arizona Cardinals": 20.25
    }
   },
   {
@@ -142,10 +130,10 @@
    "away": "Minnesota Vikings",
    "commenceTime": "2026-09-27T20:05:00Z",
    "total": 42.5,
-   "homeSpread": 1.5,
+   "homeSpread": 1,
    "teamTotals": {
-    "Tampa Bay Buccaneers": 20.5,
-    "Minnesota Vikings": 22
+    "Tampa Bay Buccaneers": 20.75,
+    "Minnesota Vikings": 21.75
    }
   },
   {
@@ -153,10 +141,10 @@
    "home": "Dallas Cowboys",
    "away": "Baltimore Ravens",
    "commenceTime": "2026-09-27T20:25:00Z",
-   "total": 52.5,
-   "homeSpread": 3.5,
+   "total": 53,
+   "homeSpread": 3,
    "teamTotals": {
-    "Dallas Cowboys": 24.5,
+    "Dallas Cowboys": 25,
     "Baltimore Ravens": 28
    }
   },
@@ -166,10 +154,10 @@
    "away": "Las Vegas Raiders",
    "commenceTime": "2026-09-27T20:25:00Z",
    "total": 43.5,
-   "homeSpread": -3,
+   "homeSpread": -3.5,
    "teamTotals": {
-    "New Orleans Saints": 23.25,
-    "Las Vegas Raiders": 20.25
+    "New Orleans Saints": 23.5,
+    "Las Vegas Raiders": 20
    }
   },
   {
@@ -177,11 +165,11 @@
    "home": "Denver Broncos",
    "away": "Los Angeles Rams",
    "commenceTime": "2026-09-28T00:20:00Z",
-   "total": 44.5,
-   "homeSpread": 2.5,
+   "total": 44,
+   "homeSpread": 1.5,
    "teamTotals": {
-    "Denver Broncos": 21,
-    "Los Angeles Rams": 23.5
+    "Denver Broncos": 21.25,
+    "Los Angeles Rams": 22.75
    }
   },
   {
@@ -189,10 +177,10 @@
    "home": "Chicago Bears",
    "away": "Philadelphia Eagles",
    "commenceTime": "2026-09-29T00:15:00Z",
-   "total": 41,
-   "homeSpread": 4.5,
+   "total": 42,
+   "homeSpread": 3.5,
    "teamTotals": {
-    "Chicago Bears": 18.25,
+    "Chicago Bears": 19.25,
     "Philadelphia Eagles": 22.75
    }
   },
@@ -207,137 +195,165 @@
     "Cleveland Browns": 17.5,
     "Pittsburgh Steelers": 20
    }
+  },
+  {
+   "gameId": "c9d8ed8aa4889486eaf10a630138ede0",
+   "home": "Washington Commanders",
+   "away": "Indianapolis Colts",
+   "commenceTime": "2026-10-04T13:30:00Z",
+   "total": 46,
+   "homeSpread": 4.5,
+   "teamTotals": {
+    "Washington Commanders": 20.75,
+    "Indianapolis Colts": 25.25
+   }
+  },
+  {
+   "gameId": "664e6bda5721dc63be16bcf7d962a436",
+   "home": "New York Giants",
+   "away": "Arizona Cardinals",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 43.5,
+   "homeSpread": -2.5,
+   "teamTotals": {
+    "New York Giants": 23,
+    "Arizona Cardinals": 20.5
+   }
+  },
+  {
+   "gameId": "f01589b0e7e6dd4f4ac1220a1db81f53",
+   "home": "Baltimore Ravens",
+   "away": "Tennessee Titans",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 45,
+   "homeSpread": -10,
+   "teamTotals": {
+    "Baltimore Ravens": 27.5,
+    "Tennessee Titans": 17.5
+   }
+  },
+  {
+   "gameId": "573cc0ef39631a4f6673ec843a8bedd4",
+   "home": "Buffalo Bills",
+   "away": "New England Patriots",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 50,
+   "homeSpread": -5.5,
+   "teamTotals": {
+    "Buffalo Bills": 27.75,
+    "New England Patriots": 22.25
+   }
+  },
+  {
+   "gameId": "164e6eb68f31bac190381903c3cccd31",
+   "home": "Chicago Bears",
+   "away": "New York Jets",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 43.5,
+   "homeSpread": -3,
+   "teamTotals": {
+    "Chicago Bears": 23.25,
+    "New York Jets": 20.25
+   }
+  },
+  {
+   "gameId": "2ea94ddf20f66432b9024fe2e2eaba5f",
+   "home": "Cincinnati Bengals",
+   "away": "Jacksonville Jaguars",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 50.5,
+   "homeSpread": -2.5,
+   "teamTotals": {
+    "Cincinnati Bengals": 26.5,
+    "Jacksonville Jaguars": 24
+   }
+  },
+  {
+   "gameId": "daf55e2df5341c007fee5a0fc5bbc2d4",
+   "home": "Houston Texans",
+   "away": "Dallas Cowboys",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 47.5,
+   "homeSpread": -3,
+   "teamTotals": {
+    "Houston Texans": 25.25,
+    "Dallas Cowboys": 22.25
+   }
+  },
+  {
+   "gameId": "1b4f2e60ce83fa1d63a5dff83769d27c",
+   "home": "Philadelphia Eagles",
+   "away": "Los Angeles Rams",
+   "commenceTime": "2026-10-04T17:00:00Z",
+   "total": 46,
+   "homeSpread": 2.5,
+   "teamTotals": {
+    "Philadelphia Eagles": 21.75,
+    "Los Angeles Rams": 24.25
+   }
+  },
+  {
+   "gameId": "c327223d76a3b7b0db8c6c104442f44b",
+   "home": "Minnesota Vikings",
+   "away": "Miami Dolphins",
+   "commenceTime": "2026-10-04T20:05:00Z",
+   "total": 42.5,
+   "homeSpread": -10.5,
+   "teamTotals": {
+    "Minnesota Vikings": 26.5,
+    "Miami Dolphins": 16
+   }
+  },
+  {
+   "gameId": "a7e7efb75a9792ac63480ae6328dca18",
+   "home": "San Francisco 49ers",
+   "away": "Denver Broncos",
+   "commenceTime": "2026-10-04T20:25:00Z",
+   "total": 46,
+   "homeSpread": -3,
+   "teamTotals": {
+    "San Francisco 49ers": 24.5,
+    "Denver Broncos": 21.5
+   }
+  },
+  {
+   "gameId": "e0cbd266dcf997089203a1b33ba0333d",
+   "home": "Las Vegas Raiders",
+   "away": "Kansas City Chiefs",
+   "commenceTime": "2026-10-04T20:25:00Z",
+   "total": 45.5,
+   "homeSpread": 5.5,
+   "teamTotals": {
+    "Las Vegas Raiders": 20,
+    "Kansas City Chiefs": 25.5
+   }
+  },
+  {
+   "gameId": "96d2373cda647873b971f268482bced0",
+   "home": "Seattle Seahawks",
+   "away": "Los Angeles Chargers",
+   "commenceTime": "2026-10-04T20:25:00Z",
+   "total": 43.5,
+   "homeSpread": -6.5,
+   "teamTotals": {
+    "Seattle Seahawks": 25,
+    "Los Angeles Chargers": 18.5
+   }
+  },
+  {
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "home": "Carolina Panthers",
+   "away": "Detroit Lions",
+   "commenceTime": "2026-10-05T00:20:00Z",
+   "total": 49.5,
+   "homeSpread": 2.5,
+   "teamTotals": {
+    "Carolina Panthers": 23.5,
+    "Detroit Lions": 26
+   }
   }
  ],
- "legCount": 144,
+ "legCount": 0,
  "tickets": [],
- "stacks": [
-  {
-   "legs": [
-    {
-     "playerId": "marshawn lloyd",
-     "playerName": "MarShawn Lloyd",
-     "position": "RB",
-     "team": null,
-     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-     "marketKey": "player_reception_yds",
-     "stat": "recYards",
-     "label": "receiving yards",
-     "line": 5.5,
-     "americanOdds": -109,
-     "oppositeAmericanOdds": -115,
-     "book": "DraftKings",
-     "modelProbability": 0.5779308757382327,
-     "fairProbability": 0.4936802190857383,
-     "edge": 8.425065665249438,
-     "description": "MarShawn Lloyd over 5.5 receiving yards"
-    },
-    {
-     "playerId": "olamide zaccheaus",
-     "playerName": "Olamide Zaccheaus",
-     "position": "WR",
-     "team": null,
-     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-     "marketKey": "player_reception_yds",
-     "stat": "recYards",
-     "label": "receiving yards",
-     "line": 10.5,
-     "americanOdds": -113,
-     "oppositeAmericanOdds": -113,
-     "book": "FanDuel",
-     "modelProbability": 0.5833139027012069,
-     "fairProbability": 0.5,
-     "edge": 8.331390270120686,
-     "description": "Olamide Zaccheaus over 10.5 receiving yards"
-    },
-    {
-     "playerId": "jonnu smith",
-     "playerName": "Jonnu Smith",
-     "position": "WR",
-     "team": null,
-     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-     "marketKey": "player_reception_yds",
-     "stat": "recYards",
-     "label": "receiving yards",
-     "line": 9.5,
-     "americanOdds": -115,
-     "oppositeAmericanOdds": -109,
-     "book": "DraftKings",
-     "modelProbability": 0.5886813517940481,
-     "fairProbability": 0.5063197809142617,
-     "edge": 8.236157087978647,
-     "description": "Jonnu Smith over 9.5 receiving yards"
-    },
-    {
-     "playerId": "jordan love",
-     "playerName": "Jordan Love",
-     "position": "QB",
-     "team": null,
-     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-     "marketKey": "player_pass_yds",
-     "stat": "passYards",
-     "label": "passing yards",
-     "line": 226.5,
-     "americanOdds": -117,
-     "oppositeAmericanOdds": -114,
-     "book": "BetRivers",
-     "modelProbability": 0.530742663464209,
-     "fairProbability": 0.5030135004821601,
-     "edge": 2.772916298204886,
-     "description": "Jordan Love over 226.5 passing yards"
-    },
-    {
-     "playerId": "charlie woerner",
-     "playerName": "Charlie Woerner",
-     "position": "FLEX",
-     "team": null,
-     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-     "marketKey": "player_anytime_td",
-     "stat": "anytimeTd",
-     "label": "to score a TD",
-     "line": null,
-     "americanOdds": 3000,
-     "oppositeAmericanOdds": null,
-     "book": "DraftKings",
-     "modelProbability": 0.029637734540037784,
-     "fairProbability": null,
-     "edge": null,
-     "description": "Charlie Woerner to score a TD"
-    },
-    {
-     "playerId": "chris blair",
-     "playerName": "Chris Blair",
-     "position": "FLEX",
-     "team": null,
-     "gameId": "e5fbd3b3953b896b1bf897ddadb3cc4b",
-     "marketKey": "player_anytime_td",
-     "stat": "anytimeTd",
-     "label": "to score a TD",
-     "line": null,
-     "americanOdds": 3000,
-     "oppositeAmericanOdds": null,
-     "book": "DraftKings",
-     "modelProbability": 0.029637734540037784,
-     "fairProbability": null,
-     "edge": null,
-     "description": "Chris Blair to score a TD"
-    }
-   ],
-   "decimal": 12043.669452241236,
-   "americanOdds": 1204267,
-   "stake": 5,
-   "payout": 60218.34726120618,
-   "profit": 60213.34726120618,
-   "independentProbability": 0.00009251933665473522,
-   "correlationAdjustment": 3.0402509351240803,
-   "probability": 0.00028128199978161837,
-   "adjustedProbability": 0.00018198669263961076,
-   "expectedValue": 5.958937854290475,
-   "rawExpectedValue": 0.5713615430512871,
-   "band": "long",
-   "style": "stack",
-   "gameCount": 1,
-   "note": "Correlated stack — these legs tend to hit together."
-  }
- ]
+ "stacks": []
 }
