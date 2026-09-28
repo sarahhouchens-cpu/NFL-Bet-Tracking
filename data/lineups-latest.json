@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-27T15:14:30.129Z",
+ "generatedAt": "2026-09-28T22:10:53.742Z",
  "demo": false,
  "sites": {
   "draftkings": {
@@ -10,22 +10,6 @@
    "slates": [],
    "skipped": [
     {
-     "name": "Sunday Main",
-     "reason": "no tight ends identified — add a DraftKings salary export for real positions"
-    },
-    {
-     "name": "Sunday Early",
-     "reason": "no tight ends identified — add a DraftKings salary export for real positions"
-    },
-    {
-     "name": "Sunday Afternoon",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
-     "name": "Sunday Night: Rams at Broncos",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
      "name": "Monday Night: Eagles at Bears",
      "reason": "too few players priced — props are not posted for these games yet"
     },
@@ -34,7 +18,23 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Main",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Sunday Early",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Sunday Afternoon",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Sunday Night: Lions at Panthers",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Monday Night: Falcons at Saints",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
@@ -47,22 +47,6 @@
    "slates": [],
    "skipped": [
     {
-     "name": "Sunday Main",
-     "reason": "no tight ends identified — add a FanDuel salary export for real positions"
-    },
-    {
-     "name": "Sunday Early",
-     "reason": "no tight ends identified — add a FanDuel salary export for real positions"
-    },
-    {
-     "name": "Sunday Afternoon",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
-     "name": "Sunday Night: Rams at Broncos",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
      "name": "Monday Night: Eagles at Bears",
      "reason": "too few players priced — props are not posted for these games yet"
     },
@@ -71,7 +55,23 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Main",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Sunday Early",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Sunday Afternoon",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Sunday Night: Lions at Panthers",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Monday Night: Falcons at Saints",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
