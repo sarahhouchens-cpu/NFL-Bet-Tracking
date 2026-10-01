@@ -1,31 +1,19 @@
 {
- "generatedAt": "2026-09-28T22:10:53.722Z",
+ "generatedAt": "2026-10-01T22:06:09.536Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "47dc7baa254659f3beb2ed2b38c207b6",
-   "home": "Chicago Bears",
-   "away": "Philadelphia Eagles",
-   "commenceTime": "2026-09-29T00:15:00Z",
-   "total": 42.5,
-   "homeSpread": 3.5,
-   "teamTotals": {
-    "Chicago Bears": 19.5,
-    "Philadelphia Eagles": 23
-   }
-  },
-  {
    "gameId": "d55cb69fed50a09170560b5b75d8de86",
    "home": "Cleveland Browns",
    "away": "Pittsburgh Steelers",
    "commenceTime": "2026-10-02T00:15:00Z",
-   "total": 38.5,
+   "total": 37.5,
    "homeSpread": 2.5,
    "teamTotals": {
-    "Cleveland Browns": 18,
-    "Pittsburgh Steelers": 20.5
+    "Cleveland Browns": 17.5,
+    "Pittsburgh Steelers": 20
    }
   },
   {
@@ -33,11 +21,11 @@
    "home": "Washington Commanders",
    "away": "Indianapolis Colts",
    "commenceTime": "2026-10-04T13:30:00Z",
-   "total": 47,
-   "homeSpread": 3.5,
+   "total": 48.5,
+   "homeSpread": 4,
    "teamTotals": {
-    "Washington Commanders": 21.75,
-    "Indianapolis Colts": 25.25
+    "Washington Commanders": 22.25,
+    "Indianapolis Colts": 26.25
    }
   },
   {
@@ -45,11 +33,11 @@
    "home": "New York Giants",
    "away": "Arizona Cardinals",
    "commenceTime": "2026-10-04T17:00:00Z",
-   "total": 44.5,
-   "homeSpread": 1,
+   "total": 44,
+   "homeSpread": 2.5,
    "teamTotals": {
-    "New York Giants": 21.75,
-    "Arizona Cardinals": 22.75
+    "New York Giants": 20.75,
+    "Arizona Cardinals": 23.25
    }
   },
   {
@@ -57,11 +45,11 @@
    "home": "Baltimore Ravens",
    "away": "Tennessee Titans",
    "commenceTime": "2026-10-04T17:00:00Z",
-   "total": 43.5,
+   "total": 42.5,
    "homeSpread": -11.5,
    "teamTotals": {
-    "Baltimore Ravens": 27.5,
-    "Tennessee Titans": 16
+    "Baltimore Ravens": 27,
+    "Tennessee Titans": 15.5
    }
   },
   {
@@ -70,10 +58,10 @@
    "away": "New England Patriots",
    "commenceTime": "2026-10-04T17:00:00Z",
    "total": 48.5,
-   "homeSpread": -6.5,
+   "homeSpread": -7,
    "teamTotals": {
-    "Buffalo Bills": 27.5,
-    "New England Patriots": 21
+    "Buffalo Bills": 27.75,
+    "New England Patriots": 20.75
    }
   },
   {
@@ -105,10 +93,10 @@
    "home": "Houston Texans",
    "away": "Dallas Cowboys",
    "commenceTime": "2026-10-04T17:00:00Z",
-   "total": 47.5,
-   "homeSpread": -2.5,
+   "total": 48,
+   "homeSpread": -3,
    "teamTotals": {
-    "Houston Texans": 25,
+    "Houston Texans": 25.5,
     "Dallas Cowboys": 22.5
    }
   },
@@ -117,11 +105,11 @@
    "home": "Tampa Bay Buccaneers",
    "away": "Green Bay Packers",
    "commenceTime": "2026-10-04T17:00:00Z",
-   "total": 39.5,
-   "homeSpread": 3.75,
+   "total": 38.5,
+   "homeSpread": 3.5,
    "teamTotals": {
-    "Tampa Bay Buccaneers": 17.875,
-    "Green Bay Packers": 21.625
+    "Tampa Bay Buccaneers": 17.5,
+    "Green Bay Packers": 21
    }
   },
   {
@@ -129,11 +117,11 @@
    "home": "Philadelphia Eagles",
    "away": "Los Angeles Rams",
    "commenceTime": "2026-10-04T17:00:00Z",
-   "total": 45.5,
-   "homeSpread": 2.5,
+   "total": 43,
+   "homeSpread": 3,
    "teamTotals": {
-    "Philadelphia Eagles": 21.5,
-    "Los Angeles Rams": 24
+    "Philadelphia Eagles": 20,
+    "Los Angeles Rams": 23
    }
   },
   {
@@ -141,11 +129,11 @@
    "home": "Minnesota Vikings",
    "away": "Miami Dolphins",
    "commenceTime": "2026-10-04T20:05:00Z",
-   "total": 38.75,
-   "homeSpread": -11,
+   "total": 39,
+   "homeSpread": -10.5,
    "teamTotals": {
-    "Minnesota Vikings": 24.875,
-    "Miami Dolphins": 13.875
+    "Minnesota Vikings": 24.75,
+    "Miami Dolphins": 14.25
    }
   },
   {
@@ -153,11 +141,11 @@
    "home": "San Francisco 49ers",
    "away": "Denver Broncos",
    "commenceTime": "2026-10-04T20:25:00Z",
-   "total": 46.5,
+   "total": 48,
    "homeSpread": -2.5,
    "teamTotals": {
-    "San Francisco 49ers": 24.5,
-    "Denver Broncos": 22
+    "San Francisco 49ers": 25.25,
+    "Denver Broncos": 22.75
    }
   },
   {
@@ -177,11 +165,11 @@
    "home": "Seattle Seahawks",
    "away": "Los Angeles Chargers",
    "commenceTime": "2026-10-04T20:25:00Z",
-   "total": 43.5,
+   "total": 42.5,
    "homeSpread": -7,
    "teamTotals": {
-    "Seattle Seahawks": 25.25,
-    "Los Angeles Chargers": 18.25
+    "Seattle Seahawks": 24.75,
+    "Los Angeles Chargers": 17.75
    }
   },
   {
@@ -189,11 +177,11 @@
    "home": "Carolina Panthers",
    "away": "Detroit Lions",
    "commenceTime": "2026-10-05T00:20:00Z",
-   "total": 50,
+   "total": 51,
    "homeSpread": 3.5,
    "teamTotals": {
-    "Carolina Panthers": 23.25,
-    "Detroit Lions": 26.75
+    "Carolina Panthers": 23.75,
+    "Detroit Lions": 27.25
    }
   },
   {
@@ -201,15 +189,137 @@
    "home": "New Orleans Saints",
    "away": "Atlanta Falcons",
    "commenceTime": "2026-10-06T00:15:00Z",
-   "total": 48.5,
+   "total": 48,
    "homeSpread": -2.5,
    "teamTotals": {
-    "New Orleans Saints": 25.5,
-    "Atlanta Falcons": 23
+    "New Orleans Saints": 25.25,
+    "Atlanta Falcons": 22.75
+   }
+  },
+  {
+   "gameId": "259b5df9aa0d10257f56de78523495e0",
+   "home": "Dallas Cowboys",
+   "away": "Tampa Bay Buccaneers",
+   "commenceTime": "2026-10-09T00:15:00Z",
+   "total": 47,
+   "homeSpread": -9.5,
+   "teamTotals": {
+    "Dallas Cowboys": 28.25,
+    "Tampa Bay Buccaneers": 18.75
    }
   }
  ],
- "legCount": 0,
+ "legCount": 142,
  "tickets": [],
- "stacks": []
+ "stacks": [
+  {
+   "legs": [
+    {
+     "playerId": "quinshon judkins",
+     "playerName": "Quinshon Judkins",
+     "position": "RB",
+     "team": null,
+     "gameId": "d55cb69fed50a09170560b5b75d8de86",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 11.5,
+     "americanOdds": -108,
+     "oppositeAmericanOdds": -120,
+     "book": "BetOnline.ag",
+     "modelProbability": 0.6064767368416033,
+     "fairProbability": 0.48768472906403937,
+     "edge": 11.879200777756393,
+     "description": "Quinshon Judkins over 11.5 receiving yards"
+    },
+    {
+     "playerId": "pat freiermuth",
+     "playerName": "Pat Freiermuth",
+     "position": "WR",
+     "team": null,
+     "gameId": "d55cb69fed50a09170560b5b75d8de86",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 27.5,
+     "americanOdds": -112,
+     "oppositeAmericanOdds": -120,
+     "book": "BetRivers",
+     "modelProbability": 0.5863397841420999,
+     "fairProbability": 0.4920127795527157,
+     "edge": 9.432700458938415,
+     "description": "Pat Freiermuth over 27.5 receiving yards"
+    },
+    {
+     "playerId": "roman wilson",
+     "playerName": "Roman Wilson",
+     "position": "WR",
+     "team": null,
+     "gameId": "d55cb69fed50a09170560b5b75d8de86",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 19.5,
+     "americanOdds": -117,
+     "oppositeAmericanOdds": -114,
+     "book": "BetRivers",
+     "modelProbability": 0.5947992402833673,
+     "fairProbability": 0.5030135004821601,
+     "edge": 9.178573980120719,
+     "description": "Roman Wilson over 19.5 receiving yards"
+    },
+    {
+     "playerId": "michael burton",
+     "playerName": "Michael Burton",
+     "position": "FLEX",
+     "team": null,
+     "gameId": "d55cb69fed50a09170560b5b75d8de86",
+     "marketKey": "player_anytime_td",
+     "stat": "anytimeTd",
+     "label": "to score a TD",
+     "line": null,
+     "americanOdds": 4000,
+     "oppositeAmericanOdds": null,
+     "book": "DraftKings",
+     "modelProbability": 0.022270486405831298,
+     "fairProbability": null,
+     "edge": null,
+     "description": "Michael Burton to score a TD"
+    },
+    {
+     "playerId": "robert tonyan",
+     "playerName": "Robert Tonyan",
+     "position": "FLEX",
+     "team": null,
+     "gameId": "d55cb69fed50a09170560b5b75d8de86",
+     "marketKey": "player_anytime_td",
+     "stat": "anytimeTd",
+     "label": "to score a TD",
+     "line": null,
+     "americanOdds": 3500,
+     "oppositeAmericanOdds": null,
+     "book": "DraftKings",
+     "modelProbability": 0.02536360951775231,
+     "fairProbability": null,
+     "edge": null,
+     "description": "Robert Tonyan to score a TD"
+    }
+   ],
+   "decimal": 9979.703703703704,
+   "americanOdds": 997870,
+   "stake": 5,
+   "payout": 49898.518518518526,
+   "profit": 49893.518518518526,
+   "independentProbability": 0.0001194743498223771,
+   "correlationAdjustment": 2.821511675120417,
+   "probability": 0.0003370982729012579,
+   "adjustedProbability": 0.0002345153477685224,
+   "expectedValue": 6.701968423504427,
+   "rawExpectedValue": 0.9615930570998437,
+   "band": "long",
+   "style": "stack",
+   "gameCount": 1,
+   "note": "Correlated stack — these legs tend to hit together."
+  }
+ ]
 }
