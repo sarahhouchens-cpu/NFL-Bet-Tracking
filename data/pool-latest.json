@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-01T22:06:09.536Z",
+ "generatedAt": "2026-10-04T20:41:16.853Z",
  "players": [
   {
-   "playerName": "Jaylen Warren",
-   "playerId": "jaylen warren",
+   "playerName": "Jahmyr Gibbs",
+   "playerId": "jahmyr gibbs",
    "position": "RB",
    "projection": {
     "passYards": 0,
@@ -11,37 +11,829 @@
     "interceptions": 0,
     "passAttempts": 0,
     "completions": 0,
-    "rushYards": 75.5,
+    "rushYards": 94.5,
     "carries": 0,
-    "receptions": 3.4007411595249835,
-    "recYards": 26.201667608931213,
+    "receptions": 4.634855163640431,
+    "recYards": 35.27842411819097,
     "kickingPoints": 0,
-    "rushTds": 0.4716205493874954,
-    "recTds": 0.11790513734687386
+    "rushTds": 1.0938159810779962,
+    "recTds": 0.27345399526949904
    },
    "bonuses": {
     "pass300": 0,
-    "rush100": 0.26246585423495206,
-    "rec100": 0.0000032132707639132008
+    "rush100": 0.45786248877830893,
+    "rec100": 0.001661569059839163
    },
-   "anytimeTd": 0.445409728116626,
-   "points": 17.9,
-   "floor": 7.96,
-   "ceiling": 28.37,
+   "anytimeTd": 0.7451983746417618,
+   "points": 27.19,
+   "floor": 10.47,
+   "ceiling": 47.16,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.445409728116626,
+     "probability": 0.7451983746417618,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": -325
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 37.5,
+     "probability": 0.4928711096627016,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -111
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 4.5,
+     "probability": 0.5305164319248826,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 95.5,
+     "probability": 0.5042122999157539,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 35.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 94.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 96.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetOnline.ag",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 27.5,
+     "probability": 0.6529968454258674,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -230
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 32.5,
+     "probability": 0.5834970530451867,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -165
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 42.5,
+     "probability": 0.4458598726114649,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 110
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 47.5,
+     "probability": 0.39094650205761317,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 140
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 75.5,
+     "probability": 0.7058823529411765,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -300
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 85.5,
+     "probability": 0.6017069701280228,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -180
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 105.5,
+     "probability": 0.40847201210287454,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 130
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 115.5,
+     "probability": 0.32315978456014366,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 190
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Chuba Hubbard",
+   "playerId": "chuba hubbard",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 65.5,
+    "carries": 0,
+    "receptions": 2.766318665244902,
+    "recYards": 19.17421699680103,
+    "kickingPoints": 0,
+    "rushTds": 0.6402275053570845,
+    "recTds": 0.16005687633927113
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0.14959596227250016,
+    "rec100": 7.0903283244661e-12
+   },
+   "anytimeTd": 0.5507987986482588,
+   "points": 16.48,
+   "floor": 6.59,
+   "ceiling": 24.45,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.5507987986482588,
      "devigged": false,
      "book": "FanDuel",
+     "americanOdds": -130
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 20.5,
+     "probability": 0.4936802190857383,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -109
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 2.5,
+     "probability": 0.6000000000000001,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": -150
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 66.5,
+     "probability": 0.4947698744769875,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -110
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 18.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 65.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 69.5,
+     "probability": 0.4969864995178399,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 46.5,
+     "probability": 0.7429030530262454,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -380
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 56.5,
+     "probability": 0.6161482461945732,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -190
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 76.5,
+     "probability": 0.375,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 150
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 86.5,
+     "probability": 0.2800390752197981,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 235
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Amon-Ra St. Brown",
+   "playerId": "amonra st brown",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 6.870890841769663,
+    "recYards": 78.61584065663624,
+    "kickingPoints": 0,
+    "rushTds": 0.03682768129049914,
+    "recTds": 0.6997259445194836
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.3341563793107978
+   },
+   "anytimeTd": 0.5212389346778692,
+   "points": 20.15,
+   "floor": 8.44,
+   "ceiling": 36.42,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.5212389346778692,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 77.5,
+     "probability": 0.5042122999157539,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 7.5,
+     "probability": 0.4368658399098083,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": 116
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 75.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 6.5,
+     "probability": 0.556480811006517,
+     "devigged": true,
+     "book": "BetOnline.ag",
+     "americanOdds": -145
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 78.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 57.5,
+     "probability": 0.6920583468395461,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -280
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 67.5,
+     "probability": 0.5915279878971256,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -170
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 87.5,
+     "probability": 0.40847201210287454,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 130
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 97.5,
+     "probability": 0.3346265761396702,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 180
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Tetairoa McMillan",
+   "playerId": "tetairoa mcmillan",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 5.130484712415739,
+    "recYards": 68.58931767155902,
+    "kickingPoints": 0,
+    "rushTds": 0.028379213022406886,
+    "recTds": 0.5392050474257308
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.23365084469745423
+   },
+   "anytimeTd": 0.433106747655041,
+   "points": 16.1,
+   "floor": 6.77,
+   "ceiling": 26.14,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.433106747655041,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 125
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 73.5,
+     "probability": 0.4978941161605526,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -111
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 5.5,
+     "probability": 0.4248366013071895,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": 120
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 70.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 4.5,
+     "probability": 0.5904601300891351,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -172
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 72.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetOnline.ag",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 76.5,
+     "probability": 0.4949766918501849,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 63.5,
+     "probability": 0.6090534979423868,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -185
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 68.5,
+     "probability": 0.554140127388535,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -145
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 78.5,
+     "probability": 0.45920859794821695,
+     "devigged": true,
+     "book": "Bovada",
      "americanOdds": 105
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 26.5,
+     "line": 83.5,
+     "probability": 0.4165029469548133,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 125
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Sam LaPorta",
+   "playerId": "sam laporta",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 4.17692792194926,
+    "recYards": 49.61347970730972,
+    "kickingPoints": 0,
+    "rushTds": 0.019639542896576902,
+    "recTds": 0.3731513150349611
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.052425266456214814
+   },
+   "anytimeTd": 0.32483006074128074,
+   "points": 11.65,
+   "floor": 5.21,
+   "ceiling": 21.05,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.32483006074128074,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 200
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 48.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -112
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 4.5,
+     "probability": 0.4193548387096774,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": 125
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 47.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 38.5,
+     "probability": 0.625,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -200
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 43.5,
+     "probability": 0.5633187772925765,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -150
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 53.5,
+     "probability": 0.4458598726114649,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 110
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 58.5,
+     "probability": 0.39094650205761317,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 140
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 44.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -115
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Jameson Williams",
+   "playerId": "jameson williams",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 3.408794323125418,
+    "recYards": 48.13297871172031,
+    "kickingPoints": 0,
+    "rushTds": 0.018869521182096886,
+    "recTds": 0.3585209024598408
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.042600542348714576
+   },
+   "anytimeTd": 0.3143516716851104,
+   "points": 10.61,
+   "floor": 4.62,
+   "ceiling": 19.67,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.3143516716851104,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 210
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 50.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 3.5,
+     "probability": 0.47193347193347185,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": 100
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 52.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetOnline.ag",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 51.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 40.5,
+     "probability": 0.625,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -200
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 45.5,
+     "probability": 0.5633187772925765,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -150
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 55.5,
+     "probability": 0.4458598726114649,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 110
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 60.5,
+     "probability": 0.39094650205761317,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 140
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 49.5,
+     "probability": 0.4928711096627016,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -111
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Darren Waller",
+   "playerId": "darren waller",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 3.400741159524983,
+    "recYards": 38.302779348218685,
+    "kickingPoints": 0,
+    "rushTds": 0.017499158850391053,
+    "recTds": 0.33248401815743
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.004983529260431663
+   },
+   "anytimeTd": 0.29530005521934616,
+   "points": 9.35,
+   "floor": 4.14,
+   "ceiling": 17.55,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.29530005521934616,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 230
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 36.5,
      "probability": 0.5,
      "devigged": true,
      "book": "DraftKings",
@@ -57,27 +849,9 @@
      "americanOdds": 100
     },
     {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 76.5,
-     "probability": 0.4978941161605526,
-     "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -111
-    },
-    {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 25.5,
-     "probability": 0.49095295536791317,
-     "devigged": true,
-     "book": "BetMGM",
-     "americanOdds": -111
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 75.5,
+     "line": 38.5,
      "probability": 0.5,
      "devigged": true,
      "book": "FanDuel",
@@ -86,193 +860,52 @@
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 24.5,
+     "line": 37.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetOnline.ag",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 35.5,
      "probability": 0.5050233081498151,
      "devigged": true,
      "book": "BetRivers",
      "americanOdds": -118
     },
     {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 72.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -115
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 56.5,
-     "probability": 0.7325581395348837,
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 26.5,
+     "probability": 0.6456256921373201,
      "devigged": true,
      "book": "Bovada",
-     "americanOdds": -360
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 66.5,
-     "probability": 0.6161482461945732,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -190
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 86.5,
-     "probability": 0.39094650205761317,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 140
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 96.5,
-     "probability": 0.30256012412723043,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 210
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 74.5,
-     "probability": 0.5101214574898786,
-     "devigged": true,
-     "book": "BetMGM",
-     "americanOdds": -120
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Quinshon Judkins",
-   "playerId": "quinshon judkins",
-   "position": "RB",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 56.5,
-    "carries": 0,
-    "receptions": 2.2505231161437207,
-    "recYards": 13.813677011323373,
-    "kickingPoints": 0,
-    "rushTds": 0.36360157325340237,
-    "recTds": 0.09090039331335059
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0.06398904329614497,
-    "rec100": 0
-   },
-   "anytimeTd": 0.36523597705563327,
-   "points": 12.2,
-   "floor": 5.46,
-   "ceiling": 21.11,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.36523597705563327,
-     "devigged": false,
-     "book": "FanDuel",
-     "americanOdds": 150
+     "americanOdds": -220
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 11.5,
-     "probability": 0.48768472906403937,
-     "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": -108
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 1.5,
-     "probability": 0.6190225959012087,
-     "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -190
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 55.5,
-     "probability": 0.495787700084246,
-     "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -110
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 2.5,
-     "probability": 0.3852511464220966,
-     "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": 144
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 56.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -113
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 58.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -115
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 45.5,
-     "probability": 0.6395881006864989,
+     "line": 31.5,
+     "probability": 0.5751633986928104,
      "devigged": true,
      "book": "Bovada",
-     "americanOdds": -215
+     "americanOdds": -160
     },
     {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 50.5,
-     "probability": 0.5633187772925765,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -150
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 60.5,
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 41.5,
      "probability": 0.43668122270742354,
      "devigged": true,
      "book": "Bovada",
      "americanOdds": 115
     },
     {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 65.5,
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 46.5,
      "probability": 0.375,
      "devigged": true,
      "book": "Bovada",
@@ -281,20 +914,20 @@
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 12.5,
-     "probability": 0.5,
+     "line": 34.5,
+     "probability": 0.5203045685279188,
      "devigged": true,
      "book": "BetMGM",
-     "americanOdds": -115
+     "americanOdds": -125
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "DK Metcalf",
-   "playerId": "dk metcalf",
+   "playerName": "Brycen Tremayne",
+   "playerId": "brycen tremayne",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -304,53 +937,53 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 3.651771900423099,
-    "recYards": 45.54414462658662,
+    "receptions": 2.524339455483777,
+    "recYards": 32.91627295806416,
     "kickingPoints": 0,
-    "rushTds": 0.016196140101318163,
-    "recTds": 0.30772666192504505
+    "rushTds": 0.011346208691199091,
+    "recTds": 0.2155779651327827
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 0.028015328861333733
+    "rec100": 0.0005520086584086537
    },
-   "anytimeTd": 0.2766939220118434,
-   "points": 10.23,
-   "floor": 4.66,
-   "ceiling": 19.46,
+   "anytimeTd": 0.2030187879633005,
+   "points": 7.18,
+   "floor": 3.29,
+   "ceiling": 15.19,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.2766939220118434,
+     "probability": 0.2030187879633005,
      "devigged": false,
-     "book": "BetMGM",
-     "americanOdds": 230
+     "book": "BetRivers",
+     "americanOdds": 380
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 46.5,
-     "probability": 0.4947698744769875,
+     "line": 32.5,
+     "probability": 0.5063197809142617,
      "devigged": true,
      "book": "DraftKings",
-     "americanOdds": -110
+     "americanOdds": -115
     },
     {
      "market": "player_receptions",
      "label": "receptions",
-     "line": 3.5,
-     "probability": 0.5435460883633142,
+     "line": 2.5,
+     "probability": 0.5101214574898786,
      "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": -137
+     "book": "FanDuel",
+     "americanOdds": -120
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 45.5,
+     "line": 33.5,
      "probability": 0.5,
      "devigged": true,
      "book": "FanDuel",
@@ -359,56 +992,476 @@
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 47.5,
-     "probability": 0.5,
+     "line": 30.5,
+     "probability": 0.5090470446320868,
      "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": -114
+     "book": "BetMGM",
+     "americanOdds": -120
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Isaac TeSlaa",
+   "playerId": "isaac teslaa",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 1.4371665870856853,
+    "recYards": 17.505136107252845,
+    "kickingPoints": 0,
+    "rushTds": 0.009284955922760713,
+    "recTds": 0.17641416253245354
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 2.1094237467877974e-14
+   },
+   "anytimeTd": 0.16947655343023343,
+   "points": 4.3,
+   "floor": 1.81,
+   "ceiling": 10.88,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.16947655343023343,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 475
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 36.5,
+     "line": 17.5,
+     "probability": 0.4928711096627016,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -111
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 1.5,
+     "probability": 0.45420136260408783,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": 106
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Detroit Lions D/ST",
+   "playerId": "detroit lions dst",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.009284955922760713,
+    "recTds": 0.17641416253245354
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.16947655343023343,
+   "points": 1.11,
+   "floor": 0,
+   "ceiling": 6,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.16947655343023343,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 475
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Tommy Tremble",
+   "playerId": "tommy tremble",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 1.5666836209182908,
+    "recYards": 15.900608017322126,
+    "kickingPoints": 0,
+    "rushTds": 0.008861628207769652,
+    "recTds": 0.16837093594762337
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.16241503037064037,
+   "points": 4.22,
+   "floor": 1.83,
+   "ceiling": 10.8,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.16241503037064037,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 500
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 12.5,
+     "probability": 0.48945992664108945,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -107
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 1.5,
+     "probability": 0.5445920303605313,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -140
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 14.5,
+     "probability": 0.4920127795527157,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -112
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 13.5,
+     "probability": 0.5101214574898786,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -120
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Bryce Young",
+   "playerId": "bryce young",
+   "position": "QB",
+   "projection": {
+    "passYards": 242.5,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 13.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.15591597223864334,
+    "recTds": 0
+   },
+   "bonuses": {
+    "pass300": 0.20060281249560352,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.14436891588501366,
+   "points": 12.59,
+   "floor": 8.24,
+   "ceiling": 16.25,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.14436891588501366,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 575
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 243.5,
+     "probability": 0.4978941161605526,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -111
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 12.5,
+     "probability": 0.48848215781537946,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -107
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 242.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 245.5,
+     "probability": 0.5030135004821601,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -117
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 13.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 213.5,
+     "probability": 0.6705882352941177,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -250
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 223.5,
      "probability": 0.6161482461945732,
      "devigged": true,
      "book": "Bovada",
      "americanOdds": -190
     },
     {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 41.5,
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 233.5,
      "probability": 0.554140127388535,
      "devigged": true,
      "book": "Bovada",
      "americanOdds": -145
     },
     {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 51.5,
-     "probability": 0.43668122270742354,
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 253.5,
+     "probability": 0.4458598726114649,
      "devigged": true,
      "book": "Bovada",
-     "americanOdds": 115
+     "americanOdds": 110
     },
     {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 56.5,
-     "probability": 0.38385175380542685,
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 263.5,
+     "probability": 0.39094650205761317,
      "devigged": true,
      "book": "Bovada",
-     "americanOdds": 145
+     "americanOdds": 140
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 273.5,
+     "probability": 0.34700315457413244,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 170
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 11.5,
+     "probability": 0.5090470446320868,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -120
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Denzel Boston",
-   "playerId": "denzel boston",
+   "playerName": "John Metchie III",
+   "playerId": "john metchie",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.00812133295221037,
+    "recTds": 0.154305326091997
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.14992156649597574,
+   "points": 0.97,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.14992156649597574,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 550
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Carolina Panthers D/ST",
+   "playerId": "carolina panthers dst",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.007495402810006626,
+    "recTds": 0.14241265339012588
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.1392128831748346,
+   "points": 0.9,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.1392128831748346,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 600
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Mitchell Evans",
+   "playerId": "mitchell evans",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0060883802642832194,
+    "recTds": 0.11567922502138116
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.11464590379104027,
+   "points": 0.73,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.11464590379104027,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 750
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Brock Wright",
+   "playerId": "brock wright",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -418,112 +1471,196 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 2.65938082693144,
-    "recYards": 36.222678100992894,
+    "receptions": 0.48662219736406964,
+    "recYards": 2.875,
     "kickingPoints": 0,
-    "rushTds": 0.012093686833679918,
-    "recTds": 0.22978004983991843
+    "rushTds": 0.0054114487276666545,
+    "recTds": 0.10281752582566642
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 0.002419434946960619
+    "rec100": 0
    },
-   "anytimeTd": 0.2148446923856666,
-   "points": 7.74,
-   "floor": 3.54,
-   "ceiling": 16.07,
+   "anytimeTd": 0.10257791391829918,
+   "points": 1.42,
+   "floor": 0.2,
+   "ceiling": 1.48,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.2148446923856666,
+     "probability": 0.10257791391829918,
      "devigged": false,
      "book": "BetMGM",
-     "americanOdds": 325
+     "americanOdds": 850
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 38.5,
-     "probability": 0.4968624497991968,
+     "line": 4.5,
+     "probability": 0.5063197809142617,
      "devigged": true,
      "book": "DraftKings",
-     "americanOdds": -111
+     "americanOdds": -115
     },
     {
      "market": "player_receptions",
      "label": "receptions",
-     "line": 2.5,
-     "probability": 0.5626591727408448,
+     "line": 0.5,
+     "probability": 0.5576419608197165,
      "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": -149
+     "book": "DraftKings",
+     "americanOdds": -145
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 37.5,
+     "line": 5.5,
+     "probability": 0.47614107883817425,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -102
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 2.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -115
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "AJ Dillon",
+   "playerId": "aj dillon",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 12.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.09167950531452286,
+    "recTds": 0.022919876328630715
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.10827668691376025,
+   "points": 1.94,
+   "floor": 0.72,
+   "ceiling": 1.9,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.10827668691376025,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 800
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 12.5,
      "probability": 0.5,
      "devigged": true,
      "book": "FanDuel",
      "americanOdds": -113
     },
     {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 36.5,
-     "probability": 0.4969864995178399,
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 11.5,
+     "probability": 0.5110619469026548,
      "devigged": true,
      "book": "BetRivers",
-     "americanOdds": -114
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 28.5,
-     "probability": 0.6395881006864989,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -215
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 33.5,
-     "probability": 0.5633187772925765,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -150
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 43.5,
-     "probability": 0.43668122270742354,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 115
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 48.5,
-     "probability": 0.38385175380542685,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 145
+     "americanOdds": -121
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Harold Fannin Jr.",
-   "playerId": "harold fannin",
-   "position": "WR",
+   "playerName": "Sione Vaki",
+   "playerId": "sione vaki",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 10.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.09167950531452286,
+    "recTds": 0.022919876328630715
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.10827668691376025,
+   "points": 1.74,
+   "floor": 0.61,
+   "ceiling": 1.59,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.10827668691376025,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 800
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 11.5,
+     "probability": 0.5063197809142617,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 10.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "David Moore",
+   "playerId": "david moore",
+   "position": "FLEX",
    "projection": {
     "passYards": 0,
     "passTds": 0,
@@ -532,39 +1669,678 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 4.4085608866654145,
-    "recYards": 44.97519155900036,
+    "receptions": 0,
+    "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.013143750445417313,
-    "recTds": 0.24973125846292893
+    "rushTds": 0.004638122312888895,
+    "recTds": 0.08812432394488899
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 0.025269508328054413
+    "rec100": 0
    },
-   "anytimeTd": 0.23116201079470455,
-   "points": 10.56,
-   "floor": 5.15,
-   "ceiling": 20.4,
+   "anytimeTd": 0.08859001656580386,
+   "points": 0.56,
+   "floor": 0,
+   "ceiling": 0,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.23116201079470455,
+     "probability": 0.08859001656580386,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 1000
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Jared Goff",
+   "playerId": "jared goff",
+   "position": "QB",
+   "projection": {
+    "passYards": 257.5,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 1.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.06717239971054237,
+    "recTds": 0
+   },
+   "bonuses": {
+    "pass300": 0.28010675738172564,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.06496601214825615,
+   "points": 11.69,
+   "floor": 8.05,
+   "ceiling": 15.43,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.06496601214825615,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 1400
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 258.5,
+     "probability": 0.4653465346534653,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": 100
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 0.5,
+     "probability": 0.5199445750755795,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -122
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 257.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 1.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 262.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 228.5,
+     "probability": 0.6705882352941177,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -250
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 238.5,
+     "probability": 0.6161482461945732,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -190
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 248.5,
+     "probability": 0.554140127388535,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -145
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 268.5,
+     "probability": 0.4458598726114649,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 110
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 278.5,
+     "probability": 0.39094650205761317,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 140
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 288.5,
+     "probability": 0.34700315457413244,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": 170
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Tyler Conklin",
+   "playerId": "tyler conklin",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0017090334829218353,
+    "recTds": 0.032471636175514865
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.03360310973185663,
+   "points": 0.21,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.03360310973185663,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 2800
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Jackson Meeks",
+   "playerId": "jackson meeks",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.002164644857159597,
+    "recTds": 0.04112825228603234
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.04236913835755836,
+   "points": 0.26,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.04236913835755836,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 2200
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Tom Kennedy",
+   "playerId": "tom kennedy",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0023757743014049953,
+    "recTds": 0.04513971172669491
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.046404294391611534,
+   "points": 0.29,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.046404294391611534,
      "devigged": false,
      "book": "DraftKings",
-     "americanOdds": 295
+     "americanOdds": 2000
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Jacob Saylors",
+   "playerId": "jacob saylors",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0013721145256908151,
+    "recTds": 0.02607017598812548
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.02706917172844006,
+   "points": 0.16,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.02706917172844006,
+     "devigged": false,
+     "book": "FanDuel",
+     "americanOdds": 3500
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Tay Martin",
+   "playerId": "tay martin",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.001202753520958686,
+    "recTds": 0.02285231689821503
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.023768053224971764,
+   "points": 0.14,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.023768053224971764,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 4000
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Ja'Tavion Sanders",
+   "playerId": "jatavion sanders",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0013721145256908151,
+    "recTds": 0.02607017598812548
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.02706917172844006,
+   "points": 0.16,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.02706917172844006,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 3500
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Anthony Tyus III",
+   "playerId": "anthony tyus",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0013721145256908151,
+    "recTds": 0.02607017598812548
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.02706917172844006,
+   "points": 0.16,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.02706917172844006,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 3500
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Feleipe Franks",
+   "playerId": "feleipe franks",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.001202753520958686,
+    "recTds": 0.02285231689821503
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.023768053224971764,
+   "points": 0.14,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.023768053224971764,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 4000
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Carolina Panthers Defense",
+   "playerId": "carolina panthers defense",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0060883802642832194,
+    "recTds": 0.11567922502138116
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.11464590379104027,
+   "points": 0.73,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.11464590379104027,
+     "devigged": false,
+     "book": "FanDuel",
+     "americanOdds": 750
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Detroit Lions Defense",
+   "playerId": "detroit lions defense",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.005729969082157679,
+    "recTds": 0.10886941256099589
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.10827668691376025,
+   "points": 0.69,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.10827668691376025,
+     "devigged": false,
+     "book": "FanDuel",
+     "americanOdds": 800
+    }
+   ],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Carolina Panthers",
+   "playerId": "carolina panthers",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 27.5,
+    "sacks": 1.8974999999999997,
+    "takeaways": 1.1549999999999998,
+    "defensiveTds": 0.09899999999999999
+   },
+   "points": 4.29,
+   "floor": -0.21,
+   "ceiling": 13.29,
+   "lines": [],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": "Carolina Panthers",
+   "opponent": "Detroit Lions"
+  },
+  {
+   "playerName": "Detroit Lions",
+   "playerId": "detroit lions",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 24,
+    "sacks": 2.7024999999999997,
+    "takeaways": 1.645,
+    "defensiveTds": 0.141
+   },
+   "points": 7.04,
+   "floor": 2.54,
+   "ceiling": 16.04,
+   "lines": [],
+   "gameId": "a73a76599a4f3422803e57bd8f61b626",
+   "team": "Detroit Lions",
+   "opponent": "Carolina Panthers"
+  },
+  {
+   "playerName": "Bijan Robinson",
+   "playerId": "bijan robinson",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 85.5,
+    "carries": 0,
+    "receptions": 4.4085608866654145,
+    "recYards": 37.569261994997184,
+    "kickingPoints": 0,
+    "rushTds": 0.7622282383577015,
+    "recTds": 0.19055705958942537
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0.3716504678484964,
+    "rec100": 0.003921286980338223
+   },
+   "anytimeTd": 0.6143346667698861,
+   "points": 23.56,
+   "floor": 9.81,
+   "ceiling": 45.82,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.6143346667698861,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": -195
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 40.5,
-     "probability": 0.5021058838394474,
+     "line": 39.5,
+     "probability": 0.5,
      "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -113
+     "book": "FanDuel",
+     "americanOdds": -114
     },
     {
      "market": "player_receptions",
@@ -576,190 +2352,49 @@
      "americanOdds": -103
     },
     {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 30.5,
-     "probability": 0.6395881006864989,
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 86.5,
+     "probability": 0.5021058838394474,
      "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -215
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 35.5,
-     "probability": 0.5633187772925765,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -150
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 45.5,
-     "probability": 0.43668122270742354,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 115
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 50.5,
-     "probability": 0.38385175380542685,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 145
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 41.5,
-     "probability": 0.4928711096627016,
-     "devigged": true,
-     "book": "BetMGM",
-     "americanOdds": -111
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "KC Concepcion",
-   "playerId": "kc concepcion",
-   "position": "WR",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0.5,
-    "carries": 0,
-    "receptions": 3.758218689271077,
-    "recYards": 38.94332008476654,
-    "kickingPoints": 0,
-    "rushTds": 0.011063378953624229,
-    "recTds": 0.21020420011886032
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0.006069871522835779
-   },
-   "anytimeTd": 0.19849781361719201,
-   "points": 9.05,
-   "floor": 4.43,
-   "ceiling": 18.29,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.19849781361719201,
-     "devigged": false,
      "book": "DraftKings",
-     "americanOdds": 360
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 35.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "FanDuel",
      "americanOdds": -113
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 3.5,
-     "probability": 0.571741584224155,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -158
     },
     {
      "market": "player_rush_yds",
      "label": "rushing yards",
-     "line": 0.5,
+     "line": 85.5,
      "probability": 0.5,
      "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -112
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 36.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "BetOnline.ag",
+     "book": "FanDuel",
      "americanOdds": -114
     },
     {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 4.5,
-     "probability": 0.4165029469548133,
-     "devigged": true,
-     "book": "BetMGM",
-     "americanOdds": 125
-    },
-    {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 37.5,
-     "probability": 0.4969864995178399,
+     "line": 38.5,
+     "probability": 0.5030135004821601,
      "devigged": true,
      "book": "BetRivers",
-     "americanOdds": -114
+     "americanOdds": -117
     },
     {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 25.5,
-     "probability": 0.6456256921373201,
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 89.5,
+     "probability": 0.5,
      "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -220
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 30.5,
-     "probability": 0.5751633986928104,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -160
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 40.5,
-     "probability": 0.43668122270742354,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 115
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 45.5,
-     "probability": 0.375,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 150
+     "book": "BetRivers",
+     "americanOdds": -115
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Michael Pittman Jr.",
-   "playerId": "michael pittman",
+   "playerName": "Drake London",
+   "playerId": "drake london",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -769,53 +2404,53 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 3.3278540575401756,
-    "recYards": 36.62945271577566,
+    "receptions": 5.866041510624104,
+    "recYards": 76.24765566484038,
     "kickingPoints": 0,
-    "rushTds": 0.01055007028288909,
-    "recTds": 0.2004513353748927
+    "rushTds": 0.02516602922769925,
+    "recTds": 0.4781545553262857
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 0.0028168758472342237
+    "rec100": 0.311406336906179
    },
-   "anytimeTd": 0.19022707138314232,
-   "points": 8.27,
-   "floor": 4.02,
-   "ceiling": 17.09,
+   "anytimeTd": 0.39548003643669705,
+   "points": 17.44,
+   "floor": 7.64,
+   "ceiling": 28.59,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.19022707138314232,
+     "probability": 0.39548003643669705,
      "devigged": false,
-     "book": "BetRivers",
-     "americanOdds": 380
+     "book": "BetMGM",
+     "americanOdds": 135
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 33.5,
-     "probability": 0.495787700084246,
+     "line": 78.5,
+     "probability": 0.5021058838394474,
      "devigged": true,
      "book": "DraftKings",
-     "americanOdds": -110
+     "americanOdds": -113
     },
     {
      "market": "player_receptions",
      "label": "receptions",
-     "line": 3.5,
-     "probability": 0.4458598726114649,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 110
+     "line": 5.5,
+     "probability": 0.5652173913043479,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": -130
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 32.5,
+     "line": 76.5,
      "probability": 0.5030135004821601,
      "devigged": true,
      "book": "BetRivers",
@@ -824,130 +2459,355 @@
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 23.5,
-     "probability": 0.6529968454258674,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -230
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 28.5,
-     "probability": 0.5751633986928104,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -160
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 38.5,
-     "probability": 0.43668122270742354,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 115
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 43.5,
-     "probability": 0.375,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 150
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 34.5,
+     "line": 77.5,
      "probability": 0.5,
      "devigged": true,
      "book": "BetMGM",
      "americanOdds": -115
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Deshaun Watson",
-   "playerId": "deshaun watson",
-   "position": "QB",
+   "playerName": "Chris Olave",
+   "playerId": "chris olave",
+   "position": "WR",
    "projection": {
-    "passYards": 186.5,
+    "passYards": 0,
     "passTds": 0,
     "interceptions": 0,
     "passAttempts": 0,
     "completions": 0,
-    "rushYards": 27.5,
+    "rushYards": 0,
     "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
+    "receptions": 6.788962508431987,
+    "recYards": 84.60860940661995,
     "kickingPoints": 0,
-    "rushTds": 0.19727753432813028,
-    "recTds": 0
+    "rushTds": 0.02588222670012579,
+    "recTds": 0.49176230730238996
    },
    "bonuses": {
-    "pass300": 0.015235119120220575,
-    "rush100": 8.204700341352122e-8,
-    "rec100": 0
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.388252687627904
    },
-   "anytimeTd": 0.1790372436547222,
-   "points": 11.44,
-   "floor": 7.29,
-   "ceiling": 20.38,
+   "anytimeTd": 0.404077428533147,
+   "points": 19.52,
+   "floor": 8.69,
+   "ceiling": 31.39,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.1790372436547222,
+     "probability": 0.404077428533147,
      "devigged": false,
-     "book": "BetRivers",
-     "americanOdds": 410
+     "book": "FanDuel",
+     "americanOdds": 130
     },
     {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 186.5,
-     "probability": 0.5,
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 85.5,
+     "probability": 0.4978941161605526,
      "devigged": true,
      "book": "DraftKings",
-     "americanOdds": -112
+     "americanOdds": -111
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 6.5,
+     "probability": 0.5445920303605313,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -140
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 7.5,
+     "probability": 0.41703248463564524,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": 124
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 81.5,
+     "probability": 0.4949766918501849,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 84.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -115
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Alvin Kamara",
+   "playerId": "alvin kamara",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 36.5,
+    "carries": 0,
+    "receptions": 3.1720228140293547,
+    "recYards": 17.825,
+    "kickingPoints": 0,
+    "rushTds": 0.402656467643188,
+    "recTds": 0.100664116910797
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0.00027821517378934235,
+    "rec100": 7.37188088351104e-14
+   },
+   "anytimeTd": 0.39548003643669705,
+   "points": 11.63,
+   "floor": 5.12,
+   "ceiling": 19.06,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.39548003643669705,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 135
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 15.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 3.5,
+     "probability": 0.40953986991086483,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": 128
     },
     {
      "market": "player_rush_yds",
      "label": "rushing yards",
-     "line": 29.5,
+     "line": 37.5,
      "probability": 0.4936802190857383,
      "devigged": true,
      "book": "DraftKings",
      "americanOdds": -109
     },
     {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 185.5,
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 14.5,
+     "probability": 0.5101214574898786,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -120
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 36.5,
      "probability": 0.5,
      "devigged": true,
-     "book": "FanDuel",
+     "book": "BetMGM",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 16.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -115
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Devaughn Vele",
+   "playerId": "devaughn vele",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 3.7379152140787917,
+    "recYards": 44.92587855404307,
+    "kickingPoints": 0,
+    "rushTds": 0.015965276273972553,
+    "recTds": 0.3033402492054785
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0.025039410687995645
+   },
+   "anytimeTd": 0.273346495772423,
+   "points": 10.22,
+   "floor": 4.69,
+   "ceiling": 19.45,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.273346495772423,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 240
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 45.5,
+     "probability": 0.4936802190857383,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -109
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 4.5,
+     "probability": 0.4144081684104374,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": 128
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 44.5,
+     "probability": 0.4949766918501849,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 3.5,
+     "probability": 0.5665108372290694,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -155
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Tyler Shough",
+   "playerId": "tyler shough",
+   "position": "QB",
+   "projection": {
+    "passYards": 254.5,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 16.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.2722052234628124,
+    "recTds": 0
+   },
+   "bonuses": {
+    "pass300": 0.26385993133914887,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.23830207323749697,
+   "points": 14.25,
+   "floor": 8.82,
+   "ceiling": 23.51,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.23830207323749697,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 290
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 257.5,
+     "probability": 0.5021058838394474,
+     "devigged": true,
+     "book": "DraftKings",
      "americanOdds": -113
     },
     {
      "market": "player_rush_yds",
      "label": "rushing yards",
-     "line": 27.5,
-     "probability": 0.5,
+     "line": 18.5,
+     "probability": 0.495787700084246,
      "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -113
+     "book": "DraftKings",
+     "americanOdds": -110
     },
     {
      "market": "player_pass_yds",
      "label": "passing yards",
-     "line": 184.5,
+     "line": 254.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 16.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_pass_yds",
+     "label": "passing yards",
+     "line": 253.5,
      "probability": 0.4969864995178399,
      "devigged": true,
      "book": "BetRivers",
@@ -956,38 +2816,20 @@
     {
      "market": "player_rush_yds",
      "label": "rushing yards",
-     "line": 28.5,
-     "probability": 0.5,
+     "line": 15.5,
+     "probability": 0.5050233081498151,
      "devigged": true,
      "book": "BetRivers",
-     "americanOdds": -115
-    },
-    {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 189.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "BetMGM",
-     "americanOdds": -115
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 30.5,
-     "probability": 0.4653465346534653,
-     "devigged": true,
-     "book": "BetMGM",
-     "americanOdds": 100
+     "americanOdds": -118
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Pat Freiermuth",
-   "playerId": "pat freiermuth",
+   "playerName": "Juwan Johnson",
+   "playerId": "juwan johnson",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -997,66 +2839,144 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 3.2185569472563955,
-    "recYards": 31.800971412892824,
+    "receptions": 3.5,
+    "recYards": 42.175000000000004,
     "kickingPoints": 0,
-    "rushTds": 0.010310934797413233,
-    "recTds": 0.1959077611508514
+    "rushTds": 0.01517679709920941,
+    "recTds": 0.28835914488497877
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 0.00029785463459641726
+    "rec100": 0.014179368460854214
    },
-   "anytimeTd": 0.1863448862528741,
-   "points": 7.64,
-   "floor": 3.71,
-   "ceiling": 15.93,
+   "anytimeTd": 0.2617966438383769,
+   "points": 9.58,
+   "floor": 4.4,
+   "ceiling": 18.53,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.1863448862528741,
+     "probability": 0.2617966438383769,
      "devigged": false,
-     "book": "BetMGM",
-     "americanOdds": 390
+     "book": "DraftKings",
+     "americanOdds": 255
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 27.5,
-     "probability": 0.4920127795527157,
+     "line": 40.5,
+     "probability": 0.5031375502008032,
      "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -112
+     "book": "DraftKings",
+     "americanOdds": -114
     },
     {
      "market": "player_receptions",
      "label": "receptions",
      "line": 3.5,
-     "probability": 0.40900106431503724,
+     "probability": 0.5,
      "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": 130
+     "book": "FanDuel",
+     "americanOdds": -114
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 28.5,
-     "probability": 0.4928711096627016,
+     "line": 41.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetOnline.ag",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 39.5,
+     "probability": 0.5030135004821601,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -117
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 38.5,
+     "probability": 0.5090470446320868,
      "devigged": true,
      "book": "BetMGM",
-     "americanOdds": -111
+     "americanOdds": -120
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Roman Wilson",
-   "playerId": "roman wilson",
+   "playerName": "Kendre Miller",
+   "playerId": "kendre miller",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 25.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.20008349646535883,
+    "recTds": 0.05002087411633971
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 3.2491759283104216e-9,
+    "rec100": 0
+   },
+   "anytimeTd": 0.2212804965776757,
+   "points": 4.05,
+   "floor": 1.48,
+   "ceiling": 9.87,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.2212804965776757,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 320
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 25.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -112
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 27.5,
+     "probability": 0.48987854251012153,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -110
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Kyle Pitts",
+   "playerId": "kyle pitts",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -1066,30 +2986,195 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 2.281947460982931,
-    "recYards": 22.907302978685994,
+    "receptions": 2.601247087399979,
+    "recYards": 30.404676577749925,
     "kickingPoints": 0,
-    "rushTds": 0.00810753079858664,
-    "recTds": 0.15404308517314613
+    "rushTds": 0.011863536849010226,
+    "recTds": 0.22540720013119428
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 3.474460164021309e-8
+    "rec100": 0.0001235283655118824
    },
-   "anytimeTd": 0.14968687584247267,
-   "points": 5.55,
-   "floor": 2.65,
-   "ceiling": 6.96,
+   "anytimeTd": 0.21122229218778135,
+   "points": 7.07,
+   "floor": 3.22,
+   "ceiling": 14.78,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.14968687584247267,
+     "probability": 0.21122229218778135,
      "devigged": false,
      "book": "BetRivers",
-     "americanOdds": 510
+     "americanOdds": 340
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 28.5,
+     "probability": 0.5021058838394474,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -113
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 2.5,
+     "probability": 0.5407914020517831,
+     "devigged": true,
+     "book": "Bovada",
+     "americanOdds": -135
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 29.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 27.5,
+     "probability": 0.4969864995178399,
+     "devigged": true,
+     "book": "BetRivers",
+     "americanOdds": -114
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Brian Robinson Jr.",
+   "playerId": "brian robinson",
+   "position": "RB",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 29.5,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.19481420082951764,
+    "recTds": 0.04870355020737941
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0.0000010398764234142988,
+    "rec100": 0
+   },
+   "anytimeTd": 0.21613443851772976,
+   "points": 4.41,
+   "floor": 1.71,
+   "ceiling": 10.5,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.21613443851772976,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 330
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 28.5,
+     "probability": 0.5063197809142617,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -115
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 29.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 30.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -115
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Jahan Dotson",
+   "playerId": "jahan dotson",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 1.5520245398482542,
+    "recYards": 18.77009202443095,
+    "kickingPoints": 0,
+    "rushTds": 0.00841479967954062,
+    "recTds": 0.15988119391127179
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 2.014166611274959e-12
+   },
+   "anytimeTd": 0.15489634760437299,
+   "points": 4.44,
+   "floor": 1.95,
+   "ceiling": 5.25,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.15489634760437299,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 500
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 18.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -112
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 1.5,
+     "probability": 0.5351457951824201,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -131
     },
     {
      "market": "player_reception_yds",
@@ -1097,44 +3182,17 @@
      "line": 20.5,
      "probability": 0.5,
      "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -112
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 2.5,
-     "probability": 0.4007285974499089,
-     "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": 135
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 21.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "BetOnline.ag",
+     "book": "FanDuel",
      "americanOdds": -114
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 19.5,
-     "probability": 0.5030135004821601,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -117
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Cleveland Browns D/ST",
-   "playerId": "cleveland browns dst",
+   "playerName": "Bryce Lance",
+   "playerId": "bryce lance",
    "position": "FLEX",
    "projection": {
     "passYards": 0,
@@ -1147,16 +3205,16 @@
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.00726704739169718,
-    "recTds": 0.13807390044224643
+    "rushTds": 0.007406769535509736,
+    "recTds": 0.14072862117468496
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.135272584094679,
-   "points": 0.87,
+   "anytimeTd": 0.13768564231499822,
+   "points": 0.89,
    "floor": 0,
    "ceiling": 0,
    "lines": [
@@ -1164,19 +3222,19 @@
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.135272584094679,
+     "probability": 0.13768564231499822,
      "devigged": false,
      "book": "BetMGM",
      "americanOdds": 575
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Pittsburgh Steelers D/ST",
-   "playerId": "pittsburgh steelers dst",
+   "playerName": "New Orleans Saints D/ST",
+   "playerId": "new orleans saints dst",
    "position": "FLEX",
    "projection": {
     "passYards": 0,
@@ -1189,16 +3247,16 @@
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.008254444221211583,
-    "recTds": 0.15683444020302006
+    "rushTds": 0.007714773745457076,
+    "recTds": 0.1465807011636844
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.15218165710651385,
-   "points": 0.99,
+   "anytimeTd": 0.14298124394249817,
+   "points": 0.93,
    "floor": 0,
    "ceiling": 0,
    "lines": [
@@ -1206,19 +3264,19 @@
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.15218165710651385,
+     "probability": 0.14298124394249817,
      "devigged": false,
      "book": "DraftKings",
-     "americanOdds": 500
+     "americanOdds": 550
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Darnell Washington",
-   "playerId": "darnell washington",
+   "playerName": "Noah Fant",
+   "playerId": "noah fant",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -1228,35 +3286,35 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 1.5607482333068676,
-    "recYards": 16.702805874900754,
+    "receptions": 1.636283005453141,
+    "recYards": 17.68606127044928,
     "kickingPoints": 0,
-    "rushTds": 0.00698847879189286,
-    "recTds": 0.1327810970459643
+    "rushTds": 0.007714773745457076,
+    "recTds": 0.1465807011636844
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
-    "rec100": 6.661338147750939e-16
+    "rec100": 4.3298697960381105e-14
    },
-   "anytimeTd": 0.13044142037701187,
-   "points": 4.07,
-   "floor": 1.86,
-   "ceiling": 4.92,
+   "anytimeTd": 0.14298124394249817,
+   "points": 4.33,
+   "floor": 1.96,
+   "ceiling": 5.19,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.13044142037701187,
+     "probability": 0.14298124394249817,
      "devigged": false,
-     "book": "BetMGM",
-     "americanOdds": 600
+     "book": "DraftKings",
+     "americanOdds": 550
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 16.5,
+     "line": 17.5,
      "probability": 0.5021058838394474,
      "devigged": true,
      "book": "DraftKings",
@@ -1266,115 +3324,79 @@
      "market": "player_receptions",
      "label": "receptions",
      "line": 1.5,
-     "probability": 0.5407914020517831,
+     "probability": 0.5867448807441689,
      "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -135
+     "book": "BetOnline.ag",
+     "americanOdds": -167
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 16.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
      "line": 15.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -113
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 2.5,
-     "probability": 0.379746835443038,
+     "probability": 0.5101214574898786,
      "devigged": true,
      "book": "BetMGM",
-     "americanOdds": 145
+     "americanOdds": -120
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Raheim Sanders",
-   "playerId": "raheim sanders",
-   "position": "WR",
+   "playerName": "Atlanta Falcons D/ST",
+   "playerId": "atlanta falcons dst",
+   "position": "FLEX",
    "projection": {
     "passYards": 0,
     "passTds": 0,
     "interceptions": 0,
     "passAttempts": 0,
     "completions": 0,
-    "rushYards": 5.424780674432434,
+    "rushYards": 0,
     "carries": 0,
-    "receptions": 1.5664562943545814,
-    "recYards": 14.374999999999998,
+    "receptions": 0,
+    "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.005682088102319239,
-    "recTds": 0.10795967394406554
+    "rushTds": 0.007122454608452503,
+    "recTds": 0.13532663756059754
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.1074223461928333,
-   "points": 4.23,
-   "floor": 2.07,
-   "ceiling": 5.37,
+   "anytimeTd": 0.1327682979466054,
+   "points": 0.85,
+   "floor": 0,
+   "ceiling": 0,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.1074223461928333,
+     "probability": 0.1327682979466054,
      "devigged": false,
-     "book": "FanDuel",
-     "americanOdds": 750
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 11.5,
-     "probability": 0.48784883956417835,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -109
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 1.5,
-     "probability": 0.5727636849132176,
-     "devigged": true,
-     "book": "BetOnline.ag",
-     "americanOdds": -156
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 5.5,
-     "probability": 0.48893805309734506,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -110
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 12.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -113
+     "book": "DraftKings",
+     "americanOdds": 600
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Jerry Jeudy",
-   "playerId": "jerry jeudy",
+   "playerName": "Austin Hooper",
+   "playerId": "austin hooper",
    "position": "WR",
    "projection": {
     "passYards": 0,
@@ -1384,35 +3406,146 @@
     "completions": 0,
     "rushYards": 0,
     "carries": 0,
-    "receptions": 1.4137169131368696,
-    "recYards": 15.45143842426326,
+    "receptions": 1.3237616962877565,
+    "recYards": 12.075,
     "kickingPoints": 0,
-    "rushTds": 0.004548831242097825,
-    "recTds": 0.08642779359985867
+    "rushTds": 0.005449701652277674,
+    "recTds": 0.1035443313932758
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.08696094691800792,
-   "points": 3.5,
-   "floor": 1.7,
-   "ceiling": 4.51,
+   "anytimeTd": 0.10326423173624866,
+   "points": 3.19,
+   "floor": 1.48,
+   "ceiling": 3.83,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.08696094691800792,
+     "probability": 0.10326423173624866,
      "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 950
+     "book": "BetRivers",
+     "americanOdds": 800
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 15.5,
+     "line": 10.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "FanDuel",
+     "americanOdds": -114
+    },
+    {
+     "market": "player_receptions",
+     "label": "receptions",
+     "line": 1.5,
+     "probability": 0.4,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 150
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 9.5,
+     "probability": 0.5,
+     "devigged": true,
+     "book": "BetMGM",
+     "americanOdds": -115
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "CJ Donaldson",
+   "playerId": "cj donaldson",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.006174655019105659,
+    "recTds": 0.1173184453630075
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.11617226070327975,
+   "points": 0.74,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.11617226070327975,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 700
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Olamide Zaccheaus",
+   "playerId": "olamide zaccheaus",
+   "position": "WR",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 1.131051244604474,
+    "recYards": 8.625,
+    "kickingPoints": 0,
+    "rushTds": 0.005614481014112264,
+    "recTds": 0.10667513926813299
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.10621463835728434,
+   "points": 2.67,
+   "floor": 1.12,
+   "ceiling": 3.07,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.10621463835728434,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 775
+    },
+    {
+     "market": "player_reception_yds",
+     "label": "receiving yards",
+     "line": 8.5,
      "probability": 0.48945992664108945,
      "devigged": true,
      "book": "DraftKings",
@@ -1422,409 +3555,133 @@
      "market": "player_receptions",
      "label": "receptions",
      "line": 1.5,
-     "probability": 0.43619928526382173,
+     "probability": 0.3688425139529241,
      "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": 116
+     "book": "BetOnline.ag",
+     "americanOdds": 155
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
-     "line": 14.5,
+     "line": 7.5,
      "probability": 0.5,
      "devigged": true,
      "book": "FanDuel",
-     "americanOdds": -113
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 13.5,
-     "probability": 0.5,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -115
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Germie Bernard",
-   "playerId": "germie bernard",
-   "position": "WR",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 1.2309727562872288,
-    "recYards": 10.907744453258433,
-    "kickingPoints": 0,
-    "rushTds": 0.003957075573610364,
-    "recTds": 0.07518443589859691
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.07609082855325693,
-   "points": 2.8,
-   "floor": 1.33,
-   "ceiling": 3.54,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.07609082855325693,
-     "devigged": false,
-     "book": "FanDuel",
-     "americanOdds": 1100
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 8.5,
-     "probability": 0.4812406203101551,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -104
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 1.5,
-     "probability": 0.3438718948881133,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": 172
+     "americanOdds": -114
     },
     {
      "market": "player_reception_yds",
      "label": "receiving yards",
      "line": 9.5,
-     "probability": 0.4989820846905537,
-     "devigged": true,
-     "book": "BetRivers",
-     "americanOdds": -114
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Blake Whiteheart",
-   "playerId": "blake whiteheart",
-   "position": "WR",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0.425,
-    "recYards": 0.5401189407455594,
-    "kickingPoints": 0,
-    "rushTds": 0.003252090798165308,
-    "recTds": 0.06178972516514085
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.06297172018200574,
-   "points": 0.87,
-   "floor": 0.02,
-   "ceiling": 1.05,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.06297172018200574,
-     "devigged": false,
-     "book": "BetMGM",
-     "americanOdds": 1350
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 0.5,
-     "probability": 0.47581391436022547,
-     "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -101
-    },
-    {
-     "market": "player_receptions",
-     "label": "receptions",
-     "line": 0.5,
      "probability": 0.5,
      "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -114
-    },
-    {
-     "market": "player_reception_yds",
-     "label": "receiving yards",
-     "line": 3.5,
-     "probability": 0.440512857245183,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": 114
+     "book": "BetMGM",
+     "americanOdds": -115
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Ben Skowronek",
-   "playerId": "ben skowronek",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.00260295406245303,
-    "recTds": 0.049456127186607565
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.05072721903550462,
-   "points": 0.31,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.05072721903550462,
-     "devigged": false,
-     "book": "BetRivers",
-     "americanOdds": 1700
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Aaron Rodgers",
-   "playerId": "aaron rodgers",
+   "playerName": "Michael Penix Jr.",
+   "playerId": "michael penix",
    "position": "QB",
    "projection": {
-    "passYards": 215.5,
+    "passYards": 224.5,
     "passTds": 0,
     "interceptions": 0,
     "passAttempts": 0,
     "completions": 0,
-    "rushYards": 1.5119763634275982,
+    "rushYards": 5.514554817888667,
     "carries": 0,
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.05520744267748008,
+    "rushTds": 0.08426839952882947,
     "recTds": 0
    },
    "bonuses": {
-    "pass300": 0.08194439414006605,
+    "pass300": 0.11640976874874376,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.05371117309641665,
-   "points": 9.35,
-   "floor": 6.68,
-   "ceiling": 12.53,
+   "anytimeTd": 0.08081548570662939,
+   "points": 10.39,
+   "floor": 7.19,
+   "ceiling": 13.78,
    "lines": [
     {
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.05371117309641665,
+     "probability": 0.08081548570662939,
      "devigged": false,
-     "book": "BetRivers",
-     "americanOdds": 1600
+     "book": "BetMGM",
+     "americanOdds": 1050
     },
     {
      "market": "player_pass_yds",
      "label": "passing yards",
-     "line": 216.5,
+     "line": 228.5,
+     "probability": 0.4978941161605526,
+     "devigged": true,
+     "book": "DraftKings",
+     "americanOdds": -111
+    },
+    {
+     "market": "player_rush_yds",
+     "label": "rushing yards",
+     "line": 5.5,
      "probability": 0.5021058838394474,
      "devigged": true,
      "book": "DraftKings",
      "americanOdds": -113
     },
     {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 1.5,
-     "probability": 0.5063197809142617,
-     "devigged": true,
-     "book": "DraftKings",
-     "americanOdds": -115
-    },
-    {
-     "market": "player_rush_yds",
-     "label": "rushing yards",
-     "line": 0.5,
-     "probability": 0.550561797752809,
-     "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -140
-    },
-    {
      "market": "player_pass_yds",
      "label": "passing yards",
-     "line": 215.5,
+     "line": 224.5,
      "probability": 0.5,
      "devigged": true,
-     "book": "BetOnline.ag",
+     "book": "FanDuel",
      "americanOdds": -114
     },
     {
      "market": "player_pass_yds",
      "label": "passing yards",
-     "line": 209.5,
-     "probability": 0.5,
+     "line": 220.5,
+     "probability": 0.4969864995178399,
      "devigged": true,
      "book": "BetRivers",
-     "americanOdds": -115
-    },
-    {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 186.5,
-     "probability": 0.6705882352941177,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -250
-    },
-    {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 196.5,
-     "probability": 0.6161482461945732,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -190
-    },
-    {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 206.5,
-     "probability": 0.554140127388535,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": -145
+     "americanOdds": -114
     },
     {
      "market": "player_pass_yds",
      "label": "passing yards",
      "line": 226.5,
-     "probability": 0.4458598726114649,
+     "probability": 0.5,
      "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 110
-    },
-    {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 236.5,
-     "probability": 0.39094650205761317,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 140
-    },
-    {
-     "market": "player_pass_yds",
-     "label": "passing yards",
-     "line": 246.5,
-     "probability": 0.3400000000000001,
-     "devigged": true,
-     "book": "Bovada",
-     "americanOdds": 175
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Travis Homer",
-   "playerId": "travis homer",
-   "position": "RB",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 6.5,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.04416595414198407,
-    "recTds": 0.011041488535496018
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.05371117309641665,
-   "points": 0.98,
-   "floor": 0.38,
-   "ceiling": 0.99,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.05371117309641665,
-     "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 1600
+     "book": "BetMGM",
+     "americanOdds": -115
     },
     {
      "market": "player_rush_yds",
      "label": "rushing yards",
-     "line": 6.5,
-     "probability": 0.5,
+     "line": 3.5,
+     "probability": 0.5203045685279188,
      "devigged": true,
-     "book": "FanDuel",
-     "americanOdds": -113
+     "book": "BetMGM",
+     "americanOdds": -125
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Isaiah Bond",
-   "playerId": "isaiah bond",
+   "playerName": "Oscar Delp",
+   "playerId": "oscar delp",
    "position": "FLEX",
    "projection": {
     "passYards": 0,
@@ -1837,16 +3694,16 @@
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.0020254543992096765,
-    "recTds": 0.038483633584983856
+    "rushTds": 0.002811023236061818,
+    "recTds": 0.053409441485174534
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.0396995627234384,
-   "points": 0.24,
+   "anytimeTd": 0.05466929915448459,
+   "points": 0.34,
    "floor": 0,
    "ceiling": 0,
    "lines": [
@@ -1854,19 +3711,271 @@
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.0396995627234384,
+     "probability": 0.05466929915448459,
      "devigged": false,
      "book": "BetRivers",
+     "americanOdds": 1600
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Kevin Austin",
+   "playerId": "kevin austin",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0037087399023933705,
+    "recTds": 0.07046605814547403
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.07149062197124909,
+   "points": 0.45,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.07149062197124909,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 1200
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Zachariah Branch",
+   "playerId": "zachariah branch",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0037087399023933705,
+    "recTds": 0.07046605814547403
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.07149062197124909,
+   "points": 0.45,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.07149062197124909,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 1200
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Treyton Welch",
+   "playerId": "treyton welch",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.002811023236061818,
+    "recTds": 0.053409441485174534
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.05466929915448459,
+   "points": 0.34,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.05466929915448459,
+     "devigged": false,
+     "book": "BetRivers",
+     "americanOdds": 1600
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Barion Brown",
+   "playerId": "barion brown",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.004030586224263473,
+    "recTds": 0.07658113826100599
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.07744817380218649,
+   "points": 0.48,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.07744817380218649,
+     "devigged": false,
+     "book": "DraftKings",
+     "americanOdds": 1100
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Chris Blair",
+   "playerId": "chris blair",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.0022632644066002414,
+    "recTds": 0.043002023725404584
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.04425609931553514,
+   "points": 0.27,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.04425609931553514,
+     "devigged": false,
+     "book": "BetMGM",
+     "americanOdds": 2000
+    }
+   ],
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
+   "team": null,
+   "opponent": null
+  },
+  {
+   "playerName": "Charlie Woerner",
+   "playerId": "charlie woerner",
+   "position": "FLEX",
+   "projection": {
+    "passYards": 0,
+    "passTds": 0,
+    "interceptions": 0,
+    "passAttempts": 0,
+    "completions": 0,
+    "rushYards": 0,
+    "carries": 0,
+    "receptions": 0,
+    "recYards": 0,
+    "kickingPoints": 0,
+    "rushTds": 0.002062340844168393,
+    "recTds": 0.03918447603919946
+   },
+   "bonuses": {
+    "pass300": 0,
+    "rush100": 0,
+    "rec100": 0
+   },
+   "anytimeTd": 0.04040774285331469,
+   "points": 0.25,
+   "floor": 0,
+   "ceiling": 0,
+   "lines": [
+    {
+     "market": "player_anytime_td",
+     "label": "to score a TD",
+     "line": null,
+     "probability": 0.04040774285331469,
+     "devigged": false,
+     "book": "DraftKings",
      "americanOdds": 2200
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Jaleel McLaughlin",
-   "playerId": "jaleel mclaughlin",
+   "playerName": "Nick Muse",
+   "playerId": "nick muse",
    "position": "FLEX",
    "projection": {
     "passYards": 0,
@@ -1879,16 +3988,16 @@
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.0016576961348350298,
-    "recTds": 0.03149622656186556
+    "rushTds": 0.0013857595900344372,
+    "recTds": 0.026329432210654303
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.03261035509425297,
-   "points": 0.2,
+   "anytimeTd": 0.027334649577242295,
+   "points": 0.17,
    "floor": 0,
    "ceiling": 0,
    "lines": [
@@ -1896,187 +4005,19 @@
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.03261035509425297,
-     "devigged": false,
-     "book": "FanDuel",
-     "americanOdds": 2700
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Kaden Wetjen",
-   "playerId": "kaden wetjen",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.0015996098219438846,
-    "recTds": 0.030392586616933805
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.03148586009100287,
-   "points": 0.19,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.03148586009100287,
-     "devigged": false,
-     "book": "BetMGM",
-     "americanOdds": 2800
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Lew Nichols",
-   "playerId": "lew nichols",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.0017875169788587235,
-    "recTds": 0.03396282259831574
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.03511884394765705,
-   "points": 0.21,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.03511884394765705,
-     "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 2500
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Eli Heidenreich",
-   "playerId": "eli heidenreich",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.0017875169788587235,
-    "recTds": 0.03396282259831574
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.03511884394765705,
-   "points": 0.21,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.03511884394765705,
-     "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 2500
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Riley Nowakowski",
-   "playerId": "riley nowakowski",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.001361139349782397,
-    "recTds": 0.02586164764586554
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.026855586548208327,
-   "points": 0.16,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.026855586548208327,
+     "probability": 0.027334649577242295,
      "devigged": false,
      "book": "BetMGM",
      "americanOdds": 3300
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Robert Tonyan",
-   "playerId": "robert tonyan",
+   "playerName": "Atlanta Falcons Defense",
+   "playerId": "atlanta falcons defense",
    "position": "FLEX",
    "projection": {
     "passYards": 0,
@@ -2089,16 +4030,16 @@
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.001284540518987757,
-    "recTds": 0.024406269860767382
+    "rushTds": 0.0066147266401830294,
+    "recTds": 0.12567980616347754
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.02536360951775231,
-   "points": 0.15,
+   "anytimeTd": 0.1239170780834984,
+   "points": 0.79,
    "floor": 0,
    "ceiling": 0,
    "lines": [
@@ -2106,103 +4047,19 @@
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.02536360951775231,
-     "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 3500
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Michael Burton",
-   "playerId": "michael burton",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.0011261109083615269,
-    "recTds": 0.02139610725886901
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.022270486405831298,
-   "points": 0.14,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.022270486405831298,
-     "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 4000
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Malachi Corley",
-   "playerId": "malachi corley",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.0010024717369792433,
-    "recTds": 0.01904696300260562
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.0198497813617192,
-   "points": 0.12,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.0198497813617192,
+     "probability": 0.1239170780834984,
      "devigged": false,
      "book": "FanDuel",
-     "americanOdds": 4500
+     "americanOdds": 650
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
   },
   {
-   "playerName": "Carsen Ryan",
-   "playerId": "carsen ryan",
+   "playerName": "New Orleans Saints Defense",
+   "playerId": "new orleans saints defense",
    "position": "FLEX",
    "projection": {
     "passYards": 0,
@@ -2215,16 +4072,16 @@
     "receptions": 0,
     "recYards": 0,
     "kickingPoints": 0,
-    "rushTds": 0.0008219784908418762,
-    "recTds": 0.015617591325995646
+    "rushTds": 0.005449701652277674,
+    "recTds": 0.1035443313932758
    },
    "bonuses": {
     "pass300": 0,
     "rush100": 0,
     "rec100": 0
    },
-   "anytimeTd": 0.016305177547126484,
-   "points": 0.1,
+   "anytimeTd": 0.10326423173624866,
+   "points": 0.65,
    "floor": 0,
    "ceiling": 0,
    "lines": [
@@ -2232,695 +4089,29 @@
      "market": "player_anytime_td",
      "label": "to score a TD",
      "line": null,
-     "probability": 0.016305177547126484,
-     "devigged": false,
-     "book": "DraftKings",
-     "americanOdds": 5500
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Pittsburgh Steelers Defense",
-   "playerId": "pittsburgh steelers defense",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.006059605657351117,
-    "recTds": 0.1151325074896712
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.1141362428298854,
-   "points": 0.73,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.1141362428298854,
+     "probability": 0.10326423173624866,
      "devigged": false,
      "book": "FanDuel",
-     "americanOdds": 700
+     "americanOdds": 800
     }
    ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
+   "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": null,
    "opponent": null
-  },
-  {
-   "playerName": "Cleveland Browns Defense",
-   "playerId": "cleveland browns defense",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.006059605657351117,
-    "recTds": 0.1151325074896712
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.1141362428298854,
-   "points": 0.73,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.1141362428298854,
-     "devigged": false,
-     "book": "FanDuel",
-     "americanOdds": 700
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Tylan Wallace",
-   "playerId": "tylan wallace",
-   "position": "FLEX",
-   "projection": {
-    "passYards": 0,
-    "passTds": 0,
-    "interceptions": 0,
-    "passAttempts": 0,
-    "completions": 0,
-    "rushYards": 0,
-    "carries": 0,
-    "receptions": 0,
-    "recYards": 0,
-    "kickingPoints": 0,
-    "rushTds": 0.0031402099820844465,
-    "recTds": 0.05966398965960448
-   },
-   "bonuses": {
-    "pass300": 0,
-    "rush100": 0,
-    "rec100": 0
-   },
-   "anytimeTd": 0.06087266284260554,
-   "points": 0.38,
-   "floor": 0,
-   "ceiling": 0,
-   "lines": [
-    {
-     "market": "player_anytime_td",
-     "label": "to score a TD",
-     "line": null,
-     "probability": 0.06087266284260554,
-     "devigged": false,
-     "book": "BetOnline.ag",
-     "americanOdds": 1400
-    }
-   ],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": null,
-   "opponent": null
-  },
-  {
-   "playerName": "Cleveland Browns",
-   "playerId": "cleveland browns",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 20,
-    "sacks": 2.0124999999999997,
-    "takeaways": 1.2249999999999999,
-    "defensiveTds": 0.105
-   },
-   "points": 6.2,
-   "floor": 1.7,
-   "ceiling": 15.2,
-   "lines": [],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": "Cleveland Browns",
-   "opponent": "Pittsburgh Steelers"
-  },
-  {
-   "playerName": "Pittsburgh Steelers",
-   "playerId": "pittsburgh steelers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 17.5,
-    "sacks": 2.5875,
-    "takeaways": 1.575,
-    "defensiveTds": 0.135
-   },
-   "points": 8.25,
-   "floor": 3.75,
-   "ceiling": 17.25,
-   "lines": [],
-   "gameId": "d55cb69fed50a09170560b5b75d8de86",
-   "team": "Pittsburgh Steelers",
-   "opponent": "Cleveland Browns"
-  },
-  {
-   "playerName": "Washington Commanders",
-   "playerId": "washington commanders",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 26.25,
-    "sacks": 1.8399999999999999,
-    "takeaways": 1.1199999999999999,
-    "defensiveTds": 0.096
-   },
-   "points": 4.39,
-   "floor": -0.11,
-   "ceiling": 13.39,
-   "lines": [],
-   "gameId": "c9d8ed8aa4889486eaf10a630138ede0",
-   "team": "Washington Commanders",
-   "opponent": "Indianapolis Colts"
-  },
-  {
-   "playerName": "Indianapolis Colts",
-   "playerId": "indianapolis colts",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 22.25,
-    "sacks": 2.76,
-    "takeaways": 1.68,
-    "defensiveTds": 0.144
-   },
-   "points": 7.57,
-   "floor": 3.07,
-   "ceiling": 16.57,
-   "lines": [],
-   "gameId": "c9d8ed8aa4889486eaf10a630138ede0",
-   "team": "Indianapolis Colts",
-   "opponent": "Washington Commanders"
-  },
-  {
-   "playerName": "New York Giants",
-   "playerId": "new york giants",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 23.25,
-    "sacks": 2.0124999999999997,
-    "takeaways": 1.2249999999999999,
-    "defensiveTds": 0.105
-   },
-   "points": 5.46,
-   "floor": 0.96,
-   "ceiling": 14.46,
-   "lines": [],
-   "gameId": "664e6bda5721dc63be16bcf7d962a436",
-   "team": "New York Giants",
-   "opponent": "Arizona Cardinals"
-  },
-  {
-   "playerName": "Arizona Cardinals",
-   "playerId": "arizona cardinals",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 20.75,
-    "sacks": 2.5875,
-    "takeaways": 1.575,
-    "defensiveTds": 0.135
-   },
-   "points": 7.48,
-   "floor": 2.98,
-   "ceiling": 16.48,
-   "lines": [],
-   "gameId": "664e6bda5721dc63be16bcf7d962a436",
-   "team": "Arizona Cardinals",
-   "opponent": "New York Giants"
-  },
-  {
-   "playerName": "Baltimore Ravens",
-   "playerId": "baltimore ravens",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 15.5,
-    "sacks": 3.2199999999999998,
-    "takeaways": 1.9599999999999997,
-    "defensiveTds": 0.16799999999999998
-   },
-   "points": 10.36,
-   "floor": 5.86,
-   "ceiling": 19.36,
-   "lines": [],
-   "gameId": "f01589b0e7e6dd4f4ac1220a1db81f53",
-   "team": "Baltimore Ravens",
-   "opponent": "Tennessee Titans"
-  },
-  {
-   "playerName": "Tennessee Titans",
-   "playerId": "tennessee titans",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 27,
-    "sacks": 1.38,
-    "takeaways": 0.84,
-    "defensiveTds": 0.072
-   },
-   "points": 3.08,
-   "floor": -1.42,
-   "ceiling": 12.08,
-   "lines": [],
-   "gameId": "f01589b0e7e6dd4f4ac1220a1db81f53",
-   "team": "Tennessee Titans",
-   "opponent": "Baltimore Ravens"
-  },
-  {
-   "playerName": "Buffalo Bills",
-   "playerId": "buffalo bills",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 20.75,
-    "sacks": 3.105,
-    "takeaways": 1.89,
-    "defensiveTds": 0.162
-   },
-   "points": 8.79,
-   "floor": 4.29,
-   "ceiling": 17.79,
-   "lines": [],
-   "gameId": "573cc0ef39631a4f6673ec843a8bedd4",
-   "team": "Buffalo Bills",
-   "opponent": "New England Patriots"
-  },
-  {
-   "playerName": "New England Patriots",
-   "playerId": "new england patriots",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 27.75,
-    "sacks": 1.4949999999999999,
-    "takeaways": 0.9099999999999999,
-    "defensiveTds": 0.078
-   },
-   "points": 3.23,
-   "floor": -1.27,
-   "ceiling": 12.23,
-   "lines": [],
-   "gameId": "573cc0ef39631a4f6673ec843a8bedd4",
-   "team": "New England Patriots",
-   "opponent": "Buffalo Bills"
-  },
-  {
-   "playerName": "Chicago Bears",
-   "playerId": "chicago bears",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 20,
-    "sacks": 2.6449999999999996,
-    "takeaways": 1.6099999999999999,
-    "defensiveTds": 0.13799999999999998
-   },
-   "points": 7.8,
-   "floor": 3.3,
-   "ceiling": 16.8,
-   "lines": [],
-   "gameId": "164e6eb68f31bac190381903c3cccd31",
-   "team": "Chicago Bears",
-   "opponent": "New York Jets"
-  },
-  {
-   "playerName": "New York Jets",
-   "playerId": "new york jets",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 23,
-    "sacks": 1.9549999999999998,
-    "takeaways": 1.19,
-    "defensiveTds": 0.102
-   },
-   "points": 5.37,
-   "floor": 0.87,
-   "ceiling": 14.37,
-   "lines": [],
-   "gameId": "164e6eb68f31bac190381903c3cccd31",
-   "team": "New York Jets",
-   "opponent": "Chicago Bears"
-  },
-  {
-   "playerName": "Cincinnati Bengals",
-   "playerId": "cincinnati bengals",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 24.5,
-    "sacks": 2.5875,
-    "takeaways": 1.575,
-    "defensiveTds": 0.135
-   },
-   "points": 6.64,
-   "floor": 2.14,
-   "ceiling": 15.64,
-   "lines": [],
-   "gameId": "2ea94ddf20f66432b9024fe2e2eaba5f",
-   "team": "Cincinnati Bengals",
-   "opponent": "Jacksonville Jaguars"
-  },
-  {
-   "playerName": "Jacksonville Jaguars",
-   "playerId": "jacksonville jaguars",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 27,
-    "sacks": 2.0124999999999997,
-    "takeaways": 1.2249999999999999,
-    "defensiveTds": 0.105
-   },
-   "points": 4.68,
-   "floor": 0.18,
-   "ceiling": 13.68,
-   "lines": [],
-   "gameId": "2ea94ddf20f66432b9024fe2e2eaba5f",
-   "team": "Jacksonville Jaguars",
-   "opponent": "Cincinnati Bengals"
-  },
-  {
-   "playerName": "Houston Texans",
-   "playerId": "houston texans",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 22.5,
-    "sacks": 2.6449999999999996,
-    "takeaways": 1.6099999999999999,
-    "defensiveTds": 0.13799999999999998
-   },
-   "points": 7.23,
-   "floor": 2.73,
-   "ceiling": 16.23,
-   "lines": [],
-   "gameId": "daf55e2df5341c007fee5a0fc5bbc2d4",
-   "team": "Houston Texans",
-   "opponent": "Dallas Cowboys"
-  },
-  {
-   "playerName": "Dallas Cowboys",
-   "playerId": "dallas cowboys",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 25.5,
-    "sacks": 1.9549999999999998,
-    "takeaways": 1.19,
-    "defensiveTds": 0.102
-   },
-   "points": 4.83,
-   "floor": 0.33,
-   "ceiling": 13.83,
-   "lines": [],
-   "gameId": "daf55e2df5341c007fee5a0fc5bbc2d4",
-   "team": "Dallas Cowboys",
-   "opponent": "Houston Texans"
-  },
-  {
-   "playerName": "Tampa Bay Buccaneers",
-   "playerId": "tampa bay buccaneers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 21,
-    "sacks": 1.8974999999999997,
-    "takeaways": 1.1549999999999998,
-    "defensiveTds": 0.09899999999999999
-   },
-   "points": 5.68,
-   "floor": 1.18,
-   "ceiling": 14.68,
-   "lines": [],
-   "gameId": "99a9bae4dc0dc2590496bd3102b211f2",
-   "team": "Tampa Bay Buccaneers",
-   "opponent": "Green Bay Packers"
-  },
-  {
-   "playerName": "Green Bay Packers",
-   "playerId": "green bay packers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 17.5,
-    "sacks": 2.7024999999999997,
-    "takeaways": 1.645,
-    "defensiveTds": 0.141
-   },
-   "points": 8.55,
-   "floor": 4.05,
-   "ceiling": 17.55,
-   "lines": [],
-   "gameId": "99a9bae4dc0dc2590496bd3102b211f2",
-   "team": "Green Bay Packers",
-   "opponent": "Tampa Bay Buccaneers"
-  },
-  {
-   "playerName": "Philadelphia Eagles",
-   "playerId": "philadelphia eagles",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 23,
-    "sacks": 1.9549999999999998,
-    "takeaways": 1.19,
-    "defensiveTds": 0.102
-   },
-   "points": 5.37,
-   "floor": 0.87,
-   "ceiling": 14.37,
-   "lines": [],
-   "gameId": "1b4f2e60ce83fa1d63a5dff83769d27c",
-   "team": "Philadelphia Eagles",
-   "opponent": "Los Angeles Rams"
-  },
-  {
-   "playerName": "Los Angeles Rams",
-   "playerId": "los angeles rams",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 20,
-    "sacks": 2.6449999999999996,
-    "takeaways": 1.6099999999999999,
-    "defensiveTds": 0.13799999999999998
-   },
-   "points": 7.8,
-   "floor": 3.3,
-   "ceiling": 16.8,
-   "lines": [],
-   "gameId": "1b4f2e60ce83fa1d63a5dff83769d27c",
-   "team": "Los Angeles Rams",
-   "opponent": "Philadelphia Eagles"
-  },
-  {
-   "playerName": "Minnesota Vikings",
-   "playerId": "minnesota vikings",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 14.25,
-    "sacks": 3.2199999999999998,
-    "takeaways": 1.9599999999999997,
-    "defensiveTds": 0.16799999999999998
-   },
-   "points": 10.71,
-   "floor": 6.21,
-   "ceiling": 19.71,
-   "lines": [],
-   "gameId": "c327223d76a3b7b0db8c6c104442f44b",
-   "team": "Minnesota Vikings",
-   "opponent": "Miami Dolphins"
-  },
-  {
-   "playerName": "Miami Dolphins",
-   "playerId": "miami dolphins",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 24.75,
-    "sacks": 1.38,
-    "takeaways": 0.84,
-    "defensiveTds": 0.072
-   },
-   "points": 3.53,
-   "floor": -0.97,
-   "ceiling": 12.53,
-   "lines": [],
-   "gameId": "c327223d76a3b7b0db8c6c104442f44b",
-   "team": "Miami Dolphins",
-   "opponent": "Minnesota Vikings"
-  },
-  {
-   "playerName": "San Francisco 49ers",
-   "playerId": "san francisco ers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 22.75,
-    "sacks": 2.5875,
-    "takeaways": 1.575,
-    "defensiveTds": 0.135
-   },
-   "points": 7.03,
-   "floor": 2.53,
-   "ceiling": 16.03,
-   "lines": [],
-   "gameId": "a7e7efb75a9792ac63480ae6328dca18",
-   "team": "San Francisco 49ers",
-   "opponent": "Denver Broncos"
-  },
-  {
-   "playerName": "Denver Broncos",
-   "playerId": "denver broncos",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 25.25,
-    "sacks": 2.0124999999999997,
-    "takeaways": 1.2249999999999999,
-    "defensiveTds": 0.105
-   },
-   "points": 5.03,
-   "floor": 0.53,
-   "ceiling": 14.03,
-   "lines": [],
-   "gameId": "a7e7efb75a9792ac63480ae6328dca18",
-   "team": "Denver Broncos",
-   "opponent": "San Francisco 49ers"
-  },
-  {
-   "playerName": "Las Vegas Raiders",
-   "playerId": "las vegas raiders",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 26,
-    "sacks": 1.7825,
-    "takeaways": 1.085,
-    "defensiveTds": 0.093
-   },
-   "points": 4.29,
-   "floor": -0.21,
-   "ceiling": 13.29,
-   "lines": [],
-   "gameId": "e0cbd266dcf997089203a1b33ba0333d",
-   "team": "Las Vegas Raiders",
-   "opponent": "Kansas City Chiefs"
-  },
-  {
-   "playerName": "Kansas City Chiefs",
-   "playerId": "kansas city chiefs",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 21.5,
-    "sacks": 2.8175,
-    "takeaways": 1.715,
-    "defensiveTds": 0.147
-   },
-   "points": 7.89,
-   "floor": 3.39,
-   "ceiling": 16.89,
-   "lines": [],
-   "gameId": "e0cbd266dcf997089203a1b33ba0333d",
-   "team": "Kansas City Chiefs",
-   "opponent": "Las Vegas Raiders"
-  },
-  {
-   "playerName": "Seattle Seahawks",
-   "playerId": "seattle seahawks",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 17.75,
-    "sacks": 3.105,
-    "takeaways": 1.89,
-    "defensiveTds": 0.162
-   },
-   "points": 9.5,
-   "floor": 5,
-   "ceiling": 18.5,
-   "lines": [],
-   "gameId": "96d2373cda647873b971f268482bced0",
-   "team": "Seattle Seahawks",
-   "opponent": "Los Angeles Chargers"
-  },
-  {
-   "playerName": "Los Angeles Chargers",
-   "playerId": "los angeles chargers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 24.75,
-    "sacks": 1.4949999999999999,
-    "takeaways": 0.9099999999999999,
-    "defensiveTds": 0.078
-   },
-   "points": 3.82,
-   "floor": -0.68,
-   "ceiling": 12.82,
-   "lines": [],
-   "gameId": "96d2373cda647873b971f268482bced0",
-   "team": "Los Angeles Chargers",
-   "opponent": "Seattle Seahawks"
-  },
-  {
-   "playerName": "Carolina Panthers",
-   "playerId": "carolina panthers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 27.25,
-    "sacks": 1.8974999999999997,
-    "takeaways": 1.1549999999999998,
-    "defensiveTds": 0.09899999999999999
-   },
-   "points": 4.34,
-   "floor": -0.16,
-   "ceiling": 13.34,
-   "lines": [],
-   "gameId": "a73a76599a4f3422803e57bd8f61b626",
-   "team": "Carolina Panthers",
-   "opponent": "Detroit Lions"
-  },
-  {
-   "playerName": "Detroit Lions",
-   "playerId": "detroit lions",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 23.75,
-    "sacks": 2.7024999999999997,
-    "takeaways": 1.645,
-    "defensiveTds": 0.141
-   },
-   "points": 7.09,
-   "floor": 2.59,
-   "ceiling": 16.09,
-   "lines": [],
-   "gameId": "a73a76599a4f3422803e57bd8f61b626",
-   "team": "Detroit Lions",
-   "opponent": "Carolina Panthers"
   },
   {
    "playerName": "New Orleans Saints",
    "playerId": "new orleans saints",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 22.75,
-    "sacks": 2.5875,
-    "takeaways": 1.575,
-    "defensiveTds": 0.135
+    "pointsAllowed": 23.25,
+    "sacks": 2.4724999999999997,
+    "takeaways": 1.505,
+    "defensiveTds": 0.129
    },
-   "points": 7.03,
-   "floor": 2.53,
-   "ceiling": 16.03,
+   "points": 6.62,
+   "floor": 2.12,
+   "ceiling": 15.62,
    "lines": [],
    "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": "New Orleans Saints",
@@ -2931,54 +4122,18 @@
    "playerId": "atlanta falcons",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 25.25,
-    "sacks": 2.0124999999999997,
-    "takeaways": 1.2249999999999999,
-    "defensiveTds": 0.105
+    "pointsAllowed": 24.75,
+    "sacks": 2.1275,
+    "takeaways": 1.295,
+    "defensiveTds": 0.111
    },
-   "points": 5.03,
-   "floor": 0.53,
-   "ceiling": 14.03,
+   "points": 5.43,
+   "floor": 0.93,
+   "ceiling": 14.43,
    "lines": [],
    "gameId": "8bd90781e17e6d97df3941063cedae1e",
    "team": "Atlanta Falcons",
    "opponent": "New Orleans Saints"
-  },
-  {
-   "playerName": "Dallas Cowboys",
-   "playerId": "dallas cowboys",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 18.75,
-    "sacks": 3.2199999999999998,
-    "takeaways": 1.9599999999999997,
-    "defensiveTds": 0.16799999999999998
-   },
-   "points": 9.55,
-   "floor": 5.05,
-   "ceiling": 18.55,
-   "lines": [],
-   "gameId": "259b5df9aa0d10257f56de78523495e0",
-   "team": "Dallas Cowboys",
-   "opponent": "Tampa Bay Buccaneers"
-  },
-  {
-   "playerName": "Tampa Bay Buccaneers",
-   "playerId": "tampa bay buccaneers",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 28.25,
-    "sacks": 1.38,
-    "takeaways": 0.84,
-    "defensiveTds": 0.072
-   },
-   "points": 2.85,
-   "floor": -1.65,
-   "ceiling": 11.85,
-   "lines": [],
-   "gameId": "259b5df9aa0d10257f56de78523495e0",
-   "team": "Tampa Bay Buccaneers",
-   "opponent": "Dallas Cowboys"
   }
  ]
 }
