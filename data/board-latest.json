@@ -1,31 +1,19 @@
 {
- "generatedAt": "2026-10-05T22:11:16.396Z",
+ "generatedAt": "2026-10-08T22:08:07.395Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "8bd90781e17e6d97df3941063cedae1e",
-   "home": "New Orleans Saints",
-   "away": "Atlanta Falcons",
-   "commenceTime": "2026-10-06T00:15:00Z",
-   "total": 48,
-   "homeSpread": -1.5,
-   "teamTotals": {
-    "New Orleans Saints": 24.75,
-    "Atlanta Falcons": 23.25
-   }
-  },
-  {
    "gameId": "259b5df9aa0d10257f56de78523495e0",
    "home": "Dallas Cowboys",
    "away": "Tampa Bay Buccaneers",
    "commenceTime": "2026-10-09T00:15:00Z",
-   "total": 47.5,
-   "homeSpread": -9.5,
+   "total": 49,
+   "homeSpread": -9,
    "teamTotals": {
-    "Dallas Cowboys": 28.5,
-    "Tampa Bay Buccaneers": 19
+    "Dallas Cowboys": 29,
+    "Tampa Bay Buccaneers": 20
    }
   },
   {
@@ -33,11 +21,11 @@
    "home": "Jacksonville Jaguars",
    "away": "Philadelphia Eagles",
    "commenceTime": "2026-10-11T13:30:00Z",
-   "total": 43,
-   "homeSpread": -5.5,
+   "total": 42,
+   "homeSpread": -7.5,
    "teamTotals": {
-    "Jacksonville Jaguars": 24.25,
-    "Philadelphia Eagles": 18.75
+    "Jacksonville Jaguars": 24.75,
+    "Philadelphia Eagles": 17.25
    }
   },
   {
@@ -45,11 +33,11 @@
    "home": "Green Bay Packers",
    "away": "Chicago Bears",
    "commenceTime": "2026-10-11T17:00:00Z",
-   "total": 45,
-   "homeSpread": 3,
+   "total": 45.5,
+   "homeSpread": 1,
    "teamTotals": {
-    "Green Bay Packers": 21,
-    "Chicago Bears": 24
+    "Green Bay Packers": 22.25,
+    "Chicago Bears": 23.25
    }
   },
   {
@@ -58,10 +46,10 @@
    "away": "Cincinnati Bengals",
    "commenceTime": "2026-10-11T17:00:00Z",
    "total": 42.5,
-   "homeSpread": 7,
+   "homeSpread": 6.5,
    "teamTotals": {
-    "Miami Dolphins": 17.75,
-    "Cincinnati Bengals": 24.75
+    "Miami Dolphins": 18,
+    "Cincinnati Bengals": 24.5
    }
   },
   {
@@ -69,11 +57,11 @@
    "home": "New York Jets",
    "away": "Cleveland Browns",
    "commenceTime": "2026-10-11T17:00:00Z",
-   "total": 40,
+   "total": 39.5,
    "homeSpread": -2,
    "teamTotals": {
-    "New York Jets": 21,
-    "Cleveland Browns": 19
+    "New York Jets": 20.75,
+    "Cleveland Browns": 18.75
    }
   },
   {
@@ -81,11 +69,11 @@
    "home": "Tennessee Titans",
    "away": "Houston Texans",
    "commenceTime": "2026-10-11T17:00:00Z",
-   "total": 39.5,
-   "homeSpread": 7,
+   "total": 38,
+   "homeSpread": 7.5,
    "teamTotals": {
-    "Tennessee Titans": 16.25,
-    "Houston Texans": 23.25
+    "Tennessee Titans": 15.25,
+    "Houston Texans": 22.75
    }
   },
   {
@@ -93,11 +81,11 @@
    "home": "Pittsburgh Steelers",
    "away": "Indianapolis Colts",
    "commenceTime": "2026-10-11T17:00:00Z",
-   "total": 44.5,
+   "total": 44,
    "homeSpread": -2.5,
    "teamTotals": {
-    "Pittsburgh Steelers": 23.5,
-    "Indianapolis Colts": 21
+    "Pittsburgh Steelers": 23.25,
+    "Indianapolis Colts": 20.75
    }
   },
   {
@@ -118,10 +106,10 @@
    "away": "Minnesota Vikings",
    "commenceTime": "2026-10-11T17:00:00Z",
    "total": 42,
-   "homeSpread": 1.5,
+   "homeSpread": 2.5,
    "teamTotals": {
-    "New Orleans Saints": 20.25,
-    "Minnesota Vikings": 21.75
+    "New Orleans Saints": 19.75,
+    "Minnesota Vikings": 22.25
    }
   },
   {
@@ -129,11 +117,11 @@
    "home": "Washington Commanders",
    "away": "New York Giants",
    "commenceTime": "2026-10-11T17:00:00Z",
-   "total": 43.5,
-   "homeSpread": -3.5,
+   "total": 41.5,
+   "homeSpread": -4,
    "teamTotals": {
-    "Washington Commanders": 23.5,
-    "New York Giants": 20
+    "Washington Commanders": 22.75,
+    "New York Giants": 18.75
    }
   },
   {
@@ -141,11 +129,11 @@
    "home": "Los Angeles Chargers",
    "away": "Denver Broncos",
    "commenceTime": "2026-10-11T20:05:00Z",
-   "total": 42.5,
+   "total": 42,
    "homeSpread": 3.5,
    "teamTotals": {
-    "Los Angeles Chargers": 19.5,
-    "Denver Broncos": 23
+    "Los Angeles Chargers": 19.25,
+    "Denver Broncos": 22.75
    }
   },
   {
@@ -154,10 +142,10 @@
    "away": "Detroit Lions",
    "commenceTime": "2026-10-11T20:25:00Z",
    "total": 54.5,
-   "homeSpread": 4,
+   "homeSpread": 5.5,
    "teamTotals": {
-    "Arizona Cardinals": 25.25,
-    "Detroit Lions": 29.25
+    "Arizona Cardinals": 24.5,
+    "Detroit Lions": 30
    }
   },
   {
@@ -165,11 +153,11 @@
    "home": "Seattle Seahawks",
    "away": "San Francisco 49ers",
    "commenceTime": "2026-10-11T20:25:00Z",
-   "total": 47,
+   "total": 46,
    "homeSpread": -3,
    "teamTotals": {
-    "Seattle Seahawks": 25,
-    "San Francisco 49ers": 22
+    "Seattle Seahawks": 24.5,
+    "San Francisco 49ers": 21.5
    }
   },
   {
@@ -177,11 +165,11 @@
    "home": "Atlanta Falcons",
    "away": "Baltimore Ravens",
    "commenceTime": "2026-10-12T00:20:00Z",
-   "total": 45.25,
-   "homeSpread": 3,
+   "total": 43.5,
+   "homeSpread": -3,
    "teamTotals": {
-    "Atlanta Falcons": 21.125,
-    "Baltimore Ravens": 24.125
+    "Atlanta Falcons": 23.25,
+    "Baltimore Ravens": 20.25
    }
   },
   {
@@ -195,115 +183,145 @@
     "Los Angeles Rams": 28.75,
     "Buffalo Bills": 25.75
    }
+  },
+  {
+   "gameId": "855f58fad5f0f14b239f4f63df27998b",
+   "home": "Denver Broncos",
+   "away": "Seattle Seahawks",
+   "commenceTime": "2026-10-16T00:15:00Z",
+   "total": 42,
+   "homeSpread": 1.5,
+   "teamTotals": {
+    "Denver Broncos": 20.25,
+    "Seattle Seahawks": 21.75
+   }
   }
  ],
- "legCount": 159,
+ "legCount": 153,
  "tickets": [],
  "stacks": [
   {
    "legs": [
     {
-     "playerId": "austin hooper",
-     "playerName": "Austin Hooper",
+     "playerId": "jake ferguson",
+     "playerName": "Jake Ferguson",
      "position": "WR",
      "team": null,
-     "gameId": "8bd90781e17e6d97df3941063cedae1e",
+     "gameId": "259b5df9aa0d10257f56de78523495e0",
      "marketKey": "player_reception_yds",
      "stat": "recYards",
      "label": "receiving yards",
-     "line": 6.5,
-     "americanOdds": -105,
-     "oppositeAmericanOdds": -119,
-     "book": "DraftKings",
-     "modelProbability": 0.5968054545271075,
-     "fairProbability": 0.4852289512555392,
-     "edge": 11.157650327156832,
-     "description": "Austin Hooper over 6.5 receiving yards"
+     "line": 27.5,
+     "americanOdds": -111,
+     "oppositeAmericanOdds": -120,
+     "book": "BetMGM",
+     "modelProbability": 0.6063631997489354,
+     "fairProbability": 0.49095295536791317,
+     "edge": 11.541024438102221,
+     "description": "Jake Ferguson over 27.5 receiving yards"
     },
     {
-     "playerId": "alvin kamara",
-     "playerName": "Alvin Kamara",
-     "position": "RB",
-     "team": null,
-     "gameId": "8bd90781e17e6d97df3941063cedae1e",
-     "marketKey": "player_reception_yds",
-     "stat": "recYards",
-     "label": "receiving yards",
-     "line": 15.5,
-     "americanOdds": -109,
-     "oppositeAmericanOdds": -115,
-     "book": "DraftKings",
-     "modelProbability": 0.5992266279674067,
-     "fairProbability": 0.4936802190857383,
-     "edge": 10.554640888166839,
-     "description": "Alvin Kamara over 15.5 receiving yards"
-    },
-    {
-     "playerId": "zachariah branch",
-     "playerName": "Zachariah Branch",
+     "playerId": "chris godwin",
+     "playerName": "Chris Godwin",
      "position": "WR",
      "team": null,
-     "gameId": "8bd90781e17e6d97df3941063cedae1e",
+     "gameId": "259b5df9aa0d10257f56de78523495e0",
      "marketKey": "player_reception_yds",
      "stat": "recYards",
      "label": "receiving yards",
-     "line": 4.5,
-     "americanOdds": -114,
-     "oppositeAmericanOdds": -110,
-     "book": "DraftKings",
-     "modelProbability": 0.5868931563712322,
-     "fairProbability": 0.5042122999157539,
-     "edge": 8.26808564554783,
-     "description": "Zachariah Branch over 4.5 receiving yards"
+     "line": 30.5,
+     "americanOdds": -113,
+     "oppositeAmericanOdds": -118,
+     "book": "BetRivers",
+     "modelProbability": 0.5996091566834494,
+     "fairProbability": 0.4949766918501849,
+     "edge": 10.463246483326449,
+     "description": "Chris Godwin over 30.5 receiving yards"
     },
     {
-     "playerId": "charlie woerner",
-     "playerName": "Charlie Woerner",
+     "playerId": "emeka egbuka",
+     "playerName": "Emeka Egbuka",
+     "position": "WR",
+     "team": null,
+     "gameId": "259b5df9aa0d10257f56de78523495e0",
+     "marketKey": "player_receptions",
+     "stat": "receptions",
+     "label": "receptions",
+     "line": 2.5,
+     "americanOdds": -198,
+     "oppositeAmericanOdds": 146,
+     "book": "FanDuel",
+     "modelProbability": 0.7196535301615986,
+     "fairProbability": 0.6204208488306924,
+     "edge": 9.923268133090623,
+     "description": "Emeka Egbuka over 2.5 receptions"
+    },
+    {
+     "playerId": "tez johnson",
+     "playerName": "Tez Johnson",
+     "position": "WR",
+     "team": null,
+     "gameId": "259b5df9aa0d10257f56de78523495e0",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 12.5,
+     "americanOdds": -111,
+     "oppositeAmericanOdds": -113,
+     "book": "DraftKings",
+     "modelProbability": 0.5924171666681656,
+     "fairProbability": 0.4978941161605526,
+     "edge": 9.452305050761295,
+     "description": "Tez Johnson over 12.5 receiving yards"
+    },
+    {
+     "playerId": "bauer sharp",
+     "playerName": "Bauer Sharp",
      "position": "FLEX",
      "team": null,
-     "gameId": "8bd90781e17e6d97df3941063cedae1e",
+     "gameId": "259b5df9aa0d10257f56de78523495e0",
      "marketKey": "player_anytime_td",
      "stat": "anytimeTd",
      "label": "to score a TD",
      "line": null,
-     "americanOdds": 3000,
+     "americanOdds": 4000,
      "oppositeAmericanOdds": null,
      "book": "FanDuel",
-     "modelProbability": 0.030359100276164754,
+     "modelProbability": 0.022511320720557348,
      "fairProbability": null,
      "edge": null,
-     "description": "Charlie Woerner to score a TD"
+     "description": "Bauer Sharp to score a TD"
     },
     {
-     "playerId": "chris blair",
-     "playerName": "Chris Blair",
+     "playerId": "payne durham",
+     "playerName": "Payne Durham",
      "position": "FLEX",
      "team": null,
-     "gameId": "8bd90781e17e6d97df3941063cedae1e",
+     "gameId": "259b5df9aa0d10257f56de78523495e0",
      "marketKey": "player_anytime_td",
      "stat": "anytimeTd",
      "label": "to score a TD",
      "line": null,
-     "americanOdds": 1900,
+     "americanOdds": 4000,
      "oppositeAmericanOdds": null,
-     "book": "FanDuel",
-     "modelProbability": 0.04705660542805537,
+     "book": "DraftKings",
+     "modelProbability": 0.022511320720557348,
      "fairProbability": null,
      "edge": null,
-     "description": "Chris Blair to score a TD"
+     "description": "Payne Durham to score a TD"
     }
    ],
-   "decimal": 4356.973933304209,
-   "americanOdds": 435597,
+   "decimal": 17232.12753705196,
+   "americanOdds": 1723113,
    "stake": 5,
-   "payout": 21784.869666521045,
-   "profit": 21779.869666521045,
-   "independentProbability": 0.0002998419713071594,
-   "correlationAdjustment": 2.0386641577293982,
-   "probability": 0.0006112770798868325,
-   "adjustedProbability": 0.0004252583548969362,
-   "expectedValue": 4.264197836028906,
-   "rawExpectedValue": 1.53201826547921,
+   "payout": 86160.6376852598,
+   "profit": 86155.6376852598,
+   "independentProbability": 0.00007855143769106366,
+   "correlationAdjustment": 3.309147048344894,
+   "probability": 0.0002599382581786312,
+   "adjustedProbability": 0.00016817750134440603,
+   "expectedValue": 9.49028076014766,
+   "rawExpectedValue": 1.7680419625559969,
    "band": "long",
    "style": "stack",
    "gameCount": 1,
