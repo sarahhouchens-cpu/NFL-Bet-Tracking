@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T02:50:54.407Z",
+ "generatedAt": "2026-10-16T00:00:05.213Z",
  "demo": false,
  "sites": {
   "draftkings": {
@@ -7,12 +7,3436 @@
    "siteName": "DraftKings",
    "salaryCap": 50000,
    "salarySource": "estimated",
-   "slates": [],
-   "skipped": [
+   "slates": [
     {
-     "name": "Thursday Night: Seahawks at Broncos",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
+     "site": "draftkings",
+     "siteName": "DraftKings",
+     "slate": {
+      "id": "thursday-855f58fad5f0f14b239f4f63df27998b",
+      "name": "Thursday Night: Seahawks at Broncos",
+      "format": "showdown",
+      "startsAt": "2026-10-16T00:15:00Z"
+     },
+     "captainLabel": "CPT",
+     "salaryCap": 50000,
+     "poolSize": 20,
+     "tournament": [
+      {
+       "contest": "tournament",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 20.62,
+         "floor": 8.99,
+         "ceiling": 32.51,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 8200,
+         "salarySource": "estimated",
+         "value": 2.51,
+         "ownership": 65,
+         "slot": "CPT",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 13.17,
+         "floor": 5.52,
+         "ceiling": 21.9,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6300,
+         "salarySource": "estimated",
+         "value": 2.09,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 10.71,
+         "floor": 5.13,
+         "ceiling": 20.72,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5700,
+         "salarySource": "estimated",
+         "value": 1.88,
+         "ownership": 25.2,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Bo Nix",
+         "playerId": "bo nix",
+         "position": "QB",
+         "projection": {
+          "passYards": 197.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.1829932200129389,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.0325562123078178,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.16722619808644784,
+         "points": 10.55,
+         "floor": 6.88,
+         "ceiling": 19.19,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.16722619808644784,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 450
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 197.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 13.5,
+           "probability": 0.4920127795527157,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 195.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 201.5,
+           "probability": 0.4969864995178399,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 200.5,
+           "probability": 0.4554079696394688,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": 105
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5500,
+         "salarySource": "estimated",
+         "value": 1.92,
+         "ownership": 53.7,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "RJ Harvey",
+         "playerId": "rj harvey",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 3.0494171629216673,
+          "recYards": 24.724999999999998,
+          "kickingPoints": 0,
+          "rushTds": 0.01203318014488735,
+          "recTds": 0.2286304227528596
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 5.369933282484141e-7
+         },
+         "anytimeTd": 0.21389397429661933,
+         "points": 8.42,
+         "floor": 4.1,
+         "ceiling": 16.54,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.21389397429661933,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 330
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 23.5,
+           "probability": 0.495787700084246,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -110
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.48581617766250607,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -108
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 15.5,
+           "probability": 0.48638115990613473,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 21.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 22.5,
+           "probability": 0.48987854251012153,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -110
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5100,
+         "salarySource": "estimated",
+         "value": 1.65,
+         "ownership": 14.7,
+         "slot": "FLEX4",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Sam Darnold",
+         "playerId": "sam darnold",
+         "position": "QB",
+         "projection": {
+          "passYards": 226.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 5.456776854161125,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.07642707305314289,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.12485456344759094,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.07357952715803705,
+         "points": 10.44,
+         "floor": 7.25,
+         "ceiling": 13.91,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.07357952715803705,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 1150
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 224.5,
+           "probability": 0.4978941161605526,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -111
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 5.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 226.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 218.5,
+           "probability": 0.5030135004821601,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -117
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 4.5,
+           "probability": 0.5071288903372982,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -118
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5500,
+         "salarySource": "estimated",
+         "value": 1.9,
+         "ownership": 46.3,
+         "slot": "FLEX5",
+         "multiplier": 1
+        }
+       ],
+       "site": "draftkings",
+       "chargesCaptainPremium": true,
+       "salary": 40400,
+       "salaryRemaining": 9600,
+       "points": 84.22,
+       "floor": 57.23,
+       "ceiling": 117.43,
+       "sd": 32.06,
+       "ownership": 269.9,
+       "value": 2.08,
+       "stack": {
+        "label": "Bo Nix + Jaxon Smith-Njigba + Jaylen Waddle + RJ Harvey",
+        "size": 4,
+        "bringBack": 0,
+        "team": null
+       }
+      },
+      {
+       "contest": "tournament",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 20.62,
+         "floor": 8.99,
+         "ceiling": 32.51,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 8200,
+         "salarySource": "estimated",
+         "value": 2.51,
+         "ownership": 65,
+         "slot": "CPT",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 13.17,
+         "floor": 5.52,
+         "ceiling": 21.9,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6300,
+         "salarySource": "estimated",
+         "value": 2.09,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 10.71,
+         "floor": 5.13,
+         "ceiling": 20.72,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5700,
+         "salarySource": "estimated",
+         "value": 1.88,
+         "ownership": 25.2,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Bo Nix",
+         "playerId": "bo nix",
+         "position": "QB",
+         "projection": {
+          "passYards": 197.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.1829932200129389,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.0325562123078178,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.16722619808644784,
+         "points": 10.55,
+         "floor": 6.88,
+         "ceiling": 19.19,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.16722619808644784,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 450
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 197.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 13.5,
+           "probability": 0.4920127795527157,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 195.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 201.5,
+           "probability": 0.4969864995178399,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 200.5,
+           "probability": 0.4554079696394688,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": 105
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5500,
+         "salarySource": "estimated",
+         "value": 1.92,
+         "ownership": 53.7,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "AJ Barner",
+         "playerId": "aj barner",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 3.2390355033452907,
+          "recYards": 31.39638313754484,
+          "kickingPoints": 0,
+          "rushTds": 0.012701265257420017,
+          "recTds": 0.2413240398909803
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.00023386591380214483
+         },
+         "anytimeTd": 0.2243278267013325,
+         "points": 7.9,
+         "floor": 3.7,
+         "ceiling": 15.87,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2243278267013325,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 310
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 28.5,
+           "probability": 0.5063197809142617,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.41604471686727856,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 127
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 27.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 2.5,
+           "probability": 0.6108949416342413,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": -157
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 29.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 25.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5000,
+         "salarySource": "estimated",
+         "value": 1.58,
+         "ownership": 12.5,
+         "slot": "FLEX4",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Courtland Sutton",
+         "playerId": "courtland sutton",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 2.756507932673942,
+          "recYards": 31.686904747527283,
+          "kickingPoints": 0,
+          "rushTds": 0.013856095935554404,
+          "recTds": 0.2632658227755336
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.00027850722391642435
+         },
+         "anytimeTd": 0.2420379182830166,
+         "points": 7.59,
+         "floor": 3.39,
+         "ceiling": 15.26,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2420379182830166,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 280
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 32.5,
+           "probability": 0.495787700084246,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -110
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 2.5,
+           "probability": 0.596726366979006,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -172
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 30.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.39094650205761317,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": 140
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 33.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 4900,
+         "salarySource": "estimated",
+         "value": 1.55,
+         "ownership": 11.6,
+         "slot": "FLEX5",
+         "multiplier": 1
+        }
+       ],
+       "site": "draftkings",
+       "chargesCaptainPremium": true,
+       "salary": 39700,
+       "salaryRemaining": 10300,
+       "points": 80.85,
+       "floor": 54.66,
+       "ceiling": 113.08,
+       "sd": 31.11,
+       "ownership": 233,
+       "value": 2.04,
+       "stack": {
+        "label": "Bo Nix + Jaxon Smith-Njigba + Jaylen Waddle + AJ Barner + Courtland Sutton",
+        "size": 5,
+        "bringBack": 0,
+        "team": null
+       }
+      },
+      {
+       "contest": "tournament",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 20.62,
+         "floor": 8.99,
+         "ceiling": 32.51,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 8200,
+         "salarySource": "estimated",
+         "value": 2.51,
+         "ownership": 65,
+         "slot": "CPT",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 10.71,
+         "floor": 5.13,
+         "ceiling": 20.72,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5700,
+         "salarySource": "estimated",
+         "value": 1.88,
+         "ownership": 25.2,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Bo Nix",
+         "playerId": "bo nix",
+         "position": "QB",
+         "projection": {
+          "passYards": 197.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.1829932200129389,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.0325562123078178,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.16722619808644784,
+         "points": 10.55,
+         "floor": 6.88,
+         "ceiling": 19.19,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.16722619808644784,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 450
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 197.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 13.5,
+           "probability": 0.4920127795527157,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 195.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 201.5,
+           "probability": 0.4969864995178399,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 200.5,
+           "probability": 0.4554079696394688,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": 105
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5500,
+         "salarySource": "estimated",
+         "value": 1.92,
+         "ownership": 53.7,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "AJ Barner",
+         "playerId": "aj barner",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 3.2390355033452907,
+          "recYards": 31.39638313754484,
+          "kickingPoints": 0,
+          "rushTds": 0.012701265257420017,
+          "recTds": 0.2413240398909803
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.00023386591380214483
+         },
+         "anytimeTd": 0.2243278267013325,
+         "points": 7.9,
+         "floor": 3.7,
+         "ceiling": 15.87,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2243278267013325,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 310
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 28.5,
+           "probability": 0.5063197809142617,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.41604471686727856,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 127
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 27.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 2.5,
+           "probability": 0.6108949416342413,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": -157
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 29.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 25.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5000,
+         "salarySource": "estimated",
+         "value": 1.58,
+         "ownership": 12.5,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "J.K. Dobbins",
+         "playerId": "jk dobbins",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 48.5,
+          "carries": 0,
+          "receptions": 0.696428094464348,
+          "recYards": 3.935851894136635,
+          "kickingPoints": 0,
+          "rushTds": 0.2989146567565335,
+          "recTds": 0.07472866418913338
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.017728767714145777,
+          "rec100": 0
+         },
+         "anytimeTd": 0.3117776574493095,
+         "points": 8.24,
+         "floor": 3.27,
+         "ceiling": 15.95,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.3117776574493095,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 195
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 2.5,
+           "probability": 0.5199445750755795,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -122
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.33175355450236965,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 182
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 48.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 3.5,
+           "probability": 0.48542880932556204,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 47.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 0.5,
+           "probability": 0.6585987261146496,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -235
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5100,
+         "salarySource": "estimated",
+         "value": 1.62,
+         "ownership": 17.5,
+         "slot": "FLEX4",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Sam Darnold",
+         "playerId": "sam darnold",
+         "position": "QB",
+         "projection": {
+          "passYards": 226.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 5.456776854161125,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.07642707305314289,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.12485456344759094,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.07357952715803705,
+         "points": 10.44,
+         "floor": 7.25,
+         "ceiling": 13.91,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.07357952715803705,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 1150
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 224.5,
+           "probability": 0.4978941161605526,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -111
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 5.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 226.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 218.5,
+           "probability": 0.5030135004821601,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -117
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 4.5,
+           "probability": 0.5071288903372982,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -118
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5500,
+         "salarySource": "estimated",
+         "value": 1.9,
+         "ownership": 46.3,
+         "slot": "FLEX5",
+         "multiplier": 1
+        }
+       ],
+       "site": "draftkings",
+       "chargesCaptainPremium": true,
+       "salary": 39100,
+       "salaryRemaining": 10900,
+       "points": 78.77,
+       "floor": 52.2,
+       "ceiling": 111.46,
+       "sd": 31.56,
+       "ownership": 220.2,
+       "value": 2.01,
+       "stack": {
+        "label": "Bo Nix + Jaxon Smith-Njigba + Jaylen Waddle + AJ Barner",
+        "size": 4,
+        "bringBack": 0,
+        "team": null
+       }
+      }
+     ],
+     "doubleUp": [
+      {
+       "contest": "double_up",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 20.62,
+         "floor": 8.99,
+         "ceiling": 32.51,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 8200,
+         "salarySource": "estimated",
+         "value": 2.51,
+         "ownership": 65,
+         "slot": "CPT",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 13.17,
+         "floor": 5.52,
+         "ceiling": 21.9,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6300,
+         "salarySource": "estimated",
+         "value": 2.09,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 10.71,
+         "floor": 5.13,
+         "ceiling": 20.72,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5700,
+         "salarySource": "estimated",
+         "value": 1.88,
+         "ownership": 25.2,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "RJ Harvey",
+         "playerId": "rj harvey",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 3.0494171629216673,
+          "recYards": 24.724999999999998,
+          "kickingPoints": 0,
+          "rushTds": 0.01203318014488735,
+          "recTds": 0.2286304227528596
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 5.369933282484141e-7
+         },
+         "anytimeTd": 0.21389397429661933,
+         "points": 8.42,
+         "floor": 4.1,
+         "ceiling": 16.54,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.21389397429661933,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 330
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 23.5,
+           "probability": 0.495787700084246,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -110
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.48581617766250607,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -108
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 15.5,
+           "probability": 0.48638115990613473,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 21.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 22.5,
+           "probability": 0.48987854251012153,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -110
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5100,
+         "salarySource": "estimated",
+         "value": 1.65,
+         "ownership": 14.7,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "J.K. Dobbins",
+         "playerId": "jk dobbins",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 48.5,
+          "carries": 0,
+          "receptions": 0.696428094464348,
+          "recYards": 3.935851894136635,
+          "kickingPoints": 0,
+          "rushTds": 0.2989146567565335,
+          "recTds": 0.07472866418913338
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.017728767714145777,
+          "rec100": 0
+         },
+         "anytimeTd": 0.3117776574493095,
+         "points": 8.24,
+         "floor": 3.27,
+         "ceiling": 15.95,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.3117776574493095,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 195
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 2.5,
+           "probability": 0.5199445750755795,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -122
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.33175355450236965,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 182
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 48.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 3.5,
+           "probability": 0.48542880932556204,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 47.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 0.5,
+           "probability": 0.6585987261146496,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -235
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5100,
+         "salarySource": "estimated",
+         "value": 1.62,
+         "ownership": 17.5,
+         "slot": "FLEX4",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Seattle Seahawks",
+         "playerId": "seattle seahawks",
+         "position": "DST",
+         "projection": {
+          "pointsAllowed": 19,
+          "sacks": 2.5875,
+          "takeaways": 1.575,
+          "defensiveTds": 0.135
+         },
+         "points": 7.89,
+         "floor": 3.39,
+         "ceiling": 16.89,
+         "lines": [],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": "Seattle Seahawks",
+         "opponent": "Denver Broncos",
+         "salary": 3200,
+         "salarySource": "estimated",
+         "value": 2.47,
+         "ownership": 38.1,
+         "slot": "FLEX5",
+         "multiplier": 1
+        }
+       ],
+       "site": "draftkings",
+       "chargesCaptainPremium": true,
+       "salary": 37700,
+       "salaryRemaining": 12300,
+       "points": 79.36,
+       "floor": 65.61,
+       "ceiling": 96.28,
+       "sd": 16.34,
+       "ownership": 225.5,
+       "value": 2.11,
+       "stack": null
+      },
+      {
+       "contest": "double_up",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 20.62,
+         "floor": 8.99,
+         "ceiling": 32.51,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 8200,
+         "salarySource": "estimated",
+         "value": 2.51,
+         "ownership": 65,
+         "slot": "CPT",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 13.17,
+         "floor": 5.52,
+         "ceiling": 21.9,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6300,
+         "salarySource": "estimated",
+         "value": 2.09,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 10.71,
+         "floor": 5.13,
+         "ceiling": 20.72,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5700,
+         "salarySource": "estimated",
+         "value": 1.88,
+         "ownership": 25.2,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "J.K. Dobbins",
+         "playerId": "jk dobbins",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 48.5,
+          "carries": 0,
+          "receptions": 0.696428094464348,
+          "recYards": 3.935851894136635,
+          "kickingPoints": 0,
+          "rushTds": 0.2989146567565335,
+          "recTds": 0.07472866418913338
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.017728767714145777,
+          "rec100": 0
+         },
+         "anytimeTd": 0.3117776574493095,
+         "points": 8.24,
+         "floor": 3.27,
+         "ceiling": 15.95,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.3117776574493095,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 195
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 2.5,
+           "probability": 0.5199445750755795,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -122
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.33175355450236965,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 182
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 48.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 3.5,
+           "probability": 0.48542880932556204,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 47.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 0.5,
+           "probability": 0.6585987261146496,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -235
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5100,
+         "salarySource": "estimated",
+         "value": 1.62,
+         "ownership": 17.5,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "AJ Barner",
+         "playerId": "aj barner",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 3.2390355033452907,
+          "recYards": 31.39638313754484,
+          "kickingPoints": 0,
+          "rushTds": 0.012701265257420017,
+          "recTds": 0.2413240398909803
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.00023386591380214483
+         },
+         "anytimeTd": 0.2243278267013325,
+         "points": 7.9,
+         "floor": 3.7,
+         "ceiling": 15.87,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2243278267013325,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 310
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 28.5,
+           "probability": 0.5063197809142617,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.41604471686727856,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 127
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 27.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 2.5,
+           "probability": 0.6108949416342413,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": -157
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 29.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 25.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5000,
+         "salarySource": "estimated",
+         "value": 1.58,
+         "ownership": 12.5,
+         "slot": "FLEX4",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Denver Broncos",
+         "playerId": "denver broncos",
+         "position": "DST",
+         "projection": {
+          "pointsAllowed": 21.5,
+          "sacks": 2.0124999999999997,
+          "takeaways": 1.2249999999999999,
+          "defensiveTds": 0.105
+         },
+         "points": 5.85,
+         "floor": 1.35,
+         "ceiling": 14.85,
+         "lines": [],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": "Denver Broncos",
+         "opponent": "Seattle Seahawks",
+         "salary": 2900,
+         "salarySource": "estimated",
+         "value": 2.02,
+         "ownership": 1.9,
+         "slot": "FLEX5",
+         "multiplier": 1
+        }
+       ],
+       "site": "draftkings",
+       "chargesCaptainPremium": true,
+       "salary": 37300,
+       "salaryRemaining": 12700,
+       "points": 76.8,
+       "floor": 63.07,
+       "ceiling": 93.69,
+       "sd": 16.3,
+       "ownership": 187.1,
+       "value": 2.06,
+       "stack": null
+      },
+      {
+       "contest": "double_up",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 20.62,
+         "floor": 8.99,
+         "ceiling": 32.51,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 8200,
+         "salarySource": "estimated",
+         "value": 2.51,
+         "ownership": 65,
+         "slot": "CPT",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 13.17,
+         "floor": 5.52,
+         "ceiling": 21.9,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6300,
+         "salarySource": "estimated",
+         "value": 2.09,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Sam Darnold",
+         "playerId": "sam darnold",
+         "position": "QB",
+         "projection": {
+          "passYards": 226.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 5.456776854161125,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.07642707305314289,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.12485456344759094,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.07357952715803705,
+         "points": 10.44,
+         "floor": 7.25,
+         "ceiling": 13.91,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.07357952715803705,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 1150
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 224.5,
+           "probability": 0.4978941161605526,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -111
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 5.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 226.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 218.5,
+           "probability": 0.5030135004821601,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -117
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 4.5,
+           "probability": 0.5071288903372982,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -118
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5500,
+         "salarySource": "estimated",
+         "value": 1.9,
+         "ownership": 46.3,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 10.71,
+         "floor": 5.13,
+         "ceiling": 20.72,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5700,
+         "salarySource": "estimated",
+         "value": 1.88,
+         "ownership": 25.2,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "AJ Barner",
+         "playerId": "aj barner",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 3.2390355033452907,
+          "recYards": 31.39638313754484,
+          "kickingPoints": 0,
+          "rushTds": 0.012701265257420017,
+          "recTds": 0.2413240398909803
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.00023386591380214483
+         },
+         "anytimeTd": 0.2243278267013325,
+         "points": 7.9,
+         "floor": 3.7,
+         "ceiling": 15.87,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2243278267013325,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 310
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 28.5,
+           "probability": 0.5063197809142617,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.41604471686727856,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 127
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 27.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 2.5,
+           "probability": 0.6108949416342413,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": -157
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 29.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 25.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5000,
+         "salarySource": "estimated",
+         "value": 1.58,
+         "ownership": 12.5,
+         "slot": "FLEX4",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Seattle Seahawks",
+         "playerId": "seattle seahawks",
+         "position": "DST",
+         "projection": {
+          "pointsAllowed": 19,
+          "sacks": 2.5875,
+          "takeaways": 1.575,
+          "defensiveTds": 0.135
+         },
+         "points": 7.89,
+         "floor": 3.39,
+         "ceiling": 16.89,
+         "lines": [],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": "Seattle Seahawks",
+         "opponent": "Denver Broncos",
+         "salary": 3200,
+         "salarySource": "estimated",
+         "value": 2.47,
+         "ownership": 38.1,
+         "slot": "FLEX5",
+         "multiplier": 1
+        }
+       ],
+       "site": "draftkings",
+       "chargesCaptainPremium": true,
+       "salary": 38000,
+       "salaryRemaining": 12000,
+       "points": 81.04,
+       "floor": 62.97,
+       "ceiling": 103.27,
+       "sd": 21.46,
+       "ownership": 252.1,
+       "value": 2.13,
+       "stack": {
+        "label": "Sam Darnold + Jaxon Smith-Njigba + Jaylen Waddle + AJ Barner",
+        "size": 4,
+        "bringBack": 0,
+        "team": null
+       }
+      }
+     ]
+    }
+   ],
+   "skipped": [
     {
      "name": "Sunday Main",
      "reason": "too few players priced — props are not posted for these games yet"
@@ -22,11 +3446,19 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Afternoon",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Sunday Night: Cowboys at Packers",
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
      "name": "Monday Night: Commanders at 49ers",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Patriots at Bears",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
@@ -36,12 +3468,2887 @@
    "siteName": "FanDuel",
    "salaryCap": 60000,
    "salarySource": "estimated",
-   "slates": [],
-   "skipped": [
+   "slates": [
     {
-     "name": "Thursday Night: Seahawks at Broncos",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
+     "site": "fanduel",
+     "siteName": "FanDuel",
+     "slate": {
+      "id": "thursday-855f58fad5f0f14b239f4f63df27998b",
+      "name": "Thursday Night: Seahawks at Broncos",
+      "format": "showdown",
+      "startsAt": "2026-10-16T00:15:00Z"
+     },
+     "captainLabel": "MVP",
+     "salaryCap": 60000,
+     "poolSize": 20,
+     "tournament": [
+      {
+       "contest": "tournament",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 15.93,
+         "floor": 6.64,
+         "ceiling": 25.69,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7700,
+         "salarySource": "estimated",
+         "value": 2.07,
+         "ownership": 65,
+         "slot": "MVP",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 11.84,
+         "floor": 5.01,
+         "ceiling": 19.22,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7000,
+         "salarySource": "estimated",
+         "value": 1.69,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Bo Nix",
+         "playerId": "bo nix",
+         "position": "QB",
+         "projection": {
+          "passYards": 197.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.1829932200129389,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.0325562123078178,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.16722619808644784,
+         "points": 10.45,
+         "floor": 6.88,
+         "ceiling": 18.39,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.16722619808644784,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 450
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 197.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 13.5,
+           "probability": 0.4920127795527157,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 195.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 201.5,
+           "probability": 0.4969864995178399,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 200.5,
+           "probability": 0.4554079696394688,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": 105
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6500,
+         "salarySource": "estimated",
+         "value": 1.61,
+         "ownership": 55,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 8.51,
+         "floor": 3.72,
+         "ceiling": 16.8,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6000,
+         "salarySource": "estimated",
+         "value": 1.42,
+         "ownership": 17.3,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Sam Darnold",
+         "playerId": "sam darnold",
+         "position": "QB",
+         "projection": {
+          "passYards": 226.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 5.456776854161125,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.07642707305314289,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.12485456344759094,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.07357952715803705,
+         "points": 10.06,
+         "floor": 7.24,
+         "ceiling": 12.52,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.07357952715803705,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 1150
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 224.5,
+           "probability": 0.4978941161605526,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -111
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 5.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 226.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 218.5,
+           "probability": 0.5030135004821601,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -117
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 4.5,
+           "probability": 0.5071288903372982,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -118
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6500,
+         "salarySource": "estimated",
+         "value": 1.55,
+         "ownership": 35,
+         "slot": "FLEX4",
+         "multiplier": 1
+        }
+       ],
+       "site": "fanduel",
+       "chargesCaptainPremium": false,
+       "salary": 33700,
+       "salaryRemaining": 26300,
+       "points": 64.76,
+       "floor": 43.65,
+       "ceiling": 90.72,
+       "sd": 25.06,
+       "ownership": 237.3,
+       "value": 1.92,
+       "stack": {
+        "label": "Bo Nix + Jaxon Smith-Njigba + Jaylen Waddle",
+        "size": 3,
+        "bringBack": 0,
+        "team": null
+       }
+      },
+      {
+       "contest": "tournament",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 15.93,
+         "floor": 6.64,
+         "ceiling": 25.69,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7700,
+         "salarySource": "estimated",
+         "value": 2.07,
+         "ownership": 65,
+         "slot": "MVP",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 11.84,
+         "floor": 5.01,
+         "ceiling": 19.22,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7000,
+         "salarySource": "estimated",
+         "value": 1.69,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Bo Nix",
+         "playerId": "bo nix",
+         "position": "QB",
+         "projection": {
+          "passYards": 197.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.1829932200129389,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.0325562123078178,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.16722619808644784,
+         "points": 10.45,
+         "floor": 6.88,
+         "ceiling": 18.39,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.16722619808644784,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 450
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 197.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 13.5,
+           "probability": 0.4920127795527157,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 195.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 201.5,
+           "probability": 0.4969864995178399,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 200.5,
+           "probability": 0.4554079696394688,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": 105
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6500,
+         "salarySource": "estimated",
+         "value": 1.61,
+         "ownership": 55,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "RJ Harvey",
+         "playerId": "rj harvey",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 3.0494171629216673,
+          "recYards": 24.724999999999998,
+          "kickingPoints": 0,
+          "rushTds": 0.01203318014488735,
+          "recTds": 0.2286304227528596
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 5.369933282484141e-7
+         },
+         "anytimeTd": 0.21389397429661933,
+         "points": 6.89,
+         "floor": 3.06,
+         "ceiling": 14.39,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.21389397429661933,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 330
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 23.5,
+           "probability": 0.495787700084246,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -110
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.48581617766250607,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -108
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 15.5,
+           "probability": 0.48638115990613473,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 21.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 22.5,
+           "probability": 0.48987854251012153,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -110
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5600,
+         "salarySource": "estimated",
+         "value": 1.23,
+         "ownership": 10.1,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "AJ Barner",
+         "playerId": "aj barner",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 3.2390355033452907,
+          "recYards": 31.39638313754484,
+          "kickingPoints": 0,
+          "rushTds": 0.012701265257420017,
+          "recTds": 0.2413240398909803
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.00023386591380214483
+         },
+         "anytimeTd": 0.2243278267013325,
+         "points": 6.28,
+         "floor": 2.6,
+         "ceiling": 13.41,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.2243278267013325,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 310
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 28.5,
+           "probability": 0.5063197809142617,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -115
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.41604471686727856,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 127
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 27.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 2.5,
+           "probability": 0.6108949416342413,
+           "devigged": false,
+           "book": "BetRivers",
+           "americanOdds": -157
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 29.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 25.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5400,
+         "salarySource": "estimated",
+         "value": 1.16,
+         "ownership": 8.3,
+         "slot": "FLEX4",
+         "multiplier": 1
+        }
+       ],
+       "site": "fanduel",
+       "chargesCaptainPremium": false,
+       "salary": 32200,
+       "salaryRemaining": 27800,
+       "points": 59.36,
+       "floor": 38.65,
+       "ceiling": 84.83,
+       "sd": 24.59,
+       "ownership": 203.4,
+       "value": 1.84,
+       "stack": {
+        "label": "Bo Nix + Jaxon Smith-Njigba + RJ Harvey + AJ Barner",
+        "size": 4,
+        "bringBack": 0,
+        "team": null
+       }
+      },
+      {
+       "contest": "tournament",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 15.93,
+         "floor": 6.64,
+         "ceiling": 25.69,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7700,
+         "salarySource": "estimated",
+         "value": 2.07,
+         "ownership": 65,
+         "slot": "MVP",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Bo Nix",
+         "playerId": "bo nix",
+         "position": "QB",
+         "projection": {
+          "passYards": 197.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.1829932200129389,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.0325562123078178,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.16722619808644784,
+         "points": 10.45,
+         "floor": 6.88,
+         "ceiling": 18.39,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.16722619808644784,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 450
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 197.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 13.5,
+           "probability": 0.4920127795527157,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 195.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 201.5,
+           "probability": 0.4969864995178399,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 200.5,
+           "probability": 0.4554079696394688,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": 105
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6500,
+         "salarySource": "estimated",
+         "value": 1.61,
+         "ownership": 55,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "RJ Harvey",
+         "playerId": "rj harvey",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 3.0494171629216673,
+          "recYards": 24.724999999999998,
+          "kickingPoints": 0,
+          "rushTds": 0.01203318014488735,
+          "recTds": 0.2286304227528596
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 5.369933282484141e-7
+         },
+         "anytimeTd": 0.21389397429661933,
+         "points": 6.89,
+         "floor": 3.06,
+         "ceiling": 14.39,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.21389397429661933,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 330
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 23.5,
+           "probability": 0.495787700084246,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -110
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.48581617766250607,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -108
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 15.5,
+           "probability": 0.48638115990613473,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 21.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 22.5,
+           "probability": 0.48987854251012153,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -110
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5600,
+         "salarySource": "estimated",
+         "value": 1.23,
+         "ownership": 10.1,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "J.K. Dobbins",
+         "playerId": "jk dobbins",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 48.5,
+          "carries": 0,
+          "receptions": 0.696428094464348,
+          "recYards": 3.935851894136635,
+          "kickingPoints": 0,
+          "rushTds": 0.2989146567565335,
+          "recTds": 0.07472866418913338
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.017728767714145777,
+          "rec100": 0
+         },
+         "anytimeTd": 0.3117776574493095,
+         "points": 7.83,
+         "floor": 3.14,
+         "ceiling": 14.62,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.3117776574493095,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 195
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 2.5,
+           "probability": 0.5199445750755795,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -122
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.33175355450236965,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 182
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 48.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 3.5,
+           "probability": 0.48542880932556204,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 47.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 0.5,
+           "probability": 0.6585987261146496,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -235
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6000,
+         "salarySource": "estimated",
+         "value": 1.31,
+         "ownership": 18.8,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Sam Darnold",
+         "playerId": "sam darnold",
+         "position": "QB",
+         "projection": {
+          "passYards": 226.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 5.456776854161125,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.07642707305314289,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.12485456344759094,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.07357952715803705,
+         "points": 10.06,
+         "floor": 7.24,
+         "ceiling": 12.52,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.07357952715803705,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 1150
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 224.5,
+           "probability": 0.4978941161605526,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -111
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 5.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 226.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 218.5,
+           "probability": 0.5030135004821601,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -117
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 4.5,
+           "probability": 0.5071288903372982,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -118
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6500,
+         "salarySource": "estimated",
+         "value": 1.55,
+         "ownership": 35,
+         "slot": "FLEX4",
+         "multiplier": 1
+        }
+       ],
+       "site": "fanduel",
+       "chargesCaptainPremium": false,
+       "salary": 32300,
+       "salaryRemaining": 27700,
+       "points": 59.13,
+       "floor": 38.75,
+       "ceiling": 84.2,
+       "sd": 24.2,
+       "ownership": 183.9,
+       "value": 1.83,
+       "stack": {
+        "label": "Bo Nix + Jaxon Smith-Njigba + RJ Harvey",
+        "size": 3,
+        "bringBack": 0,
+        "team": null
+       }
+      }
+     ],
+     "doubleUp": [
+      {
+       "contest": "double_up",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 15.93,
+         "floor": 6.64,
+         "ceiling": 25.69,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7700,
+         "salarySource": "estimated",
+         "value": 2.07,
+         "ownership": 65,
+         "slot": "MVP",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 11.84,
+         "floor": 5.01,
+         "ceiling": 19.22,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7000,
+         "salarySource": "estimated",
+         "value": 1.69,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Sam Darnold",
+         "playerId": "sam darnold",
+         "position": "QB",
+         "projection": {
+          "passYards": 226.5,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 5.456776854161125,
+          "carries": 0,
+          "receptions": 0,
+          "recYards": 0,
+          "kickingPoints": 0,
+          "rushTds": 0.07642707305314289,
+          "recTds": 0
+         },
+         "bonuses": {
+          "pass300": 0.12485456344759094,
+          "rush100": 0,
+          "rec100": 0
+         },
+         "anytimeTd": 0.07357952715803705,
+         "points": 10.06,
+         "floor": 7.24,
+         "ceiling": 12.52,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.07357952715803705,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 1150
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 224.5,
+           "probability": 0.4978941161605526,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -111
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 5.5,
+           "probability": 0.4936802190857383,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 226.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_pass_yds",
+           "label": "passing yards",
+           "line": 218.5,
+           "probability": 0.5030135004821601,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -117
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 4.5,
+           "probability": 0.5071288903372982,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -118
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6500,
+         "salarySource": "estimated",
+         "value": 1.55,
+         "ownership": 35,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Seattle Seahawks",
+         "playerId": "seattle seahawks",
+         "position": "DST",
+         "projection": {
+          "pointsAllowed": 19,
+          "sacks": 2.5875,
+          "takeaways": 1.575,
+          "defensiveTds": 0.135
+         },
+         "points": 7.89,
+         "floor": 3.39,
+         "ceiling": 16.89,
+         "lines": [],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": "Seattle Seahawks",
+         "opponent": "Denver Broncos",
+         "salary": 4100,
+         "salarySource": "estimated",
+         "value": 1.92,
+         "ownership": 28.6,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "J.K. Dobbins",
+         "playerId": "jk dobbins",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 48.5,
+          "carries": 0,
+          "receptions": 0.696428094464348,
+          "recYards": 3.935851894136635,
+          "kickingPoints": 0,
+          "rushTds": 0.2989146567565335,
+          "recTds": 0.07472866418913338
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.017728767714145777,
+          "rec100": 0
+         },
+         "anytimeTd": 0.3117776574493095,
+         "points": 7.83,
+         "floor": 3.14,
+         "ceiling": 14.62,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.3117776574493095,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 195
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 2.5,
+           "probability": 0.5199445750755795,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -122
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.33175355450236965,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 182
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 48.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 3.5,
+           "probability": 0.48542880932556204,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 47.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 0.5,
+           "probability": 0.6585987261146496,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -235
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6000,
+         "salarySource": "estimated",
+         "value": 1.31,
+         "ownership": 18.8,
+         "slot": "FLEX4",
+         "multiplier": 1
+        }
+       ],
+       "site": "fanduel",
+       "chargesCaptainPremium": false,
+       "salary": 31300,
+       "salaryRemaining": 28700,
+       "points": 61.52,
+       "floor": 49.88,
+       "ceiling": 75.83,
+       "sd": 13.82,
+       "ownership": 212.4,
+       "value": 1.97,
+       "stack": {
+        "label": "Sam Darnold + Jaxon Smith-Njigba",
+        "size": 2,
+        "bringBack": 0,
+        "team": null
+       }
+      },
+      {
+       "contest": "double_up",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 15.93,
+         "floor": 6.64,
+         "ceiling": 25.69,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7700,
+         "salarySource": "estimated",
+         "value": 2.07,
+         "ownership": 65,
+         "slot": "MVP",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 11.84,
+         "floor": 5.01,
+         "ceiling": 19.22,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7000,
+         "salarySource": "estimated",
+         "value": 1.69,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 8.51,
+         "floor": 3.72,
+         "ceiling": 16.8,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6000,
+         "salarySource": "estimated",
+         "value": 1.42,
+         "ownership": 17.3,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "J.K. Dobbins",
+         "playerId": "jk dobbins",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 48.5,
+          "carries": 0,
+          "receptions": 0.696428094464348,
+          "recYards": 3.935851894136635,
+          "kickingPoints": 0,
+          "rushTds": 0.2989146567565335,
+          "recTds": 0.07472866418913338
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.017728767714145777,
+          "rec100": 0
+         },
+         "anytimeTd": 0.3117776574493095,
+         "points": 7.83,
+         "floor": 3.14,
+         "ceiling": 14.62,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.3117776574493095,
+           "devigged": false,
+           "book": "BetMGM",
+           "americanOdds": 195
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 2.5,
+           "probability": 0.5199445750755795,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -122
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.33175355450236965,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 182
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 48.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -112
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 3.5,
+           "probability": 0.48542880932556204,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 47.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 0.5,
+           "probability": 0.6585987261146496,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -235
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6000,
+         "salarySource": "estimated",
+         "value": 1.31,
+         "ownership": 18.8,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Denver Broncos",
+         "playerId": "denver broncos",
+         "position": "DST",
+         "projection": {
+          "pointsAllowed": 21.5,
+          "sacks": 2.0124999999999997,
+          "takeaways": 1.2249999999999999,
+          "defensiveTds": 0.105
+         },
+         "points": 5.85,
+         "floor": 1.35,
+         "ceiling": 14.85,
+         "lines": [],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": "Denver Broncos",
+         "opponent": "Seattle Seahawks",
+         "salary": 3900,
+         "salarySource": "estimated",
+         "value": 1.5,
+         "ownership": 1.4,
+         "slot": "FLEX4",
+         "multiplier": 1
+        }
+       ],
+       "site": "fanduel",
+       "chargesCaptainPremium": false,
+       "salary": 30600,
+       "salaryRemaining": 29400,
+       "points": 57.93,
+       "floor": 47.72,
+       "ceiling": 70.48,
+       "sd": 12.12,
+       "ownership": 167.5,
+       "value": 1.89,
+       "stack": null
+      },
+      {
+       "contest": "double_up",
+       "players": [
+        {
+         "playerName": "Jaxon Smith-Njigba",
+         "playerId": "jaxon smithnjigba",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0.1497711687566496,
+          "carries": 0,
+          "receptions": 6.755069325980635,
+          "recYards": 90.78150997242737,
+          "kickingPoints": 0,
+          "rushTds": 0.02881030282197727,
+          "recTds": 0.5473957536175681
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.43844995626171346
+         },
+         "anytimeTd": 0.43797337594069674,
+         "points": 15.93,
+         "floor": 6.64,
+         "ceiling": 25.69,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.43797337594069674,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 110
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 94.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 6.5,
+           "probability": 0.539576802507837,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -135
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 0.5,
+           "probability": 0.24182076813655765,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 93.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 95.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 92.5,
+           "probability": 0.5203045685279188,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -125
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7700,
+         "salarySource": "estimated",
+         "value": 2.07,
+         "ownership": 65,
+         "slot": "MVP",
+         "multiplier": 1.5
+        },
+        {
+         "playerName": "Emanuel Wilson",
+         "playerId": "emanuel wilson",
+         "position": "RB",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 69.5,
+          "carries": 0,
+          "receptions": 1.5,
+          "recYards": 9.89249504402643,
+          "kickingPoints": 0,
+          "rushTds": 0.420447102850903,
+          "recTds": 0.10511177571272574
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0.19398365947181295,
+          "rec100": 0
+         },
+         "anytimeTd": 0.4087751508779836,
+         "points": 11.84,
+         "floor": 5.01,
+         "ceiling": 19.22,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.4087751508779836,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 125
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 10.5,
+           "probability": 0.4852289512555392,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -105
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 1.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 69.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetOnline.ag",
+           "americanOdds": -114
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 9.5,
+           "probability": 0.4869204764971024,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -109
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 66.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 67.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -115
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 7000,
+         "salarySource": "estimated",
+         "value": 1.69,
+         "ownership": 65,
+         "slot": "FLEX1",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Jaylen Waddle",
+         "playerId": "jaylen waddle",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 0,
+          "carries": 0,
+          "receptions": 4.156226922379435,
+          "recYards": 48.13585095892288,
+          "kickingPoints": 0,
+          "rushTds": 0.013448369014523818,
+          "recTds": 0.2555190112759525
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 0.04261858777723959
+         },
+         "anytimeTd": 0.23583181781422136,
+         "points": 8.51,
+         "floor": 3.72,
+         "ceiling": 16.8,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.23583181781422136,
+           "devigged": false,
+           "book": "FanDuel",
+           "americanOdds": 290
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 45.5,
+           "probability": 0.5021058838394474,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 4.5,
+           "probability": 0.41384499623777277,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": 128
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 46.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 47.5,
+           "probability": 0.4949766918501849,
+           "devigged": true,
+           "book": "BetRivers",
+           "americanOdds": -113
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 6000,
+         "salarySource": "estimated",
+         "value": 1.42,
+         "ownership": 17.3,
+         "slot": "FLEX2",
+         "multiplier": 1
+        },
+        {
+         "playerName": "Seattle Seahawks",
+         "playerId": "seattle seahawks",
+         "position": "DST",
+         "projection": {
+          "pointsAllowed": 19,
+          "sacks": 2.5875,
+          "takeaways": 1.575,
+          "defensiveTds": 0.135
+         },
+         "points": 7.89,
+         "floor": 3.39,
+         "ceiling": 16.89,
+         "lines": [],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": "Seattle Seahawks",
+         "opponent": "Denver Broncos",
+         "salary": 4100,
+         "salarySource": "estimated",
+         "value": 1.92,
+         "ownership": 28.6,
+         "slot": "FLEX3",
+         "multiplier": 1
+        },
+        {
+         "playerName": "RJ Harvey",
+         "playerId": "rj harvey",
+         "position": "WR",
+         "projection": {
+          "passYards": 0,
+          "passTds": 0,
+          "interceptions": 0,
+          "passAttempts": 0,
+          "completions": 0,
+          "rushYards": 14.5,
+          "carries": 0,
+          "receptions": 3.0494171629216673,
+          "recYards": 24.724999999999998,
+          "kickingPoints": 0,
+          "rushTds": 0.01203318014488735,
+          "recTds": 0.2286304227528596
+         },
+         "bonuses": {
+          "pass300": 0,
+          "rush100": 0,
+          "rec100": 5.369933282484141e-7
+         },
+         "anytimeTd": 0.21389397429661933,
+         "points": 6.89,
+         "floor": 3.06,
+         "ceiling": 14.39,
+         "lines": [
+          {
+           "market": "player_anytime_td",
+           "label": "to score a TD",
+           "line": null,
+           "probability": 0.21389397429661933,
+           "devigged": false,
+           "book": "DraftKings",
+           "americanOdds": 330
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 23.5,
+           "probability": 0.495787700084246,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -110
+          },
+          {
+           "market": "player_receptions",
+           "label": "receptions",
+           "line": 3.5,
+           "probability": 0.48581617766250607,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -108
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 15.5,
+           "probability": 0.48638115990613473,
+           "devigged": true,
+           "book": "DraftKings",
+           "americanOdds": -106
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 21.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_rush_yds",
+           "label": "rushing yards",
+           "line": 14.5,
+           "probability": 0.5,
+           "devigged": true,
+           "book": "FanDuel",
+           "americanOdds": -113
+          },
+          {
+           "market": "player_reception_yds",
+           "label": "receiving yards",
+           "line": 22.5,
+           "probability": 0.48987854251012153,
+           "devigged": true,
+           "book": "BetMGM",
+           "americanOdds": -110
+          }
+         ],
+         "gameId": "855f58fad5f0f14b239f4f63df27998b",
+         "team": null,
+         "opponent": null,
+         "salary": 5600,
+         "salarySource": "estimated",
+         "value": 1.23,
+         "ownership": 10.1,
+         "slot": "FLEX4",
+         "multiplier": 1
+        }
+       ],
+       "site": "fanduel",
+       "chargesCaptainPremium": false,
+       "salary": 30400,
+       "salaryRemaining": 29600,
+       "points": 59.03,
+       "floor": 47.22,
+       "ceiling": 73.55,
+       "sd": 14.02,
+       "ownership": 186,
+       "value": 1.94,
+       "stack": null
+      }
+     ]
+    }
+   ],
+   "skipped": [
     {
      "name": "Sunday Main",
      "reason": "too few players priced — props are not posted for these games yet"
@@ -51,11 +6358,19 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Afternoon",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Sunday Night: Cowboys at Packers",
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
      "name": "Monday Night: Commanders at 49ers",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Patriots at Bears",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
