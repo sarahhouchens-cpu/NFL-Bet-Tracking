@@ -1,31 +1,31 @@
 {
- "generatedAt": "2026-10-20T00:54:56.418Z",
+ "generatedAt": "2026-10-23T00:18:49.778Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "ffebea881c1d7b2dfb85b3e590c35985",
-   "home": "Chicago Bears",
-   "away": "New England Patriots",
-   "commenceTime": "2026-10-23T00:15:00Z",
-   "total": 50.5,
-   "homeSpread": -3,
-   "teamTotals": {
-    "Chicago Bears": 26.75,
-    "New England Patriots": 23.75
-   }
-  },
-  {
    "gameId": "2e710ea5a306b614f0f966e3d78732f8",
    "home": "New Orleans Saints",
    "away": "Pittsburgh Steelers",
    "commenceTime": "2026-10-25T13:30:00Z",
-   "total": 44,
-   "homeSpread": 3,
+   "total": 44.5,
+   "homeSpread": 3.5,
    "teamTotals": {
     "New Orleans Saints": 20.5,
-    "Pittsburgh Steelers": 23.5
+    "Pittsburgh Steelers": 24
+   }
+  },
+  {
+   "gameId": "b1be064fb52a198a62109c279e7ab24c",
+   "home": "Atlanta Falcons",
+   "away": "San Francisco 49ers",
+   "commenceTime": "2026-10-25T17:00:00Z",
+   "total": 50,
+   "homeSpread": 2.5,
+   "teamTotals": {
+    "Atlanta Falcons": 23.75,
+    "San Francisco 49ers": 26.25
    }
   },
   {
@@ -33,11 +33,11 @@
    "home": "Baltimore Ravens",
    "away": "Cincinnati Bengals",
    "commenceTime": "2026-10-25T17:00:00Z",
-   "total": 51,
-   "homeSpread": -2.5,
+   "total": 49,
+   "homeSpread": -1.5,
    "teamTotals": {
-    "Baltimore Ravens": 26.75,
-    "Cincinnati Bengals": 24.25
+    "Baltimore Ravens": 25.25,
+    "Cincinnati Bengals": 23.75
    }
   },
   {
@@ -57,11 +57,11 @@
    "home": "Tennessee Titans",
    "away": "Cleveland Browns",
    "commenceTime": "2026-10-25T17:00:00Z",
-   "total": 38.5,
-   "homeSpread": 2,
+   "total": 37.5,
+   "homeSpread": 1.5,
    "teamTotals": {
-    "Tennessee Titans": 18.25,
-    "Cleveland Browns": 20.25
+    "Tennessee Titans": 18,
+    "Cleveland Browns": 19.5
    }
   },
   {
@@ -69,11 +69,11 @@
    "home": "Houston Texans",
    "away": "New York Giants",
    "commenceTime": "2026-10-25T17:00:00Z",
-   "total": 43,
-   "homeSpread": -9.5,
+   "total": 42.5,
+   "homeSpread": -10.5,
    "teamTotals": {
-    "Houston Texans": 26.25,
-    "New York Giants": 16.75
+    "Houston Texans": 26.5,
+    "New York Giants": 16
    }
   },
   {
@@ -82,10 +82,10 @@
    "away": "Indianapolis Colts",
    "commenceTime": "2026-10-25T17:00:00Z",
    "total": 41.5,
-   "homeSpread": -6,
+   "homeSpread": -6.5,
    "teamTotals": {
-    "Minnesota Vikings": 23.75,
-    "Indianapolis Colts": 17.75
+    "Minnesota Vikings": 24,
+    "Indianapolis Colts": 17.5
    }
   },
   {
@@ -94,10 +94,10 @@
    "away": "Miami Dolphins",
    "commenceTime": "2026-10-25T17:00:00Z",
    "total": 39.5,
-   "homeSpread": -5,
+   "homeSpread": -4.5,
    "teamTotals": {
-    "New York Jets": 22.25,
-    "Miami Dolphins": 17.25
+    "New York Jets": 22,
+    "Miami Dolphins": 17.5
    }
   },
   {
@@ -117,11 +117,11 @@
    "home": "Detroit Lions",
    "away": "Green Bay Packers",
    "commenceTime": "2026-10-25T20:25:00Z",
-   "total": 53,
+   "total": 53.5,
    "homeSpread": -3,
    "teamTotals": {
-    "Detroit Lions": 28,
-    "Green Bay Packers": 25
+    "Detroit Lions": 28.25,
+    "Green Bay Packers": 25.25
    }
   },
   {
@@ -129,10 +129,10 @@
    "home": "Las Vegas Raiders",
    "away": "Los Angeles Rams",
    "commenceTime": "2026-10-25T20:25:00Z",
-   "total": 47.5,
-   "homeSpread": 4.5,
+   "total": 48.5,
+   "homeSpread": 3.5,
    "teamTotals": {
-    "Las Vegas Raiders": 21.5,
+    "Las Vegas Raiders": 22.5,
     "Los Angeles Rams": 26
    }
   },
@@ -142,10 +142,10 @@
    "away": "Kansas City Chiefs",
    "commenceTime": "2026-10-26T00:20:00Z",
    "total": 42.5,
-   "homeSpread": -2,
+   "homeSpread": -2.5,
    "teamTotals": {
-    "Seattle Seahawks": 22.25,
-    "Kansas City Chiefs": 20.25
+    "Seattle Seahawks": 22.5,
+    "Kansas City Chiefs": 20
    }
   },
   {
@@ -154,10 +154,22 @@
    "away": "Dallas Cowboys",
    "commenceTime": "2026-10-27T00:15:00Z",
    "total": 44,
-   "homeSpread": 4.5,
+   "homeSpread": 4,
    "teamTotals": {
-    "Philadelphia Eagles": 19.75,
-    "Dallas Cowboys": 24.25
+    "Philadelphia Eagles": 20,
+    "Dallas Cowboys": 24
+   }
+  },
+  {
+   "gameId": "ab2865e9f2d4b012de8bc6fb6de11a7c",
+   "home": "Green Bay Packers",
+   "away": "Carolina Panthers",
+   "commenceTime": "2026-10-30T00:15:00Z",
+   "total": 46.5,
+   "homeSpread": -3,
+   "teamTotals": {
+    "Green Bay Packers": 24.75,
+    "Carolina Panthers": 21.75
    }
   }
  ],
