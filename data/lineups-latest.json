@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T01:09:22.021Z",
+ "generatedAt": "2026-10-30T01:29:48.690Z",
  "demo": false,
  "sites": {
   "draftkings": {
@@ -9,10 +9,6 @@
    "salarySource": "estimated",
    "slates": [],
    "skipped": [
-    {
-     "name": "Thursday Night: Panthers at Packers",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
     {
      "name": "Sunday Main",
      "reason": "too few players priced — props are not posted for these games yet"
@@ -26,7 +22,15 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Night: Eagles at Commanders",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Monday Night: Bears at Seahawks",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Jaguars at Ravens",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
@@ -39,10 +43,6 @@
    "slates": [],
    "skipped": [
     {
-     "name": "Thursday Night: Panthers at Packers",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
      "name": "Sunday Main",
      "reason": "too few players priced — props are not posted for these games yet"
     },
@@ -55,7 +55,15 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Night: Eagles at Commanders",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Monday Night: Bears at Seahawks",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Jaguars at Ravens",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]

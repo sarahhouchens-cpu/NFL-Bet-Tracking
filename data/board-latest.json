@@ -1,19 +1,19 @@
 {
- "generatedAt": "2026-10-27T01:09:22.007Z",
+ "generatedAt": "2026-10-30T01:29:48.671Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "ab2865e9f2d4b012de8bc6fb6de11a7c",
-   "home": "Green Bay Packers",
-   "away": "Carolina Panthers",
-   "commenceTime": "2026-10-30T00:15:00Z",
-   "total": 48,
-   "homeSpread": -3.5,
+   "gameId": "9255ca8f32aea590d00aa57de79f6bb6",
+   "home": "Dallas Cowboys",
+   "away": "Arizona Cardinals",
+   "commenceTime": "2026-11-01T18:00:00Z",
+   "total": 54.5,
+   "homeSpread": -7,
    "teamTotals": {
-    "Green Bay Packers": 25.75,
-    "Carolina Panthers": 22.25
+    "Dallas Cowboys": 30.75,
+    "Arizona Cardinals": 23.75
    }
   },
   {
@@ -21,11 +21,11 @@
    "home": "Tampa Bay Buccaneers",
    "away": "Atlanta Falcons",
    "commenceTime": "2026-11-01T18:00:00Z",
-   "total": 46,
-   "homeSpread": -2,
+   "total": 44,
+   "homeSpread": -2.5,
    "teamTotals": {
-    "Tampa Bay Buccaneers": 24,
-    "Atlanta Falcons": 22
+    "Tampa Bay Buccaneers": 23.25,
+    "Atlanta Falcons": 20.75
    }
   },
   {
@@ -33,11 +33,11 @@
    "home": "Buffalo Bills",
    "away": "Baltimore Ravens",
    "commenceTime": "2026-11-01T18:00:00Z",
-   "total": 53.25,
-   "homeSpread": -3.5,
+   "total": 54.5,
+   "homeSpread": -3,
    "teamTotals": {
-    "Buffalo Bills": 28.375,
-    "Baltimore Ravens": 24.875
+    "Buffalo Bills": 28.75,
+    "Baltimore Ravens": 25.75
    }
   },
   {
@@ -46,10 +46,10 @@
    "away": "Tennessee Titans",
    "commenceTime": "2026-11-01T18:00:00Z",
    "total": 46.5,
-   "homeSpread": -10,
+   "homeSpread": -11.5,
    "teamTotals": {
-    "Cincinnati Bengals": 28.25,
-    "Tennessee Titans": 18.25
+    "Cincinnati Bengals": 29,
+    "Tennessee Titans": 17.5
    }
   },
   {
@@ -82,10 +82,10 @@
    "away": "Indianapolis Colts",
    "commenceTime": "2026-11-01T18:00:00Z",
    "total": 46.5,
-   "homeSpread": -7.5,
+   "homeSpread": -10,
    "teamTotals": {
-    "Jacksonville Jaguars": 27,
-    "Indianapolis Colts": 19.5
+    "Jacksonville Jaguars": 28.25,
+    "Indianapolis Colts": 18.25
    }
   },
   {
@@ -94,10 +94,10 @@
    "away": "Las Vegas Raiders",
    "commenceTime": "2026-11-01T18:00:00Z",
    "total": 45.5,
-   "homeSpread": -0.5,
+   "homeSpread": -1,
    "teamTotals": {
-    "New York Jets": 23,
-    "Las Vegas Raiders": 22.5
+    "New York Jets": 23.25,
+    "Las Vegas Raiders": 22.25
    }
   },
   {
@@ -105,11 +105,11 @@
    "home": "Los Angeles Rams",
    "away": "Los Angeles Chargers",
    "commenceTime": "2026-11-01T21:05:00Z",
-   "total": 44.5,
+   "total": 45,
    "homeSpread": -6.5,
    "teamTotals": {
-    "Los Angeles Rams": 25.5,
-    "Los Angeles Chargers": 19
+    "Los Angeles Rams": 25.75,
+    "Los Angeles Chargers": 19.25
    }
   },
   {
@@ -117,11 +117,11 @@
    "home": "Denver Broncos",
    "away": "Kansas City Chiefs",
    "commenceTime": "2026-11-01T21:25:00Z",
-   "total": 41,
-   "homeSpread": 1.25,
+   "total": 40.5,
+   "homeSpread": 1,
    "teamTotals": {
-    "Denver Broncos": 19.875,
-    "Kansas City Chiefs": 21.125
+    "Denver Broncos": 19.75,
+    "Kansas City Chiefs": 20.75
    }
   },
   {
@@ -129,11 +129,23 @@
    "home": "Miami Dolphins",
    "away": "New England Patriots",
    "commenceTime": "2026-11-01T21:25:00Z",
-   "total": 44.5,
-   "homeSpread": 7.5,
+   "total": 43,
+   "homeSpread": 7,
    "teamTotals": {
-    "Miami Dolphins": 18.5,
-    "New England Patriots": 26
+    "Miami Dolphins": 18,
+    "New England Patriots": 25
+   }
+  },
+  {
+   "gameId": "b9c60db63b1a19ad319f24b33c0defe8",
+   "home": "Washington Commanders",
+   "away": "Philadelphia Eagles",
+   "commenceTime": "2026-11-02T01:20:00Z",
+   "total": 40,
+   "homeSpread": -6,
+   "teamTotals": {
+    "Washington Commanders": 23,
+    "Philadelphia Eagles": 17
    }
   },
   {
@@ -146,6 +158,18 @@
    "teamTotals": {
     "Seattle Seahawks": 24.75,
     "Chicago Bears": 21.75
+   }
+  },
+  {
+   "gameId": "c75744790b7acf6260c78ba5e739c0e5",
+   "home": "Baltimore Ravens",
+   "away": "Jacksonville Jaguars",
+   "commenceTime": "2026-11-06T01:15:00Z",
+   "total": 48.5,
+   "homeSpread": -3,
+   "teamTotals": {
+    "Baltimore Ravens": 25.75,
+    "Jacksonville Jaguars": 22.75
    }
   }
  ],
