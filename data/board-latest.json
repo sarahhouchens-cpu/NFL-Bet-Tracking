@@ -1,31 +1,19 @@
 {
- "generatedAt": "2026-11-10T03:57:55.881Z",
+ "generatedAt": "2026-11-13T02:19:26.981Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "74d39e19225caf211ad2c8eb4110179f",
-   "home": "New York Giants",
-   "away": "Washington Commanders",
-   "commenceTime": "2026-11-13T01:15:00Z",
-   "total": 42,
-   "homeSpread": -2,
-   "teamTotals": {
-    "New York Giants": 22,
-    "Washington Commanders": 20
-   }
-  },
-  {
    "gameId": "b8c10fdf1e0ac4e13deee7f7c0af0b0b",
    "home": "Detroit Lions",
    "away": "New England Patriots",
    "commenceTime": "2026-11-15T14:30:00Z",
-   "total": 51,
-   "homeSpread": -2.75,
+   "total": 49.5,
+   "homeSpread": -2.5,
    "teamTotals": {
-    "Detroit Lions": 26.875,
-    "New England Patriots": 24.125
+    "Detroit Lions": 26,
+    "New England Patriots": 23.5
    }
   },
   {
@@ -33,11 +21,23 @@
    "home": "Atlanta Falcons",
    "away": "Kansas City Chiefs",
    "commenceTime": "2026-11-15T18:00:00Z",
-   "total": 45,
+   "total": 47,
    "homeSpread": 3,
    "teamTotals": {
-    "Atlanta Falcons": 21,
-    "Kansas City Chiefs": 24
+    "Atlanta Falcons": 22,
+    "Kansas City Chiefs": 25
+   }
+  },
+  {
+   "gameId": "1057d50949844ddf483da9c8c20354be",
+   "home": "New York Jets",
+   "away": "Buffalo Bills",
+   "commenceTime": "2026-11-15T18:00:00Z",
+   "total": 51,
+   "homeSpread": 8,
+   "teamTotals": {
+    "New York Jets": 21.5,
+    "Buffalo Bills": 29.5
    }
   },
   {
@@ -45,11 +45,11 @@
    "home": "New Orleans Saints",
    "away": "Carolina Panthers",
    "commenceTime": "2026-11-15T18:00:00Z",
-   "total": 48,
-   "homeSpread": -1,
+   "total": 49,
+   "homeSpread": -2.5,
    "teamTotals": {
-    "New Orleans Saints": 24.5,
-    "Carolina Panthers": 23.5
+    "New Orleans Saints": 25.75,
+    "Carolina Panthers": 23.25
    }
   },
   {
@@ -57,11 +57,23 @@
    "home": "Cleveland Browns",
    "away": "Houston Texans",
    "commenceTime": "2026-11-15T18:00:00Z",
-   "total": 39.5,
-   "homeSpread": 5,
+   "total": 40.5,
+   "homeSpread": 4.5,
    "teamTotals": {
-    "Cleveland Browns": 17.25,
-    "Houston Texans": 22.25
+    "Cleveland Browns": 18,
+    "Houston Texans": 22.5
+   }
+  },
+  {
+   "gameId": "5d8d85473b87f772a979ecf294acab94",
+   "home": "Green Bay Packers",
+   "away": "Minnesota Vikings",
+   "commenceTime": "2026-11-15T18:00:00Z",
+   "total": 42,
+   "homeSpread": -3,
+   "teamTotals": {
+    "Green Bay Packers": 22.5,
+    "Minnesota Vikings": 19.5
    }
   },
   {
@@ -69,11 +81,11 @@
    "home": "Indianapolis Colts",
    "away": "Miami Dolphins",
    "commenceTime": "2026-11-15T18:00:00Z",
-   "total": 40.5,
-   "homeSpread": -2.5,
+   "total": 37.5,
+   "homeSpread": -4,
    "teamTotals": {
-    "Indianapolis Colts": 21.5,
-    "Miami Dolphins": 19
+    "Indianapolis Colts": 20.75,
+    "Miami Dolphins": 16.75
    }
   },
   {
@@ -82,10 +94,10 @@
    "away": "Jacksonville Jaguars",
    "commenceTime": "2026-11-15T18:00:00Z",
    "total": 46.5,
-   "homeSpread": 10,
+   "homeSpread": 10.5,
    "teamTotals": {
-    "Tennessee Titans": 18.25,
-    "Jacksonville Jaguars": 28.25
+    "Tennessee Titans": 18,
+    "Jacksonville Jaguars": 28.5
    }
   },
   {
@@ -93,11 +105,11 @@
    "home": "Arizona Cardinals",
    "away": "Los Angeles Rams",
    "commenceTime": "2026-11-15T21:05:00Z",
-   "total": 40,
+   "total": 39.5,
    "homeSpread": 9.5,
    "teamTotals": {
-    "Arizona Cardinals": 15.25,
-    "Los Angeles Rams": 24.75
+    "Arizona Cardinals": 15,
+    "Los Angeles Rams": 24.5
    }
   },
   {
@@ -105,10 +117,10 @@
    "home": "Las Vegas Raiders",
    "away": "Seattle Seahawks",
    "commenceTime": "2026-11-15T21:05:00Z",
-   "total": 43.5,
-   "homeSpread": 3.5,
+   "total": 40.5,
+   "homeSpread": 6.5,
    "teamTotals": {
-    "Las Vegas Raiders": 20,
+    "Las Vegas Raiders": 17,
     "Seattle Seahawks": 23.5
    }
   },
@@ -129,11 +141,11 @@
    "home": "Cincinnati Bengals",
    "away": "Pittsburgh Steelers",
    "commenceTime": "2026-11-16T01:20:00Z",
-   "total": 48.5,
+   "total": 49.5,
    "homeSpread": -3.5,
    "teamTotals": {
-    "Cincinnati Bengals": 26,
-    "Pittsburgh Steelers": 22.5
+    "Cincinnati Bengals": 26.5,
+    "Pittsburgh Steelers": 23
    }
   },
   {
@@ -142,10 +154,22 @@
    "away": "Los Angeles Chargers",
    "commenceTime": "2026-11-17T01:15:00Z",
    "total": 38.5,
-   "homeSpread": -5,
+   "homeSpread": -4.5,
    "teamTotals": {
-    "Baltimore Ravens": 21.75,
-    "Los Angeles Chargers": 16.75
+    "Baltimore Ravens": 21.5,
+    "Los Angeles Chargers": 17
+   }
+  },
+  {
+   "gameId": "66f9e83cf025d58acee12bce18661fb3",
+   "home": "Houston Texans",
+   "away": "Indianapolis Colts",
+   "commenceTime": "2026-11-20T01:15:00Z",
+   "total": 43.5,
+   "homeSpread": -10,
+   "teamTotals": {
+    "Houston Texans": 26.75,
+    "Indianapolis Colts": 16.75
    }
   }
  ],
