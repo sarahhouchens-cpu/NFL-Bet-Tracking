@@ -1,42 +1,6 @@
 {
- "generatedAt": "2026-11-17T04:19:35.432Z",
+ "generatedAt": "2026-11-20T02:47:06.388Z",
  "players": [
-  {
-   "playerName": "Houston Texans",
-   "playerId": "houston texans",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 16.25,
-    "sacks": 3.2199999999999998,
-    "takeaways": 1.9599999999999997,
-    "defensiveTds": 0.16799999999999998
-   },
-   "points": 10.17,
-   "floor": 5.67,
-   "ceiling": 19.17,
-   "lines": [],
-   "gameId": "66f9e83cf025d58acee12bce18661fb3",
-   "team": "Houston Texans",
-   "opponent": "Indianapolis Colts"
-  },
-  {
-   "playerName": "Indianapolis Colts",
-   "playerId": "indianapolis colts",
-   "position": "DST",
-   "projection": {
-    "pointsAllowed": 28.25,
-    "sacks": 1.38,
-    "takeaways": 0.84,
-    "defensiveTds": 0.072
-   },
-   "points": 2.85,
-   "floor": -1.65,
-   "ceiling": 11.85,
-   "lines": [],
-   "gameId": "66f9e83cf025d58acee12bce18661fb3",
-   "team": "Indianapolis Colts",
-   "opponent": "Houston Texans"
-  },
   {
    "playerName": "Kansas City Chiefs",
    "playerId": "kansas city chiefs",
@@ -74,18 +38,54 @@
    "opponent": "Kansas City Chiefs"
   },
   {
+   "playerName": "Carolina Panthers",
+   "playerId": "carolina panthers",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 20.25,
+    "sacks": 2.6449999999999996,
+    "takeaways": 1.6099999999999999,
+    "defensiveTds": 0.13799999999999998
+   },
+   "points": 7.74,
+   "floor": 3.24,
+   "ceiling": 16.74,
+   "lines": [],
+   "gameId": "4527f57f5bc32742d8194af1ccf7da7e",
+   "team": "Carolina Panthers",
+   "opponent": "Baltimore Ravens"
+  },
+  {
+   "playerName": "Baltimore Ravens",
+   "playerId": "baltimore ravens",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 23.25,
+    "sacks": 1.9549999999999998,
+    "takeaways": 1.19,
+    "defensiveTds": 0.102
+   },
+   "points": 5.31,
+   "floor": 0.81,
+   "ceiling": 14.31,
+   "lines": [],
+   "gameId": "4527f57f5bc32742d8194af1ccf7da7e",
+   "team": "Baltimore Ravens",
+   "opponent": "Carolina Panthers"
+  },
+  {
    "playerName": "Buffalo Bills",
    "playerId": "buffalo bills",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 14.5,
+    "pointsAllowed": 14,
     "sacks": 3.2199999999999998,
     "takeaways": 1.9599999999999997,
     "defensiveTds": 0.16799999999999998
    },
-   "points": 10.64,
-   "floor": 6.14,
-   "ceiling": 19.64,
+   "points": 10.78,
+   "floor": 6.28,
+   "ceiling": 19.78,
    "lines": [],
    "gameId": "4c5b1c0843a260278e95eb93e7787576",
    "team": "Buffalo Bills",
@@ -96,14 +96,14 @@
    "playerId": "miami dolphins",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 31,
+    "pointsAllowed": 30.5,
     "sacks": 1.38,
     "takeaways": 0.84,
     "defensiveTds": 0.072
    },
-   "points": 2.39,
-   "floor": -2.11,
-   "ceiling": 11.39,
+   "points": 2.47,
+   "floor": -2.03,
+   "ceiling": 11.47,
    "lines": [],
    "gameId": "4c5b1c0843a260278e95eb93e7787576",
    "team": "Miami Dolphins",
@@ -114,14 +114,14 @@
    "playerId": "chicago bears",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 18.75,
+    "pointsAllowed": 18.5,
     "sacks": 3.2199999999999998,
     "takeaways": 1.9599999999999997,
     "defensiveTds": 0.16799999999999998
    },
-   "points": 9.55,
-   "floor": 5.05,
-   "ceiling": 18.55,
+   "points": 9.61,
+   "floor": 5.11,
+   "ceiling": 18.61,
    "lines": [],
    "gameId": "3ea90704fb576633bd1e2fa5aafd9ea3",
    "team": "Chicago Bears",
@@ -132,14 +132,14 @@
    "playerId": "new orleans saints",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 30.25,
+    "pointsAllowed": 30,
     "sacks": 1.38,
     "takeaways": 0.84,
     "defensiveTds": 0.072
    },
-   "points": 2.51,
-   "floor": -1.99,
-   "ceiling": 11.51,
+   "points": 2.55,
+   "floor": -1.95,
+   "ceiling": 11.55,
    "lines": [],
    "gameId": "3ea90704fb576633bd1e2fa5aafd9ea3",
    "team": "New Orleans Saints",
@@ -186,14 +186,14 @@
    "playerId": "detroit lions",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 20,
-    "sacks": 3.0475,
-    "takeaways": 1.8549999999999998,
-    "defensiveTds": 0.159
+    "pointsAllowed": 19.75,
+    "sacks": 2.9899999999999998,
+    "takeaways": 1.8199999999999998,
+    "defensiveTds": 0.156
    },
-   "points": 8.82,
-   "floor": 4.32,
-   "ceiling": 17.82,
+   "points": 8.73,
+   "floor": 4.23,
+   "ceiling": 17.73,
    "lines": [],
    "gameId": "41e2dd69bddd65d7e823d9ed61cc2afc",
    "team": "Detroit Lions",
@@ -204,14 +204,14 @@
    "playerId": "tampa bay buccaneers",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 26.5,
-    "sacks": 1.5525,
-    "takeaways": 0.945,
-    "defensiveTds": 0.081
+    "pointsAllowed": 25.75,
+    "sacks": 1.6099999999999999,
+    "takeaways": 0.9799999999999999,
+    "defensiveTds": 0.08399999999999999
    },
-   "points": 3.61,
-   "floor": -0.89,
-   "ceiling": 12.61,
+   "points": 3.91,
+   "floor": -0.59,
+   "ceiling": 12.91,
    "lines": [],
    "gameId": "41e2dd69bddd65d7e823d9ed61cc2afc",
    "team": "Tampa Bay Buccaneers",
@@ -222,14 +222,14 @@
    "playerId": "philadelphia eagles",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 21.5,
+    "pointsAllowed": 21.25,
     "sacks": 1.7825,
     "takeaways": 1.085,
     "defensiveTds": 0.093
    },
-   "points": 5.27,
-   "floor": 0.77,
-   "ceiling": 14.27,
+   "points": 5.33,
+   "floor": 0.83,
+   "ceiling": 14.33,
    "lines": [],
    "gameId": "cbe45bafcc2615fc1d96cbc12840377a",
    "team": "Philadelphia Eagles",
@@ -240,32 +240,68 @@
    "playerId": "pittsburgh steelers",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 17,
+    "pointsAllowed": 16.75,
     "sacks": 2.8175,
     "takeaways": 1.715,
     "defensiveTds": 0.147
    },
-   "points": 8.96,
-   "floor": 4.46,
-   "ceiling": 17.96,
+   "points": 9.02,
+   "floor": 4.52,
+   "ceiling": 18.02,
    "lines": [],
    "gameId": "cbe45bafcc2615fc1d96cbc12840377a",
    "team": "Pittsburgh Steelers",
    "opponent": "Philadelphia Eagles"
   },
   {
+   "playerName": "Los Angeles Chargers",
+   "playerId": "los angeles chargers",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 19.5,
+    "sacks": 2.6449999999999996,
+    "takeaways": 1.6099999999999999,
+    "defensiveTds": 0.13799999999999998
+   },
+   "points": 7.92,
+   "floor": 3.42,
+   "ceiling": 16.92,
+   "lines": [],
+   "gameId": "4b20b742b6168aaca4f25d87f11b1526",
+   "team": "Los Angeles Chargers",
+   "opponent": "New York Jets"
+  },
+  {
+   "playerName": "New York Jets",
+   "playerId": "new york jets",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 22.5,
+    "sacks": 1.9549999999999998,
+    "takeaways": 1.19,
+    "defensiveTds": 0.102
+   },
+   "points": 5.48,
+   "floor": 0.98,
+   "ceiling": 14.48,
+   "lines": [],
+   "gameId": "4b20b742b6168aaca4f25d87f11b1526",
+   "team": "New York Jets",
+   "opponent": "Los Angeles Chargers"
+  },
+  {
    "playerName": "Denver Broncos",
    "playerId": "denver broncos",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 15,
+    "pointsAllowed": 15.25,
     "sacks": 3.2199999999999998,
     "takeaways": 1.9599999999999997,
     "defensiveTds": 0.16799999999999998
    },
-   "points": 10.5,
-   "floor": 6,
-   "ceiling": 19.5,
+   "points": 10.43,
+   "floor": 5.93,
+   "ceiling": 19.43,
    "lines": [],
    "gameId": "1940706a79cbcbafacdcbf231069716b",
    "team": "Denver Broncos",
@@ -276,14 +312,14 @@
    "playerId": "las vegas raiders",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 25,
+    "pointsAllowed": 25.25,
     "sacks": 1.38,
     "takeaways": 0.84,
     "defensiveTds": 0.072
    },
-   "points": 3.48,
-   "floor": -1.02,
-   "ceiling": 12.48,
+   "points": 3.43,
+   "floor": -1.07,
+   "ceiling": 12.43,
    "lines": [],
    "gameId": "1940706a79cbcbafacdcbf231069716b",
    "team": "Las Vegas Raiders",
@@ -294,14 +330,14 @@
    "playerId": "new york giants",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 26,
-    "sacks": 1.6674999999999998,
-    "takeaways": 1.015,
-    "defensiveTds": 0.087
+    "pointsAllowed": 26.25,
+    "sacks": 1.6099999999999999,
+    "takeaways": 0.9799999999999999,
+    "defensiveTds": 0.08399999999999999
    },
-   "points": 4,
-   "floor": -0.5,
-   "ceiling": 13,
+   "points": 3.81,
+   "floor": -0.69,
+   "ceiling": 12.81,
    "lines": [],
    "gameId": "8ba112fabf4e87639338a5f437c5abfe",
    "team": "New York Giants",
@@ -312,14 +348,14 @@
    "playerId": "jacksonville jaguars",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 20.5,
-    "sacks": 2.9324999999999997,
-    "takeaways": 1.7849999999999997,
-    "defensiveTds": 0.153
+    "pointsAllowed": 20.25,
+    "sacks": 2.9899999999999998,
+    "takeaways": 1.8199999999999998,
+    "defensiveTds": 0.156
    },
-   "points": 8.41,
-   "floor": 3.91,
-   "ceiling": 17.41,
+   "points": 8.62,
+   "floor": 4.12,
+   "ceiling": 17.62,
    "lines": [],
    "gameId": "8ba112fabf4e87639338a5f437c5abfe",
    "team": "Jacksonville Jaguars",
@@ -366,14 +402,14 @@
    "playerId": "washington commanders",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 29.75,
+    "pointsAllowed": 30.25,
     "sacks": 1.5525,
     "takeaways": 0.945,
     "defensiveTds": 0.081
    },
-   "points": 3.03,
-   "floor": -1.47,
-   "ceiling": 12.03,
+   "points": 2.95,
+   "floor": -1.55,
+   "ceiling": 11.95,
    "lines": [],
    "gameId": "3a60ed1d20004aa4d4772b2c1a2272e7",
    "team": "Washington Commanders",
@@ -384,18 +420,198 @@
    "playerId": "cincinnati bengals",
    "position": "DST",
    "projection": {
-    "pointsAllowed": 23.25,
+    "pointsAllowed": 23.75,
     "sacks": 3.0475,
     "takeaways": 1.8549999999999998,
     "defensiveTds": 0.159
    },
-   "points": 8.08,
-   "floor": 3.58,
-   "ceiling": 17.08,
+   "points": 7.97,
+   "floor": 3.47,
+   "ceiling": 16.97,
    "lines": [],
    "gameId": "3a60ed1d20004aa4d4772b2c1a2272e7",
    "team": "Cincinnati Bengals",
    "opponent": "Washington Commanders"
+  },
+  {
+   "playerName": "Los Angeles Rams",
+   "playerId": "los angeles rams",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 20.875,
+    "sacks": 2.7024999999999997,
+    "takeaways": 1.645,
+    "defensiveTds": 0.141
+   },
+   "points": 7.74,
+   "floor": 3.24,
+   "ceiling": 16.74,
+   "lines": [],
+   "gameId": "5b612899d6dcdf998107f2c6c6e49a58",
+   "team": "Los Angeles Rams",
+   "opponent": "Green Bay Packers"
+  },
+  {
+   "playerName": "Green Bay Packers",
+   "playerId": "green bay packers",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 24.375,
+    "sacks": 1.8974999999999997,
+    "takeaways": 1.1549999999999998,
+    "defensiveTds": 0.09899999999999999
+   },
+   "points": 4.92,
+   "floor": 0.42,
+   "ceiling": 13.92,
+   "lines": [],
+   "gameId": "5b612899d6dcdf998107f2c6c6e49a58",
+   "team": "Green Bay Packers",
+   "opponent": "Los Angeles Rams"
+  },
+  {
+   "playerName": "Detroit Lions",
+   "playerId": "detroit lions",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 29,
+    "sacks": 2.0124999999999997,
+    "takeaways": 1.2249999999999999,
+    "defensiveTds": 0.105
+   },
+   "points": 4.32,
+   "floor": -0.18,
+   "ceiling": 13.32,
+   "lines": [],
+   "gameId": "9b825e6518156008da499be041975fdd",
+   "team": "Detroit Lions",
+   "opponent": "Chicago Bears"
+  },
+  {
+   "playerName": "Chicago Bears",
+   "playerId": "chicago bears",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 26.5,
+    "sacks": 2.5875,
+    "takeaways": 1.575,
+    "defensiveTds": 0.135
+   },
+   "points": 6.23,
+   "floor": 1.73,
+   "ceiling": 15.23,
+   "lines": [],
+   "gameId": "9b825e6518156008da499be041975fdd",
+   "team": "Chicago Bears",
+   "opponent": "Detroit Lions"
+  },
+  {
+   "playerName": "Dallas Cowboys",
+   "playerId": "dallas cowboys",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 19.75,
+    "sacks": 3.2199999999999998,
+    "takeaways": 1.9599999999999997,
+    "defensiveTds": 0.16799999999999998
+   },
+   "points": 9.32,
+   "floor": 4.82,
+   "ceiling": 18.32,
+   "lines": [],
+   "gameId": "ffaa06af56a7137d4b078c5c46c0b730",
+   "team": "Dallas Cowboys",
+   "opponent": "Philadelphia Eagles"
+  },
+  {
+   "playerName": "Philadelphia Eagles",
+   "playerId": "philadelphia eagles",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 27.75,
+    "sacks": 1.38,
+    "takeaways": 0.84,
+    "defensiveTds": 0.072
+   },
+   "points": 2.94,
+   "floor": -1.56,
+   "ceiling": 11.94,
+   "lines": [],
+   "gameId": "ffaa06af56a7137d4b078c5c46c0b730",
+   "team": "Philadelphia Eagles",
+   "opponent": "Dallas Cowboys"
+  },
+  {
+   "playerName": "Buffalo Bills",
+   "playerId": "buffalo bills",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 23.75,
+    "sacks": 2.6449999999999996,
+    "takeaways": 1.6099999999999999,
+    "defensiveTds": 0.13799999999999998
+   },
+   "points": 6.95,
+   "floor": 2.45,
+   "ceiling": 15.95,
+   "lines": [],
+   "gameId": "f36f518585aec40e8cb40e071c0844aa",
+   "team": "Buffalo Bills",
+   "opponent": "Kansas City Chiefs"
+  },
+  {
+   "playerName": "Kansas City Chiefs",
+   "playerId": "kansas city chiefs",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 26.75,
+    "sacks": 1.9549999999999998,
+    "takeaways": 1.19,
+    "defensiveTds": 0.102
+   },
+   "points": 4.58,
+   "floor": 0.08,
+   "ceiling": 13.58,
+   "lines": [],
+   "gameId": "f36f518585aec40e8cb40e071c0844aa",
+   "team": "Kansas City Chiefs",
+   "opponent": "Buffalo Bills"
+  },
+  {
+   "playerName": "Pittsburgh Steelers",
+   "playerId": "pittsburgh steelers",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 21,
+    "sacks": 2.1275,
+    "takeaways": 1.295,
+    "defensiveTds": 0.111
+   },
+   "points": 6.26,
+   "floor": 1.76,
+   "ceiling": 15.26,
+   "lines": [],
+   "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+   "team": "Pittsburgh Steelers",
+   "opponent": "Denver Broncos"
+  },
+  {
+   "playerName": "Denver Broncos",
+   "playerId": "denver broncos",
+   "position": "DST",
+   "projection": {
+    "pointsAllowed": 19.5,
+    "sacks": 2.4724999999999997,
+    "takeaways": 1.505,
+    "defensiveTds": 0.129
+   },
+   "points": 7.48,
+   "floor": 2.98,
+   "ceiling": 16.48,
+   "lines": [],
+   "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+   "team": "Denver Broncos",
+   "opponent": "Pittsburgh Steelers"
   }
  ]
 }

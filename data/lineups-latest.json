@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-17T04:19:35.445Z",
+ "generatedAt": "2026-11-20T02:47:06.401Z",
  "demo": false,
  "sites": {
   "draftkings": {
@@ -10,10 +10,6 @@
    "slates": [],
    "skipped": [
     {
-     "name": "Thursday Night: Colts at Texans",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
      "name": "Sunday Main",
      "reason": "too few players priced — props are not posted for these games yet"
     },
@@ -22,11 +18,27 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Afternoon",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Sunday Night: Vikings at 49ers",
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
      "name": "Monday Night: Bengals at Commanders",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Bears at Lions",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Eagles at Cowboys",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Chiefs at Bills",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
@@ -39,10 +51,6 @@
    "slates": [],
    "skipped": [
     {
-     "name": "Thursday Night: Colts at Texans",
-     "reason": "too few players priced — props are not posted for these games yet"
-    },
-    {
      "name": "Sunday Main",
      "reason": "too few players priced — props are not posted for these games yet"
     },
@@ -51,11 +59,27 @@
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
+     "name": "Sunday Afternoon",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
      "name": "Sunday Night: Vikings at 49ers",
      "reason": "too few players priced — props are not posted for these games yet"
     },
     {
      "name": "Monday Night: Bengals at Commanders",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Bears at Lions",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Eagles at Cowboys",
+     "reason": "too few players priced — props are not posted for these games yet"
+    },
+    {
+     "name": "Thursday Night: Chiefs at Bills",
      "reason": "too few players priced — props are not posted for these games yet"
     }
    ]
