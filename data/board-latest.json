@@ -1,67 +1,19 @@
 {
- "generatedAt": "2026-11-24T05:44:54.526Z",
+ "generatedAt": "2026-11-27T03:53:47.578Z",
  "demo": false,
  "stake": 5,
  "minPayout": 100,
  "games": [
   {
-   "gameId": "5b612899d6dcdf998107f2c6c6e49a58",
-   "home": "Los Angeles Rams",
-   "away": "Green Bay Packers",
-   "commenceTime": "2026-11-26T01:00:00Z",
-   "total": 44,
-   "homeSpread": -2.5,
-   "teamTotals": {
-    "Los Angeles Rams": 23.25,
-    "Green Bay Packers": 20.75
-   }
-  },
-  {
-   "gameId": "9b825e6518156008da499be041975fdd",
-   "home": "Detroit Lions",
-   "away": "Chicago Bears",
-   "commenceTime": "2026-11-26T18:00:00Z",
-   "total": 55,
-   "homeSpread": 2.5,
-   "teamTotals": {
-    "Detroit Lions": 26.25,
-    "Chicago Bears": 28.75
-   }
-  },
-  {
-   "gameId": "ffaa06af56a7137d4b078c5c46c0b730",
-   "home": "Dallas Cowboys",
-   "away": "Philadelphia Eagles",
-   "commenceTime": "2026-11-26T21:30:00Z",
-   "total": 48,
-   "homeSpread": -8.5,
-   "teamTotals": {
-    "Dallas Cowboys": 28.25,
-    "Philadelphia Eagles": 19.75
-   }
-  },
-  {
-   "gameId": "f36f518585aec40e8cb40e071c0844aa",
-   "home": "Buffalo Bills",
-   "away": "Kansas City Chiefs",
-   "commenceTime": "2026-11-27T01:20:00Z",
-   "total": 48,
-   "homeSpread": -2.75,
-   "teamTotals": {
-    "Buffalo Bills": 25.375,
-    "Kansas City Chiefs": 22.625
-   }
-  },
-  {
    "gameId": "44a3bcf5bd002583ddef2207a92dd977",
    "home": "Pittsburgh Steelers",
    "away": "Denver Broncos",
    "commenceTime": "2026-11-27T20:00:00Z",
-   "total": 38,
-   "homeSpread": 2.5,
+   "total": 37,
+   "homeSpread": 5,
    "teamTotals": {
-    "Pittsburgh Steelers": 17.75,
-    "Denver Broncos": 20.25
+    "Pittsburgh Steelers": 16,
+    "Denver Broncos": 21
    }
   },
   {
@@ -69,11 +21,11 @@
    "home": "Minnesota Vikings",
    "away": "Atlanta Falcons",
    "commenceTime": "2026-11-29T18:00:00Z",
-   "total": 42.5,
+   "total": 41.5,
    "homeSpread": -7,
    "teamTotals": {
-    "Minnesota Vikings": 24.75,
-    "Atlanta Falcons": 17.75
+    "Minnesota Vikings": 24.25,
+    "Atlanta Falcons": 17.25
    }
   },
   {
@@ -81,11 +33,11 @@
    "home": "Houston Texans",
    "away": "Baltimore Ravens",
    "commenceTime": "2026-11-29T18:00:00Z",
-   "total": 46.5,
+   "total": 47,
    "homeSpread": -6.5,
    "teamTotals": {
-    "Houston Texans": 26.5,
-    "Baltimore Ravens": 20
+    "Houston Texans": 26.75,
+    "Baltimore Ravens": 20.25
    }
   },
   {
@@ -93,11 +45,11 @@
    "home": "Cincinnati Bengals",
    "away": "New Orleans Saints",
    "commenceTime": "2026-11-29T18:00:00Z",
-   "total": 50.5,
+   "total": 49.5,
    "homeSpread": -10,
    "teamTotals": {
-    "Cincinnati Bengals": 30.25,
-    "New Orleans Saints": 20.25
+    "Cincinnati Bengals": 29.75,
+    "New Orleans Saints": 19.75
    }
   },
   {
@@ -106,10 +58,10 @@
    "away": "New York Giants",
    "commenceTime": "2026-11-29T18:00:00Z",
    "total": 41.5,
-   "homeSpread": 6.5,
+   "homeSpread": 6,
    "teamTotals": {
-    "Indianapolis Colts": 17.5,
-    "New York Giants": 24
+    "Indianapolis Colts": 17.75,
+    "New York Giants": 23.75
    }
   },
   {
@@ -117,11 +69,11 @@
    "home": "Jacksonville Jaguars",
    "away": "Tennessee Titans",
    "commenceTime": "2026-11-29T18:00:00Z",
-   "total": 47.5,
-   "homeSpread": -14.75,
+   "total": 49.5,
+   "homeSpread": -14.5,
    "teamTotals": {
-    "Jacksonville Jaguars": 31.125,
-    "Tennessee Titans": 16.375
+    "Jacksonville Jaguars": 32,
+    "Tennessee Titans": 17.5
    }
   },
   {
@@ -129,11 +81,11 @@
    "home": "Miami Dolphins",
    "away": "New York Jets",
    "commenceTime": "2026-11-29T18:00:00Z",
-   "total": 41,
-   "homeSpread": 3.5,
+   "total": 40,
+   "homeSpread": 5,
    "teamTotals": {
-    "Miami Dolphins": 18.75,
-    "New York Jets": 22.25
+    "Miami Dolphins": 17.5,
+    "New York Jets": 22.5
    }
   },
   {
@@ -142,10 +94,10 @@
    "away": "New England Patriots",
    "commenceTime": "2026-11-29T21:05:00Z",
    "total": 35.5,
-   "homeSpread": -1,
+   "homeSpread": 2,
    "teamTotals": {
-    "Los Angeles Chargers": 18.25,
-    "New England Patriots": 17.25
+    "Los Angeles Chargers": 16.75,
+    "New England Patriots": 18.75
    }
   },
   {
@@ -153,11 +105,11 @@
    "home": "Arizona Cardinals",
    "away": "Washington Commanders",
    "commenceTime": "2026-11-29T21:25:00Z",
-   "total": 40.75,
-   "homeSpread": 7.5,
+   "total": 41.5,
+   "homeSpread": 6.5,
    "teamTotals": {
-    "Arizona Cardinals": 16.625,
-    "Washington Commanders": 24.125
+    "Arizona Cardinals": 17.5,
+    "Washington Commanders": 24
    }
   },
   {
@@ -165,11 +117,11 @@
    "home": "San Francisco 49ers",
    "away": "Seattle Seahawks",
    "commenceTime": "2026-11-29T21:25:00Z",
-   "total": 46.5,
+   "total": 43.5,
    "homeSpread": -3,
    "teamTotals": {
-    "San Francisco 49ers": 24.75,
-    "Seattle Seahawks": 21.75
+    "San Francisco 49ers": 23.25,
+    "Seattle Seahawks": 20.25
    }
   },
   {
@@ -177,11 +129,11 @@
    "home": "Cleveland Browns",
    "away": "Las Vegas Raiders",
    "commenceTime": "2026-11-30T01:20:00Z",
-   "total": 41,
+   "total": 40,
    "homeSpread": -4.5,
    "teamTotals": {
-    "Cleveland Browns": 22.75,
-    "Las Vegas Raiders": 18.25
+    "Cleveland Browns": 22.25,
+    "Las Vegas Raiders": 17.75
    }
   },
   {
@@ -197,7 +149,135 @@
    }
   }
  ],
- "legCount": 0,
+ "legCount": 145,
  "tickets": [],
- "stacks": []
+ "stacks": [
+  {
+   "legs": [
+    {
+     "playerId": "evan engram",
+     "playerName": "Evan Engram",
+     "position": "WR",
+     "team": null,
+     "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 21.5,
+     "americanOdds": -114,
+     "oppositeAmericanOdds": -114,
+     "book": "BetOnline.ag",
+     "modelProbability": 0.5843910117831863,
+     "fairProbability": 0.5,
+     "edge": 8.43910117831863,
+     "description": "Evan Engram over 21.5 receiving yards"
+    },
+    {
+     "playerId": "mason rudolph",
+     "playerName": "Mason Rudolph",
+     "position": "QB",
+     "team": null,
+     "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+     "marketKey": "player_pass_yds",
+     "stat": "passYards",
+     "label": "passing yards",
+     "line": 165.5,
+     "americanOdds": -114,
+     "oppositeAmericanOdds": -117,
+     "book": "BetRivers",
+     "modelProbability": 0.5806279292668555,
+     "fairProbability": 0.4969864995178399,
+     "edge": 8.364142974901556,
+     "description": "Mason Rudolph over 165.5 passing yards"
+    },
+    {
+     "playerId": "troy franklin",
+     "playerName": "Troy Franklin",
+     "position": "WR",
+     "team": null,
+     "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 4.5,
+     "americanOdds": -111,
+     "oppositeAmericanOdds": -113,
+     "book": "DraftKings",
+     "modelProbability": 0.581521913942105,
+     "fairProbability": 0.4978941161605526,
+     "edge": 8.362779778155232,
+     "description": "Troy Franklin over 4.5 receiving yards"
+    },
+    {
+     "playerId": "michael pittman",
+     "playerName": "Michael Pittman Jr.",
+     "position": "WR",
+     "team": null,
+     "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+     "marketKey": "player_reception_yds",
+     "stat": "recYards",
+     "label": "receiving yards",
+     "line": 10.5,
+     "americanOdds": -113,
+     "oppositeAmericanOdds": -113,
+     "book": "FanDuel",
+     "modelProbability": 0.5833139027012069,
+     "fairProbability": 0.5,
+     "edge": 8.331390270120686,
+     "description": "Michael Pittman Jr. over 10.5 receiving yards"
+    },
+    {
+     "playerId": "eli heidenreich",
+     "playerName": "Eli Heidenreich",
+     "position": "FLEX",
+     "team": null,
+     "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+     "marketKey": "player_anytime_td",
+     "stat": "anytimeTd",
+     "label": "to score a TD",
+     "line": null,
+     "americanOdds": 3500,
+     "oppositeAmericanOdds": null,
+     "book": "DraftKings",
+     "modelProbability": 0.025210634250510372,
+     "fairProbability": null,
+     "edge": null,
+     "description": "Eli Heidenreich to score a TD"
+    },
+    {
+     "playerId": "kaden wetjen",
+     "playerName": "Kaden Wetjen",
+     "position": "FLEX",
+     "team": null,
+     "gameId": "44a3bcf5bd002583ddef2207a92dd977",
+     "marketKey": "player_anytime_td",
+     "stat": "anytimeTd",
+     "label": "to score a TD",
+     "line": null,
+     "americanOdds": 3500,
+     "oppositeAmericanOdds": null,
+     "book": "DraftKings",
+     "modelProbability": 0.025210634250510372,
+     "fairProbability": null,
+     "edge": null,
+     "description": "Kaden Wetjen to score a TD"
+    }
+   ],
+   "decimal": 16363.77434655257,
+   "americanOdds": 1636277,
+   "stake": 5,
+   "payout": 81818.87173276284,
+   "profit": 81813.87173276284,
+   "independentProbability": 0.00007315388687889713,
+   "correlationAdjustment": 3.3498474511187144,
+   "probability": 0.0002450543615007003,
+   "adjustedProbability": 0.00015854776630231556,
+   "expectedValue": 7.972199354605216,
+   "rawExpectedValue": 0.9853684872975261,
+   "band": "long",
+   "style": "stack",
+   "gameCount": 1,
+   "note": "Correlated stack — these legs tend to hit together."
+  }
+ ]
 }
